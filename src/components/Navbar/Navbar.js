@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
-import navLogo from "./../../assets/inverted-hale-logo.png";
+import navLogo from "./../../assets/hale-logo.png";
 export default function Navbar() {
   return (
     <nav className="navbar">
@@ -8,10 +8,10 @@ export default function Navbar() {
         <img src={navLogo} alt="" />
       </div>
       <div className="nav-links">
-        <NavLink>Home</NavLink>
-        <NavLink>About Us</NavLink>
-        <NavLink>What we do</NavLink>
-        <NavLink>Contact Us</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About Us</NavLink>
+        <NavLink to="/what-we-do">What we do</NavLink>
+        <NavLink to="/contact">Contact Us</NavLink>
       </div>
     </nav>
   );

@@ -1,1 +1,49 @@
-
+.hero{
+    position: relative;
+    height: 87vh;
+}
+.hero .hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    object-fit: cover;
+}
+.hero .hero-txt{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #312f44 5%, transparent);
+    color: #fff;   
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 7rem;
+    gap: 2rem;
+}
+.hero .hero-txt h1{
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+    margin-top: -10rem;
+}
+.hero .hero-txt p{
+    font-size: 1.5rem;
+}
+.hero .hero-cta-btns button{
+    background-color: #2d784e;
+    border: 3px solid #2d784e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    margin-right: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.hero .hero-cta-btns button:hover{
+    background-color: #fff;
+    border: 3px solid #2d784e;
+    color: #2d784e;
+}

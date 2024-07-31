@@ -3,8 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem 4rem;
-    padding-top: 0.2rem;
-    background-color: #312F44;
+    padding-bottom: 0;
+    background-color: #fff;
+    max-height: 13vh;
+    overflow: hidden;
 }
 .navbar .logo img{
     width: 220px;
@@ -13,9 +15,20 @@
 .navbar .nav-links{
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 .navbar .nav-links a{
-    color: #f7f7f7;
+    color: #312F44;
     text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    width: 7rem;
+    height: 5rem;
+    margin-bottom: -3rem;
+    text-align: center;
+}
+.navbar .nav-links a.active{
+    background-color: #312F44;
+    color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
