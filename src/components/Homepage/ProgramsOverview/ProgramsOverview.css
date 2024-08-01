@@ -1,0 +1,65 @@
+.programs-overview{
+    height: 70vh;
+    position: relative;
+    /* background-color: #2d784e; */
+    background-image: linear-gradient(to right, #2d784e, transparent);
+    color: #fff;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    gap: 3rem;
+}
+.programs-overview img{
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top 30% left 0;
+}
+.programs-overview p{
+    /* display: block; */
+    /* width: 50%; */
+    color: transparent;
+    background-clip: text;
+    font-size: 3.5rem;
+    background-image: linear-gradient(to right, white 40%, #1d4930);
+    text-align: center;
+}
+.programs-overview button{
+    width: 20vw;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #312F44;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+.programs-overview button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-150%);
+    background-color: #2d784e;
+    transition: all 0.2s ease;
+}
+.programs-overview button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.programs-overview button:hover:after{
+    transform: translateY(0);
+    z-index: -3;
+}
