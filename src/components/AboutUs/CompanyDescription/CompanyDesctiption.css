@@ -1,0 +1,20 @@
+.company-description{
+    padding: 2rem 6rem;
+    color: #312F44;
+}
+.company-description h1{
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.8rem;
+    color: transparent;
+    background-image: linear-gradient(to right, #312f44, #2d784e 15%);
+    background-clip: text;
+}
+.company-description h3{
+    font-size: 2.5rem;
+    margin-bottom: 1.1rem;
+}
+.company-description p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
