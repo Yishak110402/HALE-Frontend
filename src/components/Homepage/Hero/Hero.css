@@ -35,8 +35,8 @@
     border: 3px solid #2d784e;
     color: #fff;
     border: none;
-    border-radius: 10px;
-    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     margin-right: 1.3rem;
     cursor: pointer;
@@ -44,6 +44,5 @@
 }
 .hero .hero-cta-btns button:hover{
     background-color: #fff;
-    border: 3px solid #2d784e;
     color: #2d784e;
 }

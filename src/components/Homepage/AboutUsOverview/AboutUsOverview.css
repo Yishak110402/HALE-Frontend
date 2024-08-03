@@ -4,7 +4,11 @@
     background-color: #312F44;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.about-overview > div:first-child{
+    width: 56%;
+    margin-left: -5rem;
 }
 .about-overview img{
     width: 300px;
@@ -13,12 +17,13 @@
 }
 .about-overview h1{
     font-size: 3.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .about-overview p{
     font-size: 1.06rem;
     line-height: 1.5;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 .about-overview .learn-more{
     font-size: 1.1rem;

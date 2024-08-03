@@ -1,0 +1,37 @@
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 18rem; */
+    padding: 2rem 4rem;
+    background-color: #fff;
+    height: 40vh;
+}
+.main-footer .logo{
+    width: 25%;
+}
+.main-footer .logo img{
+    width: 100%;
+}
+.main-footer > div{
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+.main-footer > div a{
+    color: #312F44;
+    text-decoration: none;
+
+}
+.main-footer > div h3{
+    font-size: 1.3rem;
+}
+.main-footer .social-links{
+    flex-flow: row;
+    gap: 2rem;
+}
+.main-footer .social-links svg{
+    fill: #312F44;
+    width: 35px;
+    height: 35px;
+}
