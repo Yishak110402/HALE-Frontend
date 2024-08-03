@@ -1,0 +1,9 @@
+.what-we-do{
+    padding: 2rem 6rem;
+    background-color: #312F44;
+    color: white;
+    text-align: center;
+}
+.what-we-do > h1{
+    font-size: 2rem;
+}

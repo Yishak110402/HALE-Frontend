@@ -1,7 +1,7 @@
 .our-values{
     padding: 2rem 6rem;
     color: #312F44;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 .our-values > h1{
     font-size: 3rem;
@@ -12,14 +12,16 @@
     flex-wrap: wrap;
     gap: 4rem;
     margin-top: 2rem;
+    background-color: #fff;
 }
 .values-container div{
-    border: 1.5px solid #312F44;
+    /* border: 1.5px solid #312F44; */
     width: 30%;
     padding: 2rem 1rem;
     height: 15rem;
     border-radius: 10px;
     transition: all 0.2s ease-in-out;
+    background-color: #f7f7f7;
     /* text-align: center; */
 }
 .values-container div:hover{
@@ -38,4 +40,5 @@
 .values-container div p{
     font-size: 1.1rem;
     line-height: 1.5;
+    cursor: default;
 }

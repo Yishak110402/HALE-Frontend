@@ -11,6 +11,7 @@ export default function Navbar() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/aboutus">About Us</NavLink>
         <NavLink to="/what-we-do">What we do</NavLink>
+        <NavLink to="/programs">Programs</NavLink>
         <NavLink to="/contact">Contact Us</NavLink>
       </div>
     </nav>
