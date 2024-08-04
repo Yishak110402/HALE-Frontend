@@ -12,16 +12,6 @@
 .what-we-do .jobs-txt{
   padding: 2rem 6rem;
 }
-.what-we-do .jobs-txt.second{
-  width: 100%;
-  margin-top: -3rem;
-  background-color: #f7f7f7;
-  color: #312F44;
-  text-align: center;
-}
-.what-we-do .jobs-txt.second p{
-  font-size: 1.5rem;
-}
 .what-we-do .jobs-txt > h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
@@ -34,7 +24,6 @@
   display: flex;
   gap: 2rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 .jobs-btn{
   position: absolute;
