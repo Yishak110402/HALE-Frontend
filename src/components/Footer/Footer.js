@@ -9,9 +9,8 @@ export default function Footer() {
       </div>
       <div className="footer-links">
         <Link>Home</Link>
-        <Link>What we do</Link>
         <Link>About Us</Link>
-        <Link>Programs and Initiatives</Link>
+        <Link>Programs</Link>
         <Link>Contact Us</Link>
       </div>
       <div className="social-links">

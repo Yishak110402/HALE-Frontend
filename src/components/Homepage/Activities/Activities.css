@@ -19,6 +19,28 @@
     font-size: 1.05rem;
 }
 .activities-container li span{
-    /* font-size: 1.1rem; */
     font-weight: 600;
+}
+
+@media(max-width:750px){
+    .activities{
+        padding: 2rem;
+    }
+}
+@media(max-width:550px){
+    .activities{
+        padding: 1rem;
+    }
+    .activities-container{
+        padding: 1rem;
+    }
+    .activities h1{
+        font-size: 1.7rem;
+    }
+    .activities h5{
+        font-size: 1.3rem;
+    }
+    .activities-container li{
+        font-size: 0.9rem;
+    }
 }

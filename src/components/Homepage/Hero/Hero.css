@@ -46,3 +46,33 @@
     background-color: #fff;
     color: #2d784e;
 }
+
+@media(max-width:800px){
+    .hero{
+        height: 70vh;
+    }
+    .hero .hero-txt{
+        padding-left: 2rem;
+    }
+    .hero .hero-txt h1{
+        font-size: 4rem;
+    }
+    .hero .hero-txt p{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:450px){
+    .hero{
+        height: 60vh;
+    }
+    .hero .hero-txt{
+        padding-left: 1rem;
+    }
+    .hero .hero-txt h1{
+        font-size: 3rem;
+    }
+    .hero .hero-txt p{
+        font-size: 0.9rem;
+    }
+}

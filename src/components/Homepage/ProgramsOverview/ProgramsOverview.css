@@ -9,7 +9,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding-right: 0;
+    /* padding-right: 0; */
     gap: 3rem;
 }
 .programs-overview img{
@@ -63,4 +63,34 @@
 .programs-overview button:hover:after{
     transform: translateY(0);
     z-index: -3;
+}
+
+@media(max-width:1000px){
+    .programs-overview{
+        height: 50vh;
+        padding: 2rem;
+    }
+    .programs-overview p{
+        font-size: 2.5rem;
+    }
+    .programs-overview button{
+        width: 30vw;
+        font-size: 0.95rem;
+    }
+}
+@media(max-width:600px){
+    .programs-overview{
+        padding: 2rem 1rem;
+    }
+    .programs-overview p{
+        font-size: 1.7rem;
+    }
+    .programs-overview button{
+        width: 50vw;
+    }
+}
+@media(max-width:450px){
+    .programs-overview img{
+        object-position: top 0 left -50px;
+    }
 }
