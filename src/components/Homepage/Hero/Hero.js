@@ -7,7 +7,7 @@ export default function Hero(){
             <div className="hero-txt">
                 <h1>HALE</h1>
                 <h3>Human Right and Inclusion Network</h3>
-                <p>"Standing Together for Justice and Inclusion."</p>
+                <p>"Championing Human Rights, Building Inclusive Futures."</p>
                 <div className="hero-cta-btns">
                     <button>Learn More</button>
                     <button>Contact Us</button>

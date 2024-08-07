@@ -44,3 +44,29 @@
         font-size: 0.9rem;
     }
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+.key-areas{
+    color: #312F44;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.key-areas > h1{
+    font-size: 3rem;
+}
+.key-areas .lists-container{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 2.5rem;
+    text-align: left;
+}
+.key-areas .lists-container li{
+    list-style: "⚖️";
+    margin-bottom: 1.1rem;
+    font-size: 1.2rem;
+}
+.key-areas .lists-container li::marker{
+    margin-right: 1.1rem;
+}
