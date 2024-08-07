@@ -5,6 +5,19 @@ export default function CompanyValues() {
       <h1>Values</h1>
       <div className="values-container">
         <div>
+          <h1>Equality and Inclusion</h1>
+          <p>
+            We believe in the inherent dignity and equality of all individuals
+            and are committed to promoting inclusive practices that ensure
+            everyone, regardless of their background, has equal opportunities
+            and rights.
+          </p>
+        </div>
+        <div>
+          <h1>Equality and Equity</h1>
+          <p>We believe in equity and equal rights of all individuals</p>
+        </div>
+        <div>
           <h1>Dignity and Respect</h1>
           <p>
             Upholding the inherent dignity of every individual, advocating for
@@ -12,31 +25,30 @@ export default function CompanyValues() {
           </p>
         </div>
         <div>
-          <h1>Equality and Justice</h1>
+          <h1>Justice and Accountability</h1>
           <p>
-            Committed to promoting equality and addressing all forms of
-            discrimination, striving for fairness and justice in every aspect of
-            our work.
-          </p>
-        </div>
-        <div>
-          <h1>Inclusion and Empowerment</h1>
-          <p>
-            Creating inclusive environments and empowering marginalized groups
-            to actively participate in and contribute to society.
+            We strive to uphold justice by ensuring access to fair legal
+            representation and holding individuals and institutions accountable
+            for violations of human rights.
           </p>
         </div>
         <div>
           <h1>Sustainability and Responsibility</h1>
           <p>
-            Prioritizing environmental sustainability and advocating for
-            practices that protect and preserve our planet for future
-            generations.
+            We are committed to promoting environmental sustainability and
+            ensuring that all communities have the right to a healthy and safe
+            environment. Prioritizing environmental sustainability and
+            advocating for practices that protect and preserve our planet for
+            future generations.
           </p>
         </div>
         <div>
           <h1>Transparency and Integrity</h1>
-          <p>Upholding the highest ethical standards in all our activities.</p>
+          <p>
+            We operate with transparency and integrity, ensuring that our
+            actions and decisions are open, honest, and accountable to the
+            communities we serve.
+          </p>
         </div>
         <div>
           <h1 className="long">Environmental Ethics and</h1>
@@ -44,6 +56,22 @@ export default function CompanyValues() {
           <p>
             Emphasizing the importance of ecological balance and ethical
             treatment of the environment.
+          </p>
+        </div>
+        <div>
+          <h1>Networking and Collaboration</h1>
+          <p>
+            We believe in the power of partnerships and actively seek to
+            collaborate with local, national, and international organizations to
+            amplify our impact and drive systemic change.
+          </p>
+        </div>
+        <div>
+          <h1>Respect for Cultural Heritage</h1>
+          <p>
+            We value and respect cultural diversity and work to protect the
+            cultural rights of individuals, ensuring their ability to
+            participate in cultural life and preserve their cultural heritage.
           </p>
         </div>
         <div>

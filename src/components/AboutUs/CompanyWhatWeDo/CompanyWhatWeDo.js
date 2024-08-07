@@ -4,7 +4,7 @@ import Job from "./Job";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function CompanyWhatWeDo() {
   const { jobs } = useContext(GeneralContext);
-  const [currentJob, setCurrentJob] = useState(0);
+  const [currentJob, setCurrentJob] = useState(1);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentJob((prevJob) => (prevJob + 1) % jobs.length);
@@ -33,10 +33,13 @@ export default function CompanyWhatWeDo() {
       <div className="jobs-txt">
         <h1>What We Do</h1>
         <p>
-          We engage in a wide array of activities and initiatives aimed at
-          promoting and protecting the rights of marginalized groups. Our work
-          is driven by a commitment to systemic change and sustainable impact.
-          Here's how we make a difference:
+          At HALE: Human Rights and Inclusion Network (H-HRIN), we are committed
+          to advancing human rights and fostering a culture of inclusion. Our
+          diverse range of activities and initiatives are designed to address
+          the needs of marginalized and vulnerable communities in Ethiopia,
+          ensuring they have access to justice, equal rights, and opportunities.
+          Our work is driven by a commitment to systemic change and sustainable
+          impact. Here’s how we make a difference/ here’s what we do:
         </p>
       </div>
       <div className="jobs-container">

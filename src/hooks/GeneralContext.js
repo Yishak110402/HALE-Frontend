@@ -5,9 +5,15 @@ export const GeneralContext = createContext();
 export default function GeneralProvider({ children }) {
   const jobs = [
     {
-      name: "Advocacy and Lobbying",
+      name: "Access to Justice",
       description:
-        "We work to influence policy and legislative changes to safeguard human rights and promote equality across all sectors of society. Our advocacy efforts are aimed at bringing about lasting legal and social reforms.",
+        "Provide comprehensive free legal aid services to individuals who lack access to fair legal representation. This includes legal representation, counseling, and support to ensure fair treatment and justice for all. Engage in public interest litigation to address systemic injustices and uphold human rights.",
+      image:"access"
+    },
+    {
+      name: "Advocacy and Awareness",
+      description:
+        "Conduct advocacy campaigns to promote gender equality, child rights, labor rights, disability inclusion, and cultural rights. Raise awareness about sexual and reproductive health and rights (SRHR) and environmental justice. Promote democracy and good governance through education and civic engagement initiatives.",
       image: "advocacy",
     },
     {
@@ -17,21 +23,21 @@ export default function GeneralProvider({ children }) {
       image: "legal-aid",
     },
     {
-      name: "Education and Training",
+      name: "Education and Empowerment",
       description:
-        "We conduct workshops, seminars, and training programs to raise awareness about human rights issues and build capacity within communities. Our educational initiatives aim to empower individuals with the knowledge and tools they need to advocate for their rights.",
+        "Implement educational programs to empower individuals with knowledge about their rights and how to assert them. Organize workshops, seminars, and community meetings to foster a culture of inclusion and respect for human rights.",
       image: "education",
     },
     {
       name: "Community Support",
       description:
-        "Our support services offer resources and assistance to marginalized groups, including women, children, people with disabilities, and those facing discrimination. We work to build strong community networks that provide ongoing support and empowerment.",
+        "Provide support services to marginalized communities, including assistance with accessing education, healthcare, and other essential services. Collaborate with local organizations to develop and implement community-driven solutions.",
       image: "community-support",
     },
     {
-      name: "Research and Documentation",
+      name: "Research and Analysis",
       description:
-        "We carry out thorough research to inform our advocacy efforts and document human rights abuses. Our research helps us to understand the challenges faced by marginalized communities and develop effective strategies to address them.",
+        "Conduct research activities to identify and address human rights issues, informing our advocacy and legal strategies. Publish reports and studies to highlight the challenges faced by marginalized communities and recommend policy changes.",
       image: "research",
     },
     {
@@ -44,13 +50,25 @@ export default function GeneralProvider({ children }) {
       name: "Democracy Promotion",
       description:
         "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
-        image:"democracy"
+      image: "democracy",
     },
     {
       name: "Civic Engagement",
       description:
-        "We mobilize communities to participate in social and political activities that promote justice and equality. Our civic engagement efforts are aimed at fostering active and informed citizenry.",
-        image:"civic-engagement"
+        "Facilitate civic engagement activities to encourage participation in democratic processes and community decision-making. Support initiatives that promote transparency, accountability, and good governance.",
+      image: "civic-engagement",
+    },
+    {
+      name: "Environmental Sustainability",
+      description:
+        "Advocate for environmental justice and work to address the impact of environmental degradation on vulnerable communities. Promote sustainable practices and support initiatives aimed at protecting the environment.",
+      image:"environment"
+    },
+    {
+      name: "Networking and Collaboration",
+      description:
+        "Build partnerships with local, national, and international organizations to enhance our impact and drive systemic change. Engage in collaborative projects to amplify our efforts and share best practices.",
+      image:"network"
     },
   ];
 
