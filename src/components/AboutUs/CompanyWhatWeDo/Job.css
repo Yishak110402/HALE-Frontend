@@ -85,6 +85,6 @@
 @media (max-width:500px){
   .job{
     padding-inline: 2rem;
-    /* height: 50vh; */
+    gap: 1rem;
   }
 }
