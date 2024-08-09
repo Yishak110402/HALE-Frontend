@@ -47,6 +47,7 @@
   z-index: -2;
   object-fit: cover;
   object-position: center;
+  animation: fadeIn 0.5s linear forwards;
 }
 @keyframes txtSlideIn {
   from {
@@ -56,5 +57,34 @@
     filter: blur(0);
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media(max-width: 800px){
+  .job{
+    height: 60vh;
+    padding-inline: 6rem;
+  }
+}
+@media(max-width:600px){
+  .job h1{
+    font-size: 2rem;
+  }
+  .job p{
+    font-size: 1rem;
+  }
+}
+@media (max-width:500px){
+  .job{
+    padding-inline: 2rem;
+    /* height: 50vh; */
   }
 }

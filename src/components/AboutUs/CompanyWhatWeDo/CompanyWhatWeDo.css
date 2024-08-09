@@ -6,26 +6,23 @@
   position: relative;
   z-index: 0;
 }
-.what-we-do *{
-  z-index: 100;
-}
-.what-we-do .jobs-txt{
+.what-we-do .jobs-txt {
   padding: 2rem 6rem;
 }
 .what-we-do .jobs-txt > h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
-.what-we-do .jobs-txt > p{
-    font-size: 1.2rem;
-    line-height: 1.5;
+.what-we-do .jobs-txt > p {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 .what-we-do .jobs-container {
   display: flex;
   gap: 2rem;
   margin-top: 3rem;
 }
-.jobs-btn{
+.jobs-btn {
   position: absolute;
   top: 50%;
   border: 0;
@@ -34,16 +31,41 @@
   height: 65px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: transparent
+  background-color: transparent;
 }
-.jobs-btn svg{
+.jobs-btn svg {
   width: 100%;
   height: 100%;
   fill: #8b979a;
 }
-.jobs-btn.left{
+.jobs-btn.left {
   left: 1.5%;
 }
-.jobs-btn.right{
+.jobs-btn.right {
   right: 1.5%;
+}
+
+@media (max-width: 900px) {
+  .what-we-do .jobs-txt {
+    padding: 2rem;
+  }
+}
+@media(max-width:780px){
+  .jobs-btn{
+    top: 70%;
+  }
+}
+@media(max-width:500px){
+  .what-we-do .jobs-txt {
+    padding-inline: 1rem;
+  }
+  .what-we-do .jobs-txt > h1{
+    font-size: 1.5rem;
+  }
+  .what-we-do .jobs-txt > p{
+    font-size: 0.9rem;
+  }
+  .jobs-btn{
+    top: 88%;
+  }
 }
