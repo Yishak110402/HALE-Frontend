@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="logo">
         <img src={navLogo} alt="" />
       </div>
-      <div className="nav-links">
+      <div onClick={()=>(setNavOpen(false))} className="nav-links">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/aboutus">About Us</NavLink>
         <NavLink to="/programs">Programs</NavLink>

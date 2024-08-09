@@ -70,6 +70,12 @@ export default function GeneralProvider({ children }) {
         "Build partnerships with local, national, and international organizations to enhance our impact and drive systemic change. Engage in collaborative projects to amplify our efforts and share best practices.",
       image: "network",
     },
+    {
+      name: "Peace Building",
+      description:
+        "Promoting conflict resolution and fostering harmonious coexistence.",
+      image: "peace",
+    },
   ];
 
   const programs = [
@@ -160,7 +166,13 @@ export default function GeneralProvider({ children }) {
       name: "Networking and Collaboration",
       description: {
         dOne: "Partnership Building: Building partnerships with local, national, and international organizations to enhance our impact and drive systemic change.",
-        dTwo: "Collaborative Projects: Engaging in collaborative projects to amplify our efforts and share best practices.",
+        dTwo: "Collaborative Projects: Engaging in collaborative projects to amplify our efforts and .share best practices.",
+      },
+    },
+    {
+      name: "Peace Building",
+      description: {
+        dOne: "Promoting conflict resolution, reconciliation, and fostering harmonious coexistence.",
       },
     },
   ];
