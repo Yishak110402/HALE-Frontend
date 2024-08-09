@@ -16,9 +16,9 @@ export default function AboutUs() {
     <>
       <CompanyDescription />
       <CompanyEthics />
-      <CompanyValues/>
-      <CompanyWhatWeDo/>
-      <CompanyToPrograms/>
+      {/* <CompanyValues/> */}
+      {/* <CompanyWhatWeDo/> */}
+      {/* <CompanyToPrograms/> */}
     </>
   );
 }

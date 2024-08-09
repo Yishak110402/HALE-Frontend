@@ -1,9 +1,9 @@
 .company-values{
-    padding: 0rem 6rem;
+    padding: 3rem 6rem;
     padding-top: 8.5rem;
     color: #fff;
     position: relative;
-    height: 75vh;
+    min-height: 85vh;
     display: flex;
     gap: 8rem;
     cursor: default;
@@ -40,4 +40,30 @@
 .company-values .value p{
     font-size: 1.1rem;
     line-height: 1.5;
+}
+@media(max-width:930px) {
+    .company-values{
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .company-values .value{
+        width: 100%;
+    }
+    .company-values .value img{
+        object-position: center;
+    }
+}
+@media(max-width:750px){
+    .company-values{
+        padding-top: 3rem;
+        padding-inline: 2rem;
+    }
+}
+@media(max-width:500px){
+    .company-values{
+        padding-inline: 1rem;
+    }
+    .company-values img{
+        filter: brightness(20%);
+    }
 }

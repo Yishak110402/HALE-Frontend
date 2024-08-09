@@ -23,3 +23,27 @@
     line-height: 1.5;
     margin-bottom: 1.1rem;
 }
+
+@media(max-width:900px){
+    .company-description{
+        padding-inline: 2rem;
+    }
+    .company-description h3{
+        font-size: 2rem;
+    }
+    .company-description p{
+        font-size: 0.95rem;
+    }
+}
+
+@media(max-width:600px){
+    .company-description{
+        padding-inline: 1rem;
+    }
+    .company-description h3{
+        font-size: 1.3rem;
+    }
+    .company-description p{
+        font-size: 0.85rem;
+    }
+}
