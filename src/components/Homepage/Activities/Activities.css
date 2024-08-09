@@ -67,6 +67,30 @@
     margin-bottom: 1.1rem;
     font-size: 1.2rem;
 }
-.key-areas .lists-container li::marker{
-    margin-right: 1.1rem;
+@media(max-width:1000px){
+    .key-areas  > h1{
+        font-size: 2rem;
+    }
+    .key-areas .lists-container li{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 730px){
+    .key-areas > h1{
+        font-size: 1.1rem;
+    }
+    .key-areas .lists-container{
+        gap: 5rem;
+    }
+}
+@media(max-width:650px){
+    .key-areas .lists-container{
+        flex-flow: column;
+        gap: 0rem;
+    }
+}
+@media(max-width:500px){
+    .key-areas{
+        padding-inline: 2rem;
+    }
 }
