@@ -1,0 +1,30 @@
+.program{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.program:nth-child(odd){
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    text-align: right;
+}
+.program>div{
+    width: 35%;
+}
+
+.program h2{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.program p{
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+.program img{
+   width: 40%;
+}

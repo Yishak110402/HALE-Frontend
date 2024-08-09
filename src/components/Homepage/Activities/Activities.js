@@ -67,6 +67,7 @@ export default function Activities() {
           <li>Promoting Child Rights</li>
           <li>Supporting Environmental Justice</li>
           <li>Protecting Labor Rights</li>
+          <li>Promoting Peace Building</li>
         </ul>
       </div>
     </div>
