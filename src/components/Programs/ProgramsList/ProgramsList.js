@@ -5,8 +5,6 @@ import Program from "./Program";
 import "./ProgramsList.css"
 export default function ProgramsList() {
   const { programs } = useContext(GeneralContext);
-  console.log(programs);
-
   return (
     <div className="programs-list">
       {programs.map((prg, index) => (
