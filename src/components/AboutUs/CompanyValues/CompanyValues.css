@@ -69,7 +69,7 @@
 }
 @media (max-width: 660px) {
     .values-container div {
-      max-height: 25rem;
+      height: auto;
       width: 100%;
     }
 }
