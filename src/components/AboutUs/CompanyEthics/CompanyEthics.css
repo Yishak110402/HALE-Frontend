@@ -58,6 +58,12 @@
         padding-top: 3rem;
         padding-inline: 2rem;
     }
+    .company-values .value h2{
+        font-size: 1.5rem;
+    }
+    .company-values .value p{
+        font-size: 0.9rem;
+    }
 }
 @media(max-width:500px){
     .company-values{
