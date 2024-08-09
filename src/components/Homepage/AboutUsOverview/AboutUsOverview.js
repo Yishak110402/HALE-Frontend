@@ -12,7 +12,7 @@ export default function AboutUsOverview() {
           organization based in Ethiopia, dedicated to advancing human rights,
           promoting gender equality, ensuring children's rights, fostering
           disability inclusion, and supporting environmental sustainability. Our
-          mission is to create a just and equitable society where marginalized
+          aim is to create a just and equitable society where marginalized
           and vulnerable communities are empowered and their voices are heard.
           We are committed to addressing human rights violations, promoting good
           governance, and fostering a culture of inclusion through research,
