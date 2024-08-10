@@ -32,6 +32,7 @@ export default function CompanyWhatWeDo() {
     <div className="what-we-do">
       <div className="jobs-txt">
         <h1>What We Do</h1>
+        <hr></hr>
         <p>
           At HALE: Human Rights and Inclusion Network (H-HRIN), we are committed
           to advancing human rights and fostering a culture of inclusion. Our
