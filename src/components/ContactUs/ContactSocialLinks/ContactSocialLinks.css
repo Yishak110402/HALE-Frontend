@@ -58,3 +58,48 @@
     font-size: 1.5rem;
     color: #fff;
 }
+
+@media(max-width:1000px){
+    .contact-social-links{
+        padding: 2rem 4rem;
+    }
+    .contact-social-links .email-container h2{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:800px){
+    .contact-social-links .email-container{
+        width: 60%;
+    }
+    .contact-social-links .links-container{
+        justify-content: space-between;
+    }
+}
+@media(max-width:550px){
+    .contact-social-links .email-container svg{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-social-links .links-container svg{
+        width: 45px;
+        height: 45px;
+    }
+    .contact-social-links .email-container h2{
+        font-size: 1rem;
+    }
+    .contact-social-links .email-container a{
+        font-size: 1rem;
+    }
+}
+@media(max-width:450px){
+    .contact-social-links{
+        padding: 2rem 1rem;
+    }
+    .contact-social-links .links-container{
+        flex-flow: column-reverse;
+        gap: 2rem;
+    }
+    .contact-social-links .email-container{
+        width: 100%;
+    }
+}

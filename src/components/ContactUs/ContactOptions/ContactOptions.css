@@ -16,3 +16,28 @@
     fill: #312F44;
     margin-bottom: 1rem;
 }
+
+@media(max-width:1000px){
+    .option h3{
+        font-size: 1.1rem;
+    }
+    .option h2{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:750px){
+    .contact-options{
+        padding: 2rem;
+    }
+}
+@media(max-width:600px){
+    .contact-options{
+        flex-flow: column;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .option{
+        width: 100%;
+    }
+}
