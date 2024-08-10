@@ -7,8 +7,12 @@ export default function Navbar() {
     const {navOpen, setNavOpen} = useContext(GeneralContext)
     useEffect(function(){
       const body = document.querySelector("body")
-      body.style.overflowY = "hidden"
-    },[])
+      if(navOpen){
+        body.style.overflowY = "hidden"
+      }else{
+        body.style.overflowY="visible"
+      }
+    },[navOpen])
   return (
     <nav className={`navbar ${!navOpen ? "closed" : ""}`}>
       <div className="logo">
