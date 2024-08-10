@@ -13,3 +13,25 @@
     border: none;
     margin-top: 1rem;
 }
+@media(max-width:700px){
+    .team-header{
+        padding-inline: 2rem;
+    }
+    .team-header h1{
+        font-size: 1.7rem;
+    }
+    .team-header hr{
+        width: 15%;
+    }
+}
+@media(max-width:550px){
+    .team-header{
+        padding-inline: 1rem;
+    }
+    .team-header h1{
+        font-size: 1.3rem;
+    }
+    .team-headerhr{
+        width: 20%;
+    }
+}
