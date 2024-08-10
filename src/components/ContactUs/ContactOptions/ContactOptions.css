@@ -1,6 +1,7 @@
 .contact-options{
     padding: 2rem 6rem;
     display: flex;
+    background-color: #f7f7f7;
 }
 .option{
     width: 33%;
