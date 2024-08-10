@@ -182,7 +182,7 @@ export default function GeneralProvider({ children }) {
       numOfImages:4,
       name: "🌍 Planting the Seeds of Change: H-HRIN's Tree Planting Initiative in Hawassa, Ethiopia 🌱",
       description:{
-        p1:{
+        p1:{ 
           content:"Today, our team at HALE: Human Rights and Inclusion Network (H-HRIN) took a significant step towards environmental protection and climate justice by organizing a tree-planting event in Tabor Mountain, Hawassa, Ethiopia. This initiative is part of one of our ongoing commitment to creating a sustainable future for our communities and the planet."
         },
         p2:{

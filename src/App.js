@@ -7,6 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import GeneralProvider from "./hooks/GeneralContext";
 import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
+import OpenEvent from "./pages/OpenEvent";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           {/* <Route element={<Programs />} path="/programs" /> */}
           <Route element={<ContactUs/>} path="/contact" />
           <Route element={<Events/>} path="/events" />
+          <Route element={<OpenEvent/>} path="/events/:index" />
         </Routes>
         <Footer />
       </BrowserRouter>

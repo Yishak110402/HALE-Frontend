@@ -1,0 +1,18 @@
+.open-event{
+    padding: 2rem 6rem;
+    color: #312F44;
+}
+.open-event h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+.open-event h2{
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+.open-event p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
