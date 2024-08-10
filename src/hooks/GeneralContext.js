@@ -228,7 +228,7 @@ export default function GeneralProvider({ children }) {
 
   const teams = [
     {
-      name: "Fenot Mekonen",
+      name: "Fenot Mekonen Hailu",
       position:
         "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
       image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
