@@ -1,6 +1,8 @@
 import "./Hero.css"
 import heroImg from "./../../../assets/hero-bg.jpg"
+import { useNavigate } from "react-router-dom"
 export default function Hero(){
+    const navigate = useNavigate()
     return(
         <div className="hero">
             <img src={heroImg} alt="" className="hero-image"/>
@@ -9,8 +11,8 @@ export default function Hero(){
                 <h3>Human Right and Inclusion Network</h3>
                 <p>"Championing Human Rights, Building Inclusive Futures."</p>
                 <div className="hero-cta-btns">
-                    <button>Learn More</button>
-                    <button>Contact Us</button>
+                    <button onClick={()=>(navigate("/aboutus"))}>Learn More</button>
+                    <button onClick={()=>(navigate("/contact"))}>Contact Us</button>
                 </div>
             </div>
         </div>
