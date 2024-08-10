@@ -1,15 +1,17 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
 import navLogo from "./../../assets/hale-logo.png";
-import { useState } from "react";
+import { useContext } from "react";
+import { GeneralContext } from "../../hooks/GeneralContext";
 export default function Navbar() {
-  const [navOpen, setNavOpen] = useState(false)
+    const {navOpen, setNavOpen} = useContext(GeneralContext)
   return (
     <nav className={`navbar ${!navOpen ? "closed" : ""}`}>
       <div className="logo">
         <img src={navLogo} alt="" />
       </div>
       <div className="nav-links">
+        <button onClick={()=>(setNavOpen(false))}>X</button>
         <NavLink onClick={()=>(setNavOpen(false))} to="/">Home</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About Us</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/programs">Programs</NavLink>

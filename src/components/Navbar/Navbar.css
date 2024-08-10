@@ -7,7 +7,10 @@
     background-color: #fff;
     max-height: 13vh;
     transition: all 0.2s ease;
+    position: relative;
+    z-index: 700;
 }
+
 .navbar .logo img{
     width: 220px;
     height: 90px;
@@ -42,6 +45,9 @@
     fill: #312F44;
     display: none;
 }
+.navbar .nav-links > button{
+    display: none;
+}
 
 @media(max-width:1200px){
     .navbar{
@@ -51,11 +57,22 @@
     }
 }
 @media(max-width:1000px){
-    .navbar{
+    .navbar::before{
+        position: absolute;
         content: "";
+        z-index: 900;
         width: 100%;
         height: 100vh;
-
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.7);
+        backdrop-filter: blur(10px);
+    }
+    .navbar.closed{
+        z-index: 1000;
+    }
+    .navbar.closed::before{
+        display: none;
     }
     .navbar .hamburger-btn{
         display: flex;
@@ -72,7 +89,7 @@
         justify-content: center;
         gap: 2rem;
         right: 0;
-        transform: translateY(16.5rem);
+        transform: translateY(14.7rem);
         z-index: 1000;
         width: 100vw;
         height: 60vh;
@@ -83,5 +100,17 @@
         transition: all 0.4s ease;
         transform: translateY(-250%);
     }
-
+    .navbar .nav-links > button{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        top: 5%;
+        right: 5%;
+        font-size: 1.5rem;
+        border: none;
+        padding: 1.1rem;
+        background-color: transparent;
+    }
 }
