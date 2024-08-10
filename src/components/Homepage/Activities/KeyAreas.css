@@ -1,0 +1,47 @@
+.key-areas{
+    color: #312F44;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.key-areas > h1{
+    font-size: 3rem;
+}
+.key-areas .lists-container{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 2.5rem;
+    text-align: left;
+}
+.key-areas .lists-container li{
+    list-style: "⚖️";
+    margin-bottom: 1.1rem;
+    font-size: 1.2rem;
+}
+@media(max-width:1000px){
+    .key-areas  > h1{
+        font-size: 2rem;
+    }
+    .key-areas .lists-container li{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 730px){
+    .key-areas > h1{
+        font-size: 1.1rem;
+    }
+    .key-areas .lists-container{
+        gap: 5rem;
+    }
+}
+@media(max-width:650px){
+    .key-areas .lists-container{
+        flex-flow: column;
+        gap: 0rem;
+    }
+}
+@media(max-width:500px){
+    .key-areas{
+        padding-inline: 2rem;
+    }
+}

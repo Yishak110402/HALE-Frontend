@@ -2,7 +2,7 @@ import "./CompanyDesctiption.css";
 export default function CompanyDescription() {
   return (
     <div className="company-description">
-      <h3>About Us</h3>
+      <h3>Who We Are</h3>
       <p>
         HALE: Human Rights and Inclusion Network (H-HRIN) is a board-led civil
         society organization based in Ethiopia, dedicated to advancing human

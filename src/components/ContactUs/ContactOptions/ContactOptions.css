@@ -5,8 +5,14 @@
 .option{
     width: 33%;
     text-align: center;
+    color: #312F44;
+}
+.option div{
+    margin-bottom: 1.1rem;
 }
 .option svg{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    fill: #312F44;
+    margin-bottom: 1rem;
 }

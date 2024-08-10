@@ -1,5 +1,5 @@
-import "./Activities.css";
-export default function Activities() {
+import "./KeyAreas.css";
+export default function KeyAreas() {
   return (
     // <div className="activities">
     //   <h1>Our Activities</h1>
