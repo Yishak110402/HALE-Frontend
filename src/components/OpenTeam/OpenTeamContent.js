@@ -11,7 +11,7 @@ export default function OpenTeamContent(){
         <div className="open-team-content">
             <button onClick={()=>(navigate("/team"))}>Back to Teams</button>
             <div className="profile-pic">
-                <img src={teams[index].image}/>
+                <img src={teams[index].image} alt=""/>
             </div>
             <div className="txt-container">
                 <h1>{teams[index].name}</h1>
