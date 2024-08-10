@@ -7,8 +7,8 @@ export default function TeamList(){
     return(
         <div className="team-list">
            {
-            teams.map((team)=>(
-                <Team team={team} />
+            teams.map((team,index)=>(
+                <Team team={team} index={index}/>
             ))
            }
         </div>

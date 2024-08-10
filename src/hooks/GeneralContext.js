@@ -232,21 +232,23 @@ export default function GeneralProvider({ children }) {
       position:
         "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
       image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
-      description: {
-        p1: "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum",
-        p2: "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University",
-        p3: "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
-      },
-    },{
-      name:"Essey Peteros Firiso",
-      position:"Co-Founder of Hale: Human Rights and Inclusion Network (H-HRIN)",
-      image:"https://i.postimg.cc/s239Bt1m/essey.jpg",
-      description:{
-        p1:"Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
-        p2:"In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
-        p3:"Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society."
-      }
-    }
+      description: [
+        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum",
+        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University",
+        "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
+      ],
+    },
+    {
+      name: "Essey Peteros Firiso",
+      position:
+        "Co-Founder of Hale: Human Rights and Inclusion Network (H-HRIN)",
+      image: "https://i.postimg.cc/s239Bt1m/essey.jpg",
+      description: [
+        "Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
+        "In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
+        "Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society.",
+      ]
+    },
   ];
 
   return (

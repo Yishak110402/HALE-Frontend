@@ -10,6 +10,7 @@ import OpenEvent from "./pages/OpenEvent";
 import { useContext } from "react";
 import { GeneralContext } from "./hooks/GeneralContext";
 import OurTeam from "./pages/OurTeam";
+import OpenTeam from "./pages/OpenTeam";
 
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
@@ -25,6 +26,7 @@ export default function App() {
           <Route element={<Events />} path="/events" />
           <Route element={<OpenEvent />} path="/events/:index" />
           <Route element={<OurTeam/>} path="/team" />
+          <Route element={<OpenTeam/>} path="/team/:index" />
         </Routes>
         <Footer />
       </BrowserRouter>
