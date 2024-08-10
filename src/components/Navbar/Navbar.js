@@ -1,10 +1,14 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
 import navLogo from "./../../assets/hale-logo.png";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { GeneralContext } from "../../hooks/GeneralContext";
 export default function Navbar() {
     const {navOpen, setNavOpen} = useContext(GeneralContext)
+    useEffect(function(){
+      const body = document.querySelector("body")
+      body.style.overflowY = "hidden"
+    },[])
   return (
     <nav className={`navbar ${!navOpen ? "closed" : ""}`}>
       <div className="logo">
