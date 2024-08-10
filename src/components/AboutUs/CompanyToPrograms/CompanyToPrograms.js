@@ -11,7 +11,7 @@ export default function CompanyToPrograms() {
         </ul>
         <Link to={"/programs"}>Learn More About Our Programs</Link>
       </div>
-      <img src="./assets/man-helping.jpg" alt="" />
+      <img src="https://i.postimg.cc/5NpWXF4F/man-helping.jpg" alt="" />
     </div>
   );
 }

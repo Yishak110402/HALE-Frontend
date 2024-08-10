@@ -9,73 +9,73 @@ export default function GeneralProvider({ children }) {
       name: "Access to Justice",
       description:
         "Provide comprehensive free legal aid services to individuals who lack access to fair legal representation. This includes legal representation, counseling, and support to ensure fair treatment and justice for all. Engage in public interest litigation to address systemic injustices and uphold human rights.",
-      image: "access",
+      image: "https://i.postimg.cc/7L548YyJ/access.jpg",
     },
     {
       name: "Advocacy and Awareness",
       description:
         "Conduct advocacy campaigns to promote gender equality, child rights, labor rights, disability inclusion, and cultural rights. Raise awareness about sexual and reproductive health and rights (SRHR) and environmental justice. Promote democracy and good governance through education and civic engagement initiatives.",
-      image: "advocacy",
+      image: "https://i.postimg.cc/Xvqjjk9J/advocacy.jpg",
     },
     {
       name: "Legal Aid Services",
       description:
         "We provide comprehensive legal aid to individuals who lack access to justice. This includes legal representation, counseling, and support to ensure fair treatment and justice for all.",
-      image: "legal-aid",
+      image: "https://i.postimg.cc/tC9HRzjj/legal-aid.jpg",
     },
     {
       name: "Education and Empowerment",
       description:
         "Implement educational programs to empower individuals with knowledge about their rights and how to assert them. Organize workshops, seminars, and community meetings to foster a culture of inclusion and respect for human rights.",
-      image: "education",
+      image: "https://i.postimg.cc/0js1wYK7/education.jpg",
     },
     {
       name: "Community Support",
       description:
         "Provide support services to marginalized communities, including assistance with accessing education, healthcare, and other essential services. Collaborate with local organizations to develop and implement community-driven solutions.",
-      image: "community-support",
+      image: "https://i.postimg.cc/d0gYqPqH/community-support.jpg",
     },
     {
       name: "Research and Analysis",
       description:
         "Conduct research activities to identify and address human rights issues, informing our advocacy and legal strategies. Publish reports and studies to highlight the challenges faced by marginalized communities and recommend policy changes.",
-      image: "research",
+      image: "https://i.postimg.cc/LXjr2JQ5/research.jpg",
     },
     {
       name: "Public Interest Litigation",
       description:
         "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
-      image: "public-interest",
+      image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
     },
     {
       name: "Democracy Promotion",
       description:
         "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
-      image: "democracy",
+      image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
     },
     {
       name: "Civic Engagement",
       description:
         "Facilitate civic engagement activities to encourage participation in democratic processes and community decision-making. Support initiatives that promote transparency, accountability, and good governance.",
-      image: "civic-engagement",
+      image: "https://i.postimg.cc/NMTwFJFg/civic-engagement.jpg",
     },
     {
       name: "Environmental Sustainability",
       description:
         "Advocate for environmental justice and work to address the impact of environmental degradation on vulnerable communities. Promote sustainable practices and support initiatives aimed at protecting the environment.",
-      image: "environment",
+      image: "https://i.postimg.cc/tR3jHM8k/environment.jpg",
     },
     {
       name: "Networking and Collaboration",
       description:
         "Build partnerships with local, national, and international organizations to enhance our impact and drive systemic change. Engage in collaborative projects to amplify our efforts and share best practices.",
-      image: "network",
+      image: "https://i.postimg.cc/sgXd7DxH/network.jpg",
     },
     {
       name: "Peace Building",
       description:
         "Promoting conflict resolution and fostering harmonious coexistence.",
-      image: "peace",
+      image: "https://i.postimg.cc/nLjySRvv/peace.jpg",
     },
   ];
 

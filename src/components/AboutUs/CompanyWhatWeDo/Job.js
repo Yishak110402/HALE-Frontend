@@ -6,7 +6,7 @@ export default function Job({
 }) {
   return (
     <div className="job">
-      <img src={`./assets/${image}.jpg`} alt="" />
+      <img src={image} alt="" />
       <h1>{name}</h1>
       <p>{description}</p>
     </div>

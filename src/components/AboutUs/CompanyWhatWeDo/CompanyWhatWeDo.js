@@ -62,12 +62,7 @@ export default function CompanyWhatWeDo() {
           </svg>
         </button>
       </div>
-      {/* <div className="jobs-txt second">
-        <p>
-          Through these diverse activities, we work to create a just and
-          equitable society where everyone has the opportunity to thrive.
-        </p>
-      </div> */}
+
     </div>
   );
 }
