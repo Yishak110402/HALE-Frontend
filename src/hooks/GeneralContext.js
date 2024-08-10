@@ -179,38 +179,51 @@ export default function GeneralProvider({ children }) {
 
   const events = [
     {
-      numOfImages:4,
+      numOfImages: 4,
+      images: [
+        "https://i.postimg.cc/TYP6cSb7/img1.jpg",
+        "https://i.postimg.cc/ncwtSkYH/img2.jpg",
+        "https://i.postimg.cc/vZgwJV35/img3.jpg",
+        "https://i.postimg.cc/g2Cbm2TQ/img4.jpg",
+      ],
       name: "🌍 Planting the Seeds of Change: H-HRIN's Tree Planting Initiative in Hawassa, Ethiopia 🌱",
-      description:{
-        p1:{ 
-          content:"Today, our team at HALE: Human Rights and Inclusion Network (H-HRIN) took a significant step towards environmental protection and climate justice by organizing a tree-planting event in Tabor Mountain, Hawassa, Ethiopia. This initiative is part of one of our ongoing commitment to creating a sustainable future for our communities and the planet."
+      description: {
+        p1: {
+          content:
+            "Today, our team at HALE: Human Rights and Inclusion Network (H-HRIN) took a significant step towards environmental protection and climate justice by organizing a tree-planting event in Tabor Mountain, Hawassa, Ethiopia. This initiative is part of one of our ongoing commitment to creating a sustainable future for our communities and the planet.",
         },
-        p2:{
-          content:"In the heart of Hawassa ,Tabor mountain , we gathered with passionate volunteers, local community members, and environmental advocates to plant trees that will grow into powerful symbols of resilience and hope. By planting these trees, we are not only contributing to the restoration of our environment but also taking concrete action to combat climate change, which disproportionately affects vulnerable populations."
+        p2: {
+          content:
+            "In the heart of Hawassa ,Tabor mountain , we gathered with passionate volunteers, local community members, and environmental advocates to plant trees that will grow into powerful symbols of resilience and hope. By planting these trees, we are not only contributing to the restoration of our environment but also taking concrete action to combat climate change, which disproportionately affects vulnerable populations.",
         },
-        p3:{
-          heading:"Why Trees Matter",
-          content:"Trees play a crucial role in our fight against climate change. They absorb carbon dioxide, one of the leading contributors to global warming, and provide oxygen that we all need to survive. But beyond their environmental benefits, trees are also a source of livelihood, food, and shelter for many communities in Ethiopia."
+        p3: {
+          heading: "Why Trees Matter",
+          content:
+            "Trees play a crucial role in our fight against climate change. They absorb carbon dioxide, one of the leading contributors to global warming, and provide oxygen that we all need to survive. But beyond their environmental benefits, trees are also a source of livelihood, food, and shelter for many communities in Ethiopia.",
         },
-        p4:{
-          heading:"Our Commitment to Climate Justice",
-          content:"At H-HRIN, we believe that environmental protection and human rights are deeply interconnected. Climate change is not just an environmental issue; it is a social justice issue. Those who are least responsible for climate change often suffer the most from its impacts. That's why we are dedicated to promoting climate justice through initiatives like this tree-planting event. We aim to raise awareness about the importance of environmental stewardship and empower communities to take action."
+        p4: {
+          heading: "Our Commitment to Climate Justice",
+          content:
+            "At H-HRIN, we believe that environmental protection and human rights are deeply interconnected. Climate change is not just an environmental issue; it is a social justice issue. Those who are least responsible for climate change often suffer the most from its impacts. That's why we are dedicated to promoting climate justice through initiatives like this tree-planting event. We aim to raise awareness about the importance of environmental stewardship and empower communities to take action.",
         },
-        p5:{
-          heading:"A Community Effort",
-          content:"This tree-planting event was a collaborative effort, made possible by the support and participation of local residents, volunteers, and our dedicated team members. Together, we planted 500 trees across Tabor sub-city Tabor mountain in Hawassa, helping to green our city and contribute to global reforestation efforts."
+        p5: {
+          heading: "A Community Effort",
+          content:
+            "This tree-planting event was a collaborative effort, made possible by the support and participation of local residents, volunteers, and our dedicated team members. Together, we planted 500 trees across Tabor sub-city Tabor mountain in Hawassa, helping to green our city and contribute to global reforestation efforts.",
         },
-        p6:{
-          heading:"Looking Ahead",
-          content:"This is just the beginning. We are committed to continuing our work in environmental protection and climate justice. We will keep engaging with communities, advocating for sustainable policies, and implementing projects that make a tangible difference."
+        p6: {
+          heading: "Looking Ahead",
+          content:
+            "This is just the beginning. We are committed to continuing our work in environmental protection and climate justice. We will keep engaging with communities, advocating for sustainable policies, and implementing projects that make a tangible difference.",
         },
-        p7:{
-          heading:"Join Us in one of Our Mission",
-          content:"We invite everyone to join us in one of our mission to protect our environment and promote climate justice. Whether it's by planting trees, reducing carbon footprints, or advocating for change, every action counts. Together, we can create a greener, fairer, and more just world for all."
-        }
-      }
-    }
-  ]
+        p7: {
+          heading: "Join Us in one of Our Mission",
+          content:
+            "We invite everyone to join us in one of our mission to protect our environment and promote climate justice. Whether it's by planting trees, reducing carbon footprints, or advocating for change, every action counts. Together, we can create a greener, fairer, and more just world for all.",
+        },
+      },
+    },
+  ];
 
   return (
     <GeneralContext.Provider value={{ jobs, programs, events }}>

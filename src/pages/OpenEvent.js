@@ -4,8 +4,8 @@ import OpenEventImages from "../components/OpenEvent/OpenEventImages/OpenEventIm
 export default function OpenEvent() {
   return (
     <>
-      <OpenEventContent />
       <OpenEventImages/>
+      <OpenEventContent />
     </>
   );
 }

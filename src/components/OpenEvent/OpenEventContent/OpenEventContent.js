@@ -5,14 +5,9 @@ import "./OpenEventContent.css"
 export default function OpenEventContent() {
   const { events } = useContext(GeneralContext);
   const { index } = useParams();
-
-  // const imgArray = Array.from({length: events[index].numOfImages, index}, ((_ ,index)=>(`img${index+1}`)))
-  // console.log(imgArray);
   
-
   return (
-    <div className="open-event">
-      <h1>{events[index].name ? events[index].name : ""}</h1>
+    <div className="open-event">     
       <h2>{events[index].description.p1.heading  ? events[index].description.p1.heading : ""}</h2>
       <p>{events[index].description.p1.content  ? events[index].description.p1.content : ""}</p>
       <h2>{events[index].description.p2.heading  ? events[index].description.p2.heading : ""}</h2>
