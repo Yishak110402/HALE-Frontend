@@ -13,7 +13,7 @@ import { GeneralContext } from "./hooks/GeneralContext";
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
   return (
-    <main style={{overflowY:`${navOpen?"hidden":"scroll"}`}}> 
+    <main style={{overflowY:`${navOpen?"hidden":""}`}}> 
       <BrowserRouter>
         <Navbar />
         <Routes>
