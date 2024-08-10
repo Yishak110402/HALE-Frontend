@@ -5,7 +5,7 @@ export default function ProgramsOverview(){
         <div className="programs-overview">
             <p>Our organization provides different services for different communities with various needs.</p>
             <button>Find out more about our services</button>
-            <img src={programsImg} alt="" />
+            <img src="https://i.postimg.cc/Fsvhd40w/programs-overview-pic.jpg" alt="" />
         </div>
 
     )

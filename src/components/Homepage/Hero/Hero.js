@@ -1,11 +1,10 @@
 import "./Hero.css"
-import heroImg from "./../../../assets/hero-bg.jpg"
 import { useNavigate } from "react-router-dom"
 export default function Hero(){
     const navigate = useNavigate()
     return(
         <div className="hero">
-            <img src={heroImg} alt="" className="hero-image"/>
+            <img src="https://i.postimg.cc/FzymWWXP/hero-bg.jpg" alt="" className="hero-image"/>
             <div className="hero-txt">
                 <h1>HALE</h1>
                 <h3>Human Right and Inclusion Network</h3>

@@ -1,5 +1,4 @@
 import "./AboutUsOverview.css";
-import overviewImg from "./../../../assets/about-overview-pic.jpg";
 import { useNavigate } from "react-router-dom";
 export default function AboutUsOverview() {
   const navigate = useNavigate()
@@ -20,7 +19,7 @@ export default function AboutUsOverview() {
         </p>
         <p onClick={()=>(navigate("/aboutus"))} className="learn-more">Learn More</p>
       </div>
-      <img src={overviewImg} alt="" />
+      <img src="https://i.postimg.cc/G2sbY37n/about-overview-pic.jpg" alt="" />
     </div>
   );
 }
