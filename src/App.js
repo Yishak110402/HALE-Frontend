@@ -9,6 +9,7 @@ import Events from "./pages/Events";
 import OpenEvent from "./pages/OpenEvent";
 import { useContext } from "react";
 import { GeneralContext } from "./hooks/GeneralContext";
+import OurTeam from "./pages/OurTeam";
 
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
@@ -23,6 +24,7 @@ export default function App() {
           <Route element={<ContactUs />} path="/contact" />
           <Route element={<Events />} path="/events" />
           <Route element={<OpenEvent />} path="/events/:index" />
+          <Route element={<OurTeam/>} path="/team" />
         </Routes>
         <Footer />
       </BrowserRouter>
