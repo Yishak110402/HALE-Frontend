@@ -13,6 +13,7 @@ export default function Navbar() {
         <NavLink onClick={()=>(setNavOpen(false))} to="/">Home</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About Us</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/programs">Programs</NavLink>
+        <NavLink onClick={()=>(setNavOpen(false))} to="/team">Our Team</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/events">Events</NavLink>
         <NavLink onClick={()=>(setNavOpen(false))} to="/contact">Contact Us</NavLink>
       </div>

@@ -43,14 +43,14 @@
     display: none;
 }
 
-@media(max-width:1000px){
+@media(max-width:1200px){
     .navbar{
         padding-inline: 1rem;
         position: relative;
         padding-block: 0.5rem;
     }
 }
-@media(max-width:800px){
+@media(max-width:1000px){
     .navbar{
         content: "";
         width: 100%;
