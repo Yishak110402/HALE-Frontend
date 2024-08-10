@@ -6,10 +6,11 @@ export default function EventsList(){
     const {events} = useContext(GeneralContext)
     return(
         <div className="events-list">
-            <Event name={events[0].name}/>
-            <Event name={events[0].name}/>
-            <Event name={events[0].name}/>
-            <Event name={events[0].name}/>
+          {
+            events.map((event, i)=>(
+                <Event name={event.name} i={i} />
+            ))
+          }
         </div>
     )
 }
