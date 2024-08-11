@@ -1,7 +1,5 @@
-import { useState } from "react";
 
 export default function Resource({ resource }) {
-  const [loading, setLoading] = useState(true);
   return (
     <div className="resource">
       <div>
@@ -12,9 +10,6 @@ export default function Resource({ resource }) {
       </div>
       <div>
           <img src={resource.imgPath} alt="" />
-         {loading &&( <div className="img-loader">
-            <div className="wheel" />
-          </div>)}
       </div>
     </div>
   );
