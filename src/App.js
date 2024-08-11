@@ -7,7 +7,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Events from "./pages/Events";
 import OpenEvent from "./pages/OpenEvent";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { GeneralContext } from "./hooks/GeneralContext";
 import OurTeam from "./pages/OurTeam";
 import OpenTeam from "./pages/OpenTeam";
