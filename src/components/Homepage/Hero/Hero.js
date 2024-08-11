@@ -1,7 +1,7 @@
 import "./Hero.css"
 import { useNavigate } from "react-router-dom"
 export default function Hero(){
-    const navigate = useNavigate()
+    const navigate = useNavigate()     
     return(
         <div className="hero">
             <img src="https://i.postimg.cc/FzymWWXP/hero-bg.jpg" alt="" className="hero-image"/>

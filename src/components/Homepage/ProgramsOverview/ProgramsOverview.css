@@ -23,14 +23,22 @@
     object-position: top 30% left 0;
 }
 .programs-overview p{
-    /* display: block; */
-    /* width: 50%; */
     color: transparent;
     background-clip: text;
     font-size: 4rem;
     background-image: linear-gradient(to right, white 30%, #1d4930);
     text-align: center;
     font-weight: 800;
+    transform: translateX(-100%);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.programs-overview p.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity:1;
+    transition: all 0.5s ease;
 }
 .programs-overview button{
     width: 20vw;
@@ -42,8 +50,19 @@
     color: #312F44;
     cursor: pointer;
     position: relative;
-    transition: all 0.2s ease;
+    transition: translateY 0.2s ease;
     overflow: hidden;
+    transform: translateX(-200%);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.programs-overview button.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.5s ease;
+
 }
 .programs-overview button::after{
     content: "";
