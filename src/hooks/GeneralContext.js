@@ -253,9 +253,17 @@ export default function GeneralProvider({ children }) {
     },
   ];
 
+const resources = [
+  {
+    name:"Gender Equality and Social Inclusion in Ethiopia Policy Brief Published",
+    path:"./assets/resources/gesi_polciy_brief_published.pdf",
+    imgPath:"./assets/resources/gender-equality-social-inclusion.png"
+  }
+]
+
   return (
     <GeneralContext.Provider
-      value={{ jobs, programs, events, teams, navOpen, setNavOpen }}>
+      value={{ jobs, programs, events, teams,resources, navOpen, setNavOpen }}>
       {children}
     </GeneralContext.Provider>
   );
