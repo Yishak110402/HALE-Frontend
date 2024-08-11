@@ -11,7 +11,7 @@ export default function Resource({ resource }) {
         </a>
       </div>
       <div>
-          <img onLoad={()=>(setLoading(false))} src={resource.imgPath} alt="" />
+          <img src={resource.imgPath} alt="" />
          {loading &&( <div className="img-loader">
             <div className="wheel" />
           </div>)}
