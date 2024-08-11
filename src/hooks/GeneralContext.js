@@ -233,8 +233,10 @@ export default function GeneralProvider({ children }) {
         "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
       image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
       description: [
-        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum",
-        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University",
+        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
+
+        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University.",
+
         "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
       ],
     },
