@@ -92,7 +92,7 @@
         transform: translateY(12.7rem);
         z-index: 1000;
         width: 100vw;
-        height: 60vh;
+        height: 75vh;
         transition: all 0.4s ease;
         background-color: #fff;
     }
