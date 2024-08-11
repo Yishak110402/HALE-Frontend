@@ -227,6 +227,18 @@ export default function GeneralProvider({ children }) {
   ];
 
   const teams = [
+    { 
+      name:"Tafesse Tekle Sokare",
+      position:"Co-Founder, HALE: Human Rights and Inclusion Network",
+      image:"https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
+      description:[
+        "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
+        "Tafesse holds a Master of Laws (LLM) in Commercial Law from Hawassa University, where he specialized in the intricacies of commercial law and its impact on both local and global economies. He also earned a Degree of Laws (LLB) from the School of Law at Hawassa University, graduating with Distinction, a testament to his academic excellence and profound understanding of the legal field.",
+        "Currently, Tafesse serves as a Lawyer at the Commercial Bank of Ethiopia, where he applies his extensive legal knowledge to navigate the complex legal landscape of the banking sector. His role is pivotal in ensuring that the bank operates within the bounds of commercial law while upholding the highest standards of legal compliance and ethical practices.",
+        "Tafesse’s career is distinguished by a diverse range of legal experiences. He has served as a General Attorney for the Sidama Region Attorney, where he provided legal counsel on matters of regional and national significance. His role as a Customs and Tax Related Crime Investigator and Prosecutor at the Ethiopia Revenue and Customs Authority involved rigorous investigations and prosecutions aimed at maintaining the integrity of Ethiopia’s revenue collection system.",
+        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law."
+      ]
+    },
     {
       name: "Fenot Mekonen Hailu",
       position:
@@ -249,56 +261,103 @@ export default function GeneralProvider({ children }) {
         "Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
         "In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
         "Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society.",
-      ]
+      ],
     },
   ];
 
-const resources = [
-  {
-    name:"Gender Equality and Social Inclusion in Ethiopia Policy Brief Published",
-    path:"./assets/resources/gesi_polciy_brief_published.pdf",
-    imgPath:"./assets/resources/gender-equality-social-inclusion.png"
-  },
-  {
-    name:"Handbook on the Rights of Children in Ethiopia",
-    path:"./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.pdf",
-    imgPath:"./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.png"
-  },
-  {
-    name:"Inclusion of People with Disabilities in Ethiopia",
-    path:"./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.pdf",
-    imgPath:"./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.png",
-  },
-  {
-    name:"Closing the Gender Gap: Women's Right in Ethiopia and Mexico",
-    path:"./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.pdf",
-    imgPath:"./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.png",
-  },
-  {
-    name:"Hanbook on the Rights of the Child in Ethiopia",
-    path:"./assets/resources/HandbookontheRightsoftheChildinEthiopia.pdf",
-    imgPath:"./assets/resources/HandbookontheRightsoftheChildinEthiopia.png",
-  },
-  {
-    name:"Ethiopian Environmental Policy: Challenges and Prospects on Sustainable Social and Economic Development",
-    path:"./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.pdf",
-    imgPath:"./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.png",
-  },
-  {
-    name:"Ethiopia: Gender Issues Briefing Note",
-    path:"./assets/resources/ethiopia-gender-issues-briefing-note.pdf",
-    imgPath:"./assets/resources/ethiopia-gender-issues-briefing-note.png",
-  },
-  {
-    name:"Disability Rights are Human Rights: Pushing Ethiopia Towards a rights-based Movement",
-    path:"./assets/resources/disability-rights-are-human-rights.pdf",
-    imgPath:"./assets/resources/disability-rights-are-human-rights.png",
-  }
-]
+  const resources = [
+    {
+      name: "Gender Equality and Social Inclusion in Ethiopia Policy Brief Published",
+      path: "./assets/resources/gesi_polciy_brief_published.pdf",
+      imgPath: "./assets/resources/gender-equality-social-inclusion.png",
+    },
+    {
+      name: "Handbook on the Rights of Children in Ethiopia",
+      path: "./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.pdf",
+      imgPath:
+        "./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.png",
+    },
+    {
+      name: "Inclusion of People with Disabilities in Ethiopia",
+      path: "./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.pdf",
+      imgPath:
+        "./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.png",
+    },
+    {
+      name: "Closing the Gender Gap: Women's Right in Ethiopia and Mexico",
+      path: "./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.pdf",
+      imgPath:
+        "./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.png",
+    },
+    {
+      name: "Hanbook on the Rights of the Child in Ethiopia",
+      path: "./assets/resources/HandbookontheRightsoftheChildinEthiopia.pdf",
+      imgPath: "./assets/resources/HandbookontheRightsoftheChildinEthiopia.png",
+    },
+    {
+      name: "Ethiopian Environmental Policy: Challenges and Prospects on Sustainable Social and Economic Development",
+      path: "./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.pdf",
+      imgPath:
+        "./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.png",
+    },
+    {
+      name: "Ethiopia: Gender Issues Briefing Note",
+      path: "./assets/resources/ethiopia-gender-issues-briefing-note.pdf",
+      imgPath: "./assets/resources/ethiopia-gender-issues-briefing-note.png",
+    },
+    {
+      name: "Disability Rights are Human Rights: Pushing Ethiopia Towards a rights-based Movement",
+      path: "./assets/resources/disability-rights-are-human-rights.pdf",
+      imgPath: "./assets/resources/disability-rights-are-human-rights.png",
+    },
+    {
+      name: "Children's Rights in Contemporary Ethiopia",
+      path: "./assets/resources/childrens-rights-in-contemporary-ethiopia.pdf",
+      imgPath:
+        "./assets/resources/childrens-rights-in-contemporary-ethiopia.png",
+    },
+    {
+      name: "Conditions of Human Rights in Ethiopia in the Aftermath of Political Reform",
+      path: "./assets/resources/Conditions_of_Human_Rights_in_Ethiopia.pdf",
+      imgPath: "./assets/resources/Conditions_of_Human_Rights_in_Ethiopia.png",
+    },
+    {
+      name: "Ethiopian Human Rights System: an overview",
+      path: "./assets/resources/ethiopian-human-rights-system.pdf",
+      imgPath: "./assets/resources/ethiopian-human-rights-system.png",
+    },
+    {
+      name: "Potential for Democratization in Ethiopia",
+      path: "./assets/resources/Potential-for-Democratization-in-Ethiopia.pdf",
+      imgPath:
+        "./assets/resources/Potential-for-Democratization-in-Ethiopia.png",
+    },
+    {
+      name: "Sexual and Reproductive Health and Rights Infographic Snapshot",
+      path: "./assets/resources/sexual-and-reproductive-health-and-rights.pdf",
+      imgPath:
+        "./assets/resources/sexual-and-reproductive-health-and-rights.png",
+    },
+    {
+      name: "Youth People On Their Successes, Challenges, and Motivations For Youth-Led SRHR Advocacy in Ethiopia",
+      path: "./assets/resources/Youth-SRHR-Advocacy-in-Ethiopia.pdf",
+      imgPath: "./assets/resources/Youth-SRHR-Advocacy-in-Ethiopia.png",
+    },
+    {
+      name:"Sexual and Reproductive Health and Rights in National Adaptation Plan Processes",
+      path: "./assets/resources/SRHR-in-national-adaptation-plan.pdf",
+      imgPath: "./assets/resources/SRHR-in-national-adaptation-plan.png",
+    },
+    {
+      name:"Youth Participation in Ethiopia",
+      path: "./assets/resources/youth-participation-in-ethiopia.pdf",
+      imgPath: "./assets/resources/youth-participation-in-ethiopia.png",
+    }
+  ];
 
   return (
     <GeneralContext.Provider
-      value={{ jobs, programs, events, teams,resources, navOpen, setNavOpen }}>
+      value={{ jobs, programs, events, teams, resources, navOpen, setNavOpen }}>
       {children}
     </GeneralContext.Provider>
   );
