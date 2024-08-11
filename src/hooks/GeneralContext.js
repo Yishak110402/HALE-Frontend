@@ -227,17 +227,17 @@ export default function GeneralProvider({ children }) {
   ];
 
   const teams = [
-    { 
-      name:"Tafesse Tekle Sokare",
-      position:"Co-Founder, HALE: Human Rights and Inclusion Network",
-      image:"https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
-      description:[
+    {
+      name: "Tafesse Tekle Sokare",
+      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
+      image: "https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
+      description: [
         "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
         "Tafesse holds a Master of Laws (LLM) in Commercial Law from Hawassa University, where he specialized in the intricacies of commercial law and its impact on both local and global economies. He also earned a Degree of Laws (LLB) from the School of Law at Hawassa University, graduating with Distinction, a testament to his academic excellence and profound understanding of the legal field.",
         "Currently, Tafesse serves as a Lawyer at the Commercial Bank of Ethiopia, where he applies his extensive legal knowledge to navigate the complex legal landscape of the banking sector. His role is pivotal in ensuring that the bank operates within the bounds of commercial law while upholding the highest standards of legal compliance and ethical practices.",
         "Tafesse’s career is distinguished by a diverse range of legal experiences. He has served as a General Attorney for the Sidama Region Attorney, where he provided legal counsel on matters of regional and national significance. His role as a Customs and Tax Related Crime Investigator and Prosecutor at the Ethiopia Revenue and Customs Authority involved rigorous investigations and prosecutions aimed at maintaining the integrity of Ethiopia’s revenue collection system.",
-        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law."
-      ]
+        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law.",
+      ],
     },
     {
       name: "Fenot Mekonen Hailu",
@@ -261,6 +261,22 @@ export default function GeneralProvider({ children }) {
         "Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
         "In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
         "Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society.",
+      ],
+    },
+    {
+      name: "Basleal Mekonen Mengesha",
+      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
+      image: "https://i.postimg.cc/L4Cn4PFn/6U5A7482.jpg",
+      description: [
+        "Basleal Mekonen Mengesha is a dynamic and visionary leader with a passion for technology, youth empowerment, and community development. As a co-founder of HALE: Human Rights and Inclusion Network, Basleal brings a unique blend of expertise in information systems, youth engagement, and entrepreneurship to the organization's mission of promoting human rights and inclusion.",
+
+        "Basleal holds a Bachelor's Degree in Information Systems from Hawassa University, where he developed a strong foundation in technology and its applications in solving real-world problems. His academic background equips him with the skills to leverage digital tools and platforms in driving social change.",
+
+        "Basleal’s entrepreneurial spirit is evident in his role as the founder of Skill Connect Ethiopia, a gig website designed to connect skilled professionals with opportunities in various sectors. This platform not only bridges the gap between talent and opportunity but also empowers individuals to monetize their skills and contribute to the economy.",
+
+        "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
+        "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
+        "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
       ],
     },
   ];
@@ -344,15 +360,15 @@ export default function GeneralProvider({ children }) {
       imgPath: "./assets/resources/Youth-SRHR-Advocacy-in-Ethiopia.png",
     },
     {
-      name:"Sexual and Reproductive Health and Rights in National Adaptation Plan Processes",
+      name: "Sexual and Reproductive Health and Rights in National Adaptation Plan Processes",
       path: "./assets/resources/SRHR-in-national-adaptation-plan.pdf",
       imgPath: "./assets/resources/SRHR-in-national-adaptation-plan.png",
     },
     {
-      name:"Youth Participation in Ethiopia",
+      name: "Youth Participation in Ethiopia",
       path: "./assets/resources/youth-participation-in-ethiopia.pdf",
       imgPath: "./assets/resources/youth-participation-in-ethiopia.png",
-    }
+    },
   ];
 
   return (
