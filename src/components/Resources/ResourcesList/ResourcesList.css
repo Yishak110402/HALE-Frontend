@@ -15,6 +15,7 @@
   height: 100%;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 .resource .img-loader {
   width: 80vw;

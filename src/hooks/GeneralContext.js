@@ -258,6 +258,41 @@ const resources = [
     name:"Gender Equality and Social Inclusion in Ethiopia Policy Brief Published",
     path:"./assets/resources/gesi_polciy_brief_published.pdf",
     imgPath:"./assets/resources/gender-equality-social-inclusion.png"
+  },
+  {
+    name:"Handbook on the Rights of Children in Ethiopia",
+    path:"./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.pdf",
+    imgPath:"./assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.png"
+  },
+  {
+    name:"Inclusion of People with Disabilities in Ethiopia",
+    path:"./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.pdf",
+    imgPath:"./assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.png",
+  },
+  {
+    name:"Closing the Gender Gap: Women's Right in Ethiopia and Mexico",
+    path:"./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.pdf",
+    imgPath:"./assets/resources/closing-the-gender-gap-ethiopia-and-mexico.png",
+  },
+  {
+    name:"Hanbook on the Rights of the Child in Ethiopia",
+    path:"./assets/resources/HandbookontheRightsoftheChildinEthiopia.pdf",
+    imgPath:"./assets/resources/HandbookontheRightsoftheChildinEthiopia.png",
+  },
+  {
+    name:"Ethiopian Environmental Policy: Challenges and Prospects on Sustainable Social and Economic Development",
+    path:"./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.pdf",
+    imgPath:"./assets/resources/ethiopian-environmental-policy-challenges-and-prospects.png",
+  },
+  {
+    name:"Ethiopia: Gender Issues Briefing Note",
+    path:"./assets/resources/ethiopia-gender-issues-briefing-note.pdf",
+    imgPath:"./assets/resources/ethiopia-gender-issues-briefing-note.png",
+  },
+  {
+    name:"Disability Rights are Human Rights: Pushing Ethiopia Towards a rights-based Movement",
+    path:"./assets/resources/disability-rights-are-human-rights.pdf",
+    imgPath:"./assets/resources/disability-rights-are-human-rights.png",
   }
 ]
 
