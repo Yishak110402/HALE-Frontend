@@ -29,7 +29,7 @@
     background-image: linear-gradient(to right, white 30%, #1d4930);
     text-align: center;
     font-weight: 800;
-    transform: translateX(-100%);
+    transform: translateX(6rem);
     filter: blur(10px);
     opacity: 0;
     transition: all 0.5s ease;
@@ -39,6 +39,7 @@
     filter: blur(0px);
     opacity:1;
     transition: all 0.5s ease;
+    transition-delay: 0.3s;
 }
 .programs-overview button{
     width: 20vw;
@@ -52,7 +53,7 @@
     position: relative;
     transition: translateY 0.2s ease;
     overflow: hidden;
-    transform: translateX(-200%);
+    transform: translateX(-7rem);
     filter: blur(10px);
     opacity: 0;
     transition: all 0.5s ease;
@@ -62,6 +63,7 @@
     filter: blur(0px);
     opacity: 1;
     transition: all 0.5s ease;
+    transition-delay: 0.3s;
 
 }
 .programs-overview button::after{

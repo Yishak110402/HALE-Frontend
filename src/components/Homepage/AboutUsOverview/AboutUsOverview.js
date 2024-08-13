@@ -1,10 +1,26 @@
+import { useEffect, useRef, useState } from "react";
 import "./AboutUsOverview.css";
 import { useNavigate } from "react-router-dom";
 export default function AboutUsOverview() {
   const navigate = useNavigate()
+  const txtDiv = useRef()
+  const imgRef = useRef()
+  const [visible, setVisible] = useState(false)
+
+  useEffect(function(){
+    const aboutUsObserver = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setVisible(true)
+      }
+    })
+    aboutUsObserver.observe(imgRef.current)
+    aboutUsObserver.observe(txtDiv.current)
+  },[])
+
   return (
     <div className="about-overview">
-      <div>
+      <div className={visible ? "visible" : ""} ref={txtDiv}>
         <h1>HALE</h1>
         <p>
           HALE: Human Rights and Inclusion Network is a civil society
@@ -19,7 +35,7 @@ export default function AboutUsOverview() {
         </p>
         <p onClick={()=>(navigate("/aboutus"))} className="learn-more">Learn More</p>
       </div>
-      <img src="https://i.postimg.cc/G2sbY37n/about-overview-pic.jpg" alt="" />
+      <img className={visible ? "visible" : ""} ref={imgRef} src="https://i.postimg.cc/G2sbY37n/about-overview-pic.jpg" alt="" />
     </div>
   );
 }

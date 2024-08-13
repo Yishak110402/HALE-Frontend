@@ -9,9 +9,7 @@ export default function ProgramsOverview() {
       const entry = entries[0];
       console.log(entry);
       if (entry.isIntersecting) {
-        setTimeout(() => {
           setVisible(true);
-        }, 300);
       }
     });
     programsObserver.observe(programsButton.current)
