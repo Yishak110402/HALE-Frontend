@@ -1,13 +1,13 @@
 .company-values{
     padding: 2rem 6rem;
     /* padding-top: 8.5rem; */
-    color: #000;
+    color: #fff;
     position: relative;
     /* min-height: 85vh; */
     display: flex;
     gap: 8rem;
     cursor: default;
-    background-color: #f7f7f7;
+    background-color: #312f44;
 }
 .company-values > h1{
     font-size: 2.5rem;
@@ -19,6 +19,7 @@
     width: 10%;
     margin-top: -0.5rem;
     margin-bottom: 1rem;
+    border: none;
 }
 .company-values .value{
     display: flex;
