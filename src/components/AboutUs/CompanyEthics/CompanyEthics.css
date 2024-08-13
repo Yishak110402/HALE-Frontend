@@ -1,17 +1,24 @@
 .company-values{
-    padding: 3rem 6rem;
-    padding-top: 8.5rem;
-    color: #fff;
+    padding: 2rem 6rem;
+    /* padding-top: 8.5rem; */
+    color: #000;
     position: relative;
-    min-height: 85vh;
+    /* min-height: 85vh; */
     display: flex;
     gap: 8rem;
     cursor: default;
-
+    background-color: #f7f7f7;
 }
 .company-values > h1{
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+.company-values hr{
+    background-color: #2d784e;
+    height: 0.5rem;
+    width: 10%;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
 }
 .company-values .value{
     display: flex;
@@ -34,7 +41,7 @@
 .company-values .value h2{
     margin-bottom: 1.5rem;
     font-size: 2.2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-underline-offset: 0.35rem;
 }
 .company-values .value p{
