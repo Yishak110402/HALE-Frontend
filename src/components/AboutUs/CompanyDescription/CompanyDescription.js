@@ -1,7 +1,19 @@
+import { useEffect, useRef, useState } from "react";
 import "./CompanyDesctiption.css";
 export default function CompanyDescription() {
+  const divRef = useRef()
+  const [visible, setVisible] = useState(false)
+  useEffect(function(){
+    const descriptionObserver = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setVisible(true)
+      }
+    })
+    descriptionObserver.observe(divRef.current)
+  },[])
   return (
-    <div className="company-description">
+    <div ref={divRef} className={`company-description ${visible ?"visible" : ""}`}>
       <h3>Who We Are</h3>
       <hr />
       <p>

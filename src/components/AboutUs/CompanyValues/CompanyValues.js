@@ -3,6 +3,7 @@ export default function CompanyValues() {
   return (
     <div className="our-values">
       <h1>Values</h1>
+      <hr/>
       <div className="values-container">
         <div>
           <h1>Equality and Inclusion</h1>

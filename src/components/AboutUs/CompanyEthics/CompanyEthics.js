@@ -1,8 +1,24 @@
+import { useEffect, useRef, useState } from "react";
 import "./CompanyEthics.css";
 export default function CompanyEthics() {
+  const vision = useRef()
+  const mission = useRef()
+  const [visible, setVisible] = useState(false)
+
+useEffect(function(){
+  const ethicsObserver = new IntersectionObserver((entries)=>{
+    const entry = entries[0]
+    if(entry.isIntersecting){
+      setVisible(true)
+    }
+  })
+  ethicsObserver.observe(vision.current)
+  ethicsObserver.observe(mission.current)
+},[])
+
   return (
     <div className="company-values">
-      <div className="value">
+      <div ref={vision} className={`${visible ? "visible" : ""} value`}>
         <div>
           <h2>Vision</h2>
           <hr/>
@@ -10,9 +26,8 @@ export default function CompanyEthics() {
           Our vision is to create a society where every individual, regardless of their background or circumstances, enjoys equal rights and opportunities. We strive for a future where justice prevails, diversity is celebrated, and all communities, especially the marginalized and vulnerable, are empowered to contribute to and benefit from sustainable development, democratic governance and inclusive future.
           </p>
         </div>
-        {/* <img src={visionPic} alt="" /> */}
       </div>
-      <div className="value">
+      <div ref={mission} className={`${visible ? "visible" : ""} value`}>
         <div>
           <h2>Mission</h2>
           <hr/>
