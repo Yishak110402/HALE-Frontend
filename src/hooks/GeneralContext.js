@@ -292,6 +292,57 @@ export default function GeneralProvider({ children }) {
         "As a Board Member of HALE: Human Rights and Inclusion Network, Ashenaf brings his leadership expertise and commitment to education and development to the organization. He is passionate about promoting human rights, inclusion, and sustainable development, and his insights are invaluable in guiding the organization’s strategic direction.",
         "Ashenaf is committed to advancing technical education, fostering leadership, and contributing to Ethiopia's sustainable development. His work continues to inspire future generations of leaders, engineers, and professionals."
       ]
+    },
+    {
+      name:"Dr. Shiferaw Muleta Eyana (PhD)",
+      position:"Associate Professor | Tourism Entrepreneurship Development Expert | Co-founder & Board Member, HALE: Human Rights and Inclusion Network",
+      image:"https://i.postimg.cc/qvT31FnK/Shif-photo-no-eye-glass.jpg",
+      description:[
+        "Dr. Shiferaw Muleta Eyana is a distinguished academic and expert in Tourism Entrepreneurship Development, currently serving as an Associate Professor at the College of Development Studies, Addis Ababa University (AAU). With a rich academic background in geography and environmental studies, Dr. Shiferaw has devoted over eighteen years to teaching and research across various higher education institutions in Ethiopia.",
+        "Recently, Dr. Shiferaw was elected as an Executive Member of AAU's Teacher Association, further demonstrating his leadership and dedication to advancing education and academic governance in Ethiopia.",
+        "Dr. Shiferaw earned his PhD from Vrije Universiteit Amsterdam, where he successfully defended his dissertation titled 'Entrepreneurial Behaviour and Firm Performance of Ethiopian Tour Operators' in November 2017. His academic journey also includes a Bachelor of Arts in Geography and History and a Master of Science in Geography and Environmental Studies from Kotebe Metropolitan University and Addis Ababa University, respectively.",
+        "At AAU, Dr. Shiferaw is actively engaged in numerous initiatives, including PhD curriculum design and MA curriculum reviews in Tourism Development and Management (TDDM). He contributes significantly to the academic community as a member of various committees, such as the National Conference of CDS and the Strategic Directions of the CDS, reflecting his collaborative and forward-thinking approach.",
+        "Dr. Shiferaw's previous roles include PhD Researcher at the Center for Entrepreneurship, Vrije Universiteit Amsterdam, and Lecturer at the Institute of Development Studies, Addis Ababa University. He has also served as a Lecturer at the Department of Geography and Environmental Education, AAU, and Dilla University, as well as a Teacher Educator at Arbaminch Teacher Training College.",
+        "Beyond his academic pursuits, Dr. Shiferaw has played a crucial role in Ethiopia's democratic processes, serving as a Moderator of Inter-party Dialogue (IPD) under the National Election Board of Ethiopia (NEBE). His commitment to impartiality and fairness led to his unanimous selection by the Joint Council of Political Parties of Ethiopia in 2019. Additionally, he has contributed as an Environmentalist for the UN-Habitat's Regional Development and Spatial Planning project, focusing on regions such as Sidama and Southwest Ethiopia.",
+        "As a co-founder and board member of the HALE: Human Rights and Inclusion Network, Dr. Shiferaw leverages his extensive experience in education, research, and public service to drive the organization's mission of promoting human rights, inclusion, and sustainable development. His work continues to inspire and influence both his students and colleagues, as well as the broader community."
+      ]
+    },
+    {
+      name:"Biniam Solomon Lale",
+      position:"Board Chairman, HALE: Human Rights and Inclusion Network",
+      image:"https://i.postimg.cc/XYRD14L8/6U5A8870.jpg",
+      description:[
+        "Biniam Solomon Lale is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Chairman of HALE: Human Rights and Inclusion Network (H-HRIN), Biniam plays a pivotal role in guiding the organization’s strategic vision and ensuring its mission to promote human rights and social inclusion is achieved.",
+        "Biniam holds a Master of Laws (LLM) degree in International Laws from Ethiopian Civil Service University, where he graduated with Great Distinction, earning an Excellent grade for his thesis titled 'The Assessment of Practical Implementation of Prisoners' Rights at Some of the Former SNNPRS Prisons.' He also holds a Degree of Laws (LLB) from the School of Law at Jimma University, where he graduated with Distinction. His academic achievements reflect his deep expertise and dedication to the field of law.",
+        "Currently, Biniam serves as the President of the Northern Sidaama Zone High Court. In this prominent role, he leads the judiciary with integrity and a steadfast commitment to delivering justice. His leadership is characterized by a strong adherence to ethical principles and a relentless pursuit of fair legal outcomes.",
+        "Biniam’s career is marked by significant judicial and ethical contributions. He was not only one of the key drafters of the Sidama National Regional State Constitution but was also actively engaged in drafting all the establishing laws for the Sidama National Regional State as a member of the region's Legal Drafting Taskforce. These contributions have been instrumental in shaping the legal and governance framework of the region.",
+        "In addition to his judicial roles, Biniam has been a strong advocate for ethical governance. He previously worked as the Ethics Education and Trainings Advisor and Trainer of Corruption Crime Laws at the Former Southern Nations, Nationalities, and Peoples' Region (SNNPR) Ethics and Anti-Corruption Commission, where he played a crucial role in promoting transparency and combating corruption.",
+        "As the Board Chairman of HALE: Human Rights and Inclusion Network, Biniam Solomon Lale brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia."
+      ]
+    },{
+      name:"Meseret Melke Shibru ",
+      position:"Co-Founder & Board Vice Chair of HALE: Human Rights and Inclusion Network | Legal Expert & Advocate for Human Rights",
+      image:"https://i.postimg.cc/HLQcX9j2/6U5A8092.jpg",
+      description:[
+        "Ms. Meseret Melke Shibru is an accomplished legal professional and passionate advocate for human rights, serving as the Co-Founder and Board Vice Chair of HALE: Human Rights and Inclusion Network. With a strong academic background and extensive experience in law, Ms. Meseret brings a wealth of knowledge and dedication to advancing justice and human rights in Ethiopia.",
+        "Ms. Meseret obtained her LLB degree in Law with Distinction from Hawassa University, where she excelled academically and laid the foundation for her legal career. She furthered her education by earning an LLM degree in International Law from Ethiopian Civil Service University, equipping herself with specialized knowledge to navigate complex legal challenges on both national and international levels.",
+        "In her current role, Ms. Meseret serves as the Head of the Public Attorney's Regional Council Office at the Sidama Justice Bureau. In this capacity, she oversees legal proceedings and ensures that justice is administered fairly and effectively across the region.",
+        "Ms. Meseret’s previous roles demonstrate her commitment to combating human rights abuses and illegal activities. She has served as the Head of the Illegal Human Trafficking and Human Rights Office at the Sidama Attorney General Office, where she played a pivotal role in addressing human trafficking and protecting vulnerable individuals. Her judicial experience includes positions as an Assistant Judge at the Sidama Zone High Court and the Dalle Woreda Court, where she made significant contributions to upholding the rule of law.",
+        "During her final year at Hawassa University, Ms. Meseret also served as a Paralegal for the Addis Ababa University Human Rights Center, where she gained invaluable experience in human rights advocacy and legal support, further solidifying her dedication to justice and equality.",
+        "As a Co-Founder and Board Vice Chair of HALE: Human Rights and Inclusion Network, Ms. Meseret leverages her extensive legal expertise and passion for human rights to help steer the organization toward achieving its mission. Her leadership and commitment are instrumental in shaping initiatives that promote justice, human rights, and social inclusion in Ethiopia and beyond."
+      ]
+    },
+    {
+      name:"Daniel Tamirat Maru",
+      position:"Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
+      image:"https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
+      description:[
+        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
+        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
+        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
+        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
+        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team."
+      ]
     }
   ];
 
