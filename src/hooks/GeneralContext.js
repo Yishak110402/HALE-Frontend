@@ -279,6 +279,20 @@ export default function GeneralProvider({ children }) {
         "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
       ],
     },
+    {
+      name:"Ashenafi Argata Yona",
+      position:"Board Member, HALE: Human Rights and Inclusion Network | Dean at Hawassa Tegbar-ID Polytechnic College | Leadership & Civil Engineering Expert",
+      image:"https://i.postimg.cc/nL1MScZb/6U5A8848.jpg",
+      description:[
+        "Ashenaf Argata Yona is a distinguished leader in the fields of education, management, and civil engineering. With an impressive academic background and extensive professional experience, Ashenaf has dedicated his career to advancing technical education and fostering leadership development in Ethiopia.",
+        "Ashenaf holds a Master of Arts in Leadership and Management from the FDRE TVET Institute, where he graduated with great distinction. His advanced studies in leadership and management have equipped him with the skills to effectively guide educational institutions and drive organizational success. Additionally, he earned a Bachelor’s Degree in Civil Engineering from Hawassa University, graduating with distinction. His strong technical foundation in civil engineering has been instrumental in his professional roles, where he has applied his expertise to urban development and educational infrastructure.",
+        "Currently, Ashenaf serves as the Dean of Hawassa Tegbar-ID Polytechnic College, a role he has held since Jan 2023. In this capacity, he oversees the college’s academic programs, faculty development, and institutional growth, ensuring that students receive a high-quality education that prepares them for the demands of the workforce. His leadership has been pivotal in positioning the college as a leading institution in technical and vocational education in the region.",
+        "Before his tenure as Dean, Ashenaf was the Vice Dean at Hawassa City Administration’s Hawela Tula TVET College, where he played a key role in academic administration and institutional management. His experience also includes serving as a Lecturer at Silte Zone Dalocha Construction and Industrial College, where he imparted his knowledge and skills to aspiring engineers and technical professionals.",
+        "In addition to his academic roles, Ashenaf has contributed to urban development as a Land Management and Preparation Expert at Bona Zurya Woreda Urban Development. His work in this area has involved planning and executing land development projects that support urban growth and infrastructure development.",
+        "As a Board Member of HALE: Human Rights and Inclusion Network, Ashenaf brings his leadership expertise and commitment to education and development to the organization. He is passionate about promoting human rights, inclusion, and sustainable development, and his insights are invaluable in guiding the organization’s strategic direction.",
+        "Ashenaf is committed to advancing technical education, fostering leadership, and contributing to Ethiopia's sustainable development. His work continues to inspire future generations of leaders, engineers, and professionals."
+      ]
+    }
   ];
 
   const resources = [
