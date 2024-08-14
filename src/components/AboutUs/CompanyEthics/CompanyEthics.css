@@ -39,7 +39,7 @@
     transform: translateX(0);
     opacity: 1;
     transition: all 0.5s ease;
-    transition-delay: 0.5s;
+    /* transition-delay: 0.5s; */
 }
 .company-values .value img{
     border-radius: 7px;

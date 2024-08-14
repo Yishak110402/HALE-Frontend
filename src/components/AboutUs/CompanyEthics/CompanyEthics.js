@@ -11,7 +11,10 @@ useEffect(function(){
     if(entry.isIntersecting){
       setVisible(true)
     }
-  })
+  },{
+    threshold:[0.7, 1]
+  }
+  )
   ethicsObserver.observe(vision.current)
   ethicsObserver.observe(mission.current)
 },[])
