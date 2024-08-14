@@ -6,6 +6,13 @@
     flex-wrap: wrap;
     color: #312F44;
     background-color: #f7f7f7;
+    transform: translateY(10rem);
+    opacity: 0;
+}
+.events-list.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 .event{
     width: 31%;
