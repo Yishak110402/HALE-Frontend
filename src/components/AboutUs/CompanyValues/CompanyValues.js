@@ -12,7 +12,7 @@ export default function CompanyValues() {
         setVisible(true)
       }
     }, {
-      threshold:[1, 1]
+      threshold:[0.8, 1]
     })
     valuesObserver.observe(valuesH1.current)
   },[])
