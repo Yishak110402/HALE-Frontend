@@ -54,6 +54,14 @@
 .contact-social-links .email-container{
     z-index: 5;
     text-align: center;
+    transform: translateX(15rem);
+    opacity: 0;
+}
+.contact-social-links .email-container.visible{
+    transform: translateX(0rem);
+    opacity: 1;
+    transition: all 0.5s ease;
+
 }
 .contact-social-links .email-container svg{
     fill: #fff;
