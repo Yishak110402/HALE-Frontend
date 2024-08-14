@@ -24,7 +24,7 @@ export default function ContactSocialLinks() {
         setEmailVisible(true)
       }
     },{
-      threshold:[0.5, 1]
+      threshold:[0.9, 1]
     })
     observer.observe(email.current)
   },[])
