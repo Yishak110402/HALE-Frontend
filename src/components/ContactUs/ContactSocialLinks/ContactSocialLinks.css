@@ -29,18 +29,28 @@
     display: flex;
     flex-flow: column;
     gap: 3rem;
+
+}
+.contact-social-links .links-container .social-links div{
+    opacity: 0;
+    transform: translateX(-10rem);
+}
+.contact-social-links .links-container .social-links.visible div{
+    transition: all 0.5s ease;
+    opacity: 1;
+    transform: translateX(0);
+}
+.contact-social-links .links-container .social-links.visible div:nth-child(2){
+    transition-delay: 0.2s;
+}
+.contact-social-links .links-container .social-links.visible div:nth-child(3){
+    transition-delay: 0.4s;
 }
 .contact-social-links .links-container svg{
     fill: #fff;
     width: 80px;
     height: 80px;
 }
-/* .contact-social-links > h1{
-    margin-bottom: 2.5rem;
-    font-size: 2.5rem;
-    z-index: 5;
-    filter: brightness(500%);
-} */
 .contact-social-links .email-container{
     z-index: 5;
     text-align: center;

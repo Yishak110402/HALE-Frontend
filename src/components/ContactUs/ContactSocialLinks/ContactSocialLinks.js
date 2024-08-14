@@ -1,13 +1,41 @@
+import { useEffect, useRef, useState } from "react";
 import "./ContactSocialLinks.css";
 export default function ContactSocialLinks() {
+  const socials = useRef()
+  const email = useRef()
+  const [socialVisible, setSocialVisible] = useState(false)
+  const [emailVisible, setEmailVisible] = useState(false)
+
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setSocialVisible(true)
+      }
+    },{
+      threshold:[0.5, 1]
+    })
+    observer.observe(socials.current)
+  },[])
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setEmailVisible(true)
+      }
+    },{
+      threshold:[0.5, 1]
+    })
+    observer.observe(email.current)
+  },[])
+
   return (
     <div
       style={{backgroundImage: "url(./../../../../assets/network-contact.jpg)",}}
       className="contact-social-links">
       <div className="shade" />
-      {/* <h1>Our Social Media Links</h1> */}
       <div className="links-container">
-        <div className="social-links">
+        <div ref={socials} className={`social-links ${socialVisible ? "visible":""}`}>
           <div>
             <a href="instagram.com">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -26,7 +54,7 @@ export default function ContactSocialLinks() {
             </svg>
           </div>
         </div>
-        <div className="email-container">
+        <div ref={email} className={`email-container ${emailVisible ? "visible" : ""}`}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
         <h2>Send us an email and we'll get back to you as soon as possible</h2>
         <a href="mailto:info@h-hrin.org">info@h-hrin.org</a>
