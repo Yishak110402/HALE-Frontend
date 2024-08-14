@@ -7,6 +7,19 @@
     width: 33%;
     text-align: center;
     color: #312F44;
+    transform: translateY(9rem);
+    opacity: 0;
+}
+.option.visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}
+.option.visible:nth-child(2){
+    transition-delay: 0.2s;
+}
+.option.visible:nth-child(3){
+    transition-delay: 0.4s;
 }
 .option div{
     margin-bottom: 1.1rem;
