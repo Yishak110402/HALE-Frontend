@@ -5,8 +5,15 @@
 }
 .our-values > h1 {
   font-size: 3rem;
+  transform: translateX(-6rem);
+  opacity: 0;
 }
-.our-values > hr{
+.our-values > h1.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.our-values > hr {
   background-color: #2d784e;
   width: 10%;
   height: 0.5rem;
@@ -21,6 +28,13 @@
   gap: 4rem;
   margin-top: 2rem;
   background-color: #fff;
+  transform: translateX(8rem);
+  opacity: 0;
+}
+.our-values .values-container.visible {
+  transition: all 0.5s ease;
+  opacity: 1;
+  transform: translateX(0);
 }
 .values-container div {
   /* border: 1.5px solid #312F44; */
@@ -76,16 +90,16 @@
   }
 }
 @media (max-width: 660px) {
-  .our-values > h1{
+  .our-values > h1 {
     font-size: 2rem;
   }
-    .values-container div {
-      height: auto;
-      width: 100%;
-    }
+  .values-container div {
+    height: auto;
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
-  .our-values > h1{
+  .our-values > h1 {
     font-size: 1.5rem;
   }
   .our-values {

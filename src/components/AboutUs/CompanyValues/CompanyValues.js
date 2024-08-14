@@ -1,10 +1,37 @@
+import { useEffect, useRef, useState } from "react";
 import "./CompanyValues.css";
 export default function CompanyValues() {
+  const valuesH1 = useRef()
+  const values = useRef()
+  const [visible, setVisible] = useState(false)
+  const [valuesVisible, setValuesVisible] = useState(false)
+  useEffect(function(){
+    const valuesObserver = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setVisible(true)
+      }
+    }, {
+      threshold:[1, 1]
+    })
+    valuesObserver.observe(valuesH1.current)
+  },[])
+  useEffect(function(){
+    const valuesObserver = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setValuesVisible(true)
+      }
+    },{
+      threshold:[0.2, 1]
+    })
+    valuesObserver.observe(values.current)
+  },[])
   return (
     <div className="our-values">
-      <h1>Values</h1>
+      <h1 className={visible ? "visible" : ""} ref={valuesH1}>Values</h1>
       <hr/>
-      <div className="values-container">
+      <div ref={values} className={`values-container ${valuesVisible ? "visible" : ""}`}>
         <div>
           <h1>Equality and Inclusion</h1>
           <p>

@@ -12,7 +12,7 @@ useEffect(function(){
       setVisible(true)
     }
   },{
-    threshold:[0.7, 1]
+    threshold:[0.6, 1]
   }
   )
   ethicsObserver.observe(vision.current)

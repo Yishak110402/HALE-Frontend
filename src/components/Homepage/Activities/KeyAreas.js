@@ -14,18 +14,12 @@ export default function KeyAreas() {
       if(entry.isIntersecting){
         setVisible(true)
       }
+    },{
+      threshold:[0.5 ,1]
     })
     keyValuesObserver.observe(keyH1.current)
     keyValuesObserver.observe(keyValues.current)
   },[])
-  // useEffect(function(){
-  //   const keyObserver = new IntersectionObserver((entries)=>{
-  //     const entry = entries[0]
-  //     setVisible(entry.isIntersecting)
-  //   },{rootMargin:"0px"})
-  //     keyObserver.observe(keyH1.current)
-  //     keyObserver.observe(keyValues.current)    
-  // },[visible])
 
   return (
     <div className="key-areas">

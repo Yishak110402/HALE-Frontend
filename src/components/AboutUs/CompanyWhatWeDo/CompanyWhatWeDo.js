@@ -1,10 +1,38 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import "./CompanyWhatWeDo.css";
 import Job from "./Job";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function CompanyWhatWeDo() {
   const { jobs } = useContext(GeneralContext);
   const [currentJob, setCurrentJob] = useState(1);
+  const [pVisible, setPVisible] = useState(false)
+  const [h1Visible, setH1Visible] = useState(false)
+  const whatWeDoh1 = useRef()
+  const whatWeDop = useRef()
+
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if (entry.isIntersecting){
+        setPVisible(true)
+      }
+    },{
+      threshold:[0.8, 1]
+    })
+    observer.observe(whatWeDop.current)
+  },[])
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if (entry.isIntersecting){
+        setH1Visible(true)
+      }
+    },{
+      threshold:[0.8, 1]
+    })
+    observer.observe(whatWeDop.current)
+  },[])
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentJob((prevJob) => (prevJob + 1) % jobs.length);
@@ -31,9 +59,9 @@ export default function CompanyWhatWeDo() {
   return (
     <div className="what-we-do">
       <div className="jobs-txt">
-        <h1>What We Do</h1>
+        <h1 className={h1Visible ? "visible" : ""} ref={whatWeDoh1.current}>What We Do</h1>
         <hr></hr>
-        <p>
+        <p className={pVisible ? "visible" : ""} ref={whatWeDop}>
           At HALE: Human Rights and Inclusion Network (H-HRIN), we are committed
           to advancing human rights and fostering a culture of inclusion. Our
           diverse range of activities and initiatives are designed to address
