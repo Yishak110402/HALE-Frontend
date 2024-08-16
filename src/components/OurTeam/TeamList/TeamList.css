@@ -12,6 +12,13 @@
     background-color: #fff;
     padding: 1rem 1.5rem;
     border-radius: 7px;
+    transform: translateY(8rem);
+    opacity: 0;
+}
+.team.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 .team img{
     width: 100%;
