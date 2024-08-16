@@ -16,7 +16,7 @@
   align-items: center;
   overflow: hidden;
   margin-bottom: 1rem;
-  transform: translateY(-7rem);
+  transform: translateY(7rem);
   opacity: 0;
 }
 .resource.visible{

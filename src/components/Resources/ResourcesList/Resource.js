@@ -11,7 +11,7 @@ export default function Resource({ resource }) {
         }
       },
       {
-        threshold: [0.6, 1],
+        threshold: [0.2, 1],
       }
     );
     observer.observe(resourceRef.current);
