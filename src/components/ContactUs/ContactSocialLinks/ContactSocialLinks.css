@@ -7,7 +7,7 @@
     display: flex;
 }
 .contact-social-links  *{
-    z-index: 1000;
+    z-index: 100;
 }
 .contact-social-links .shade{
     position: absolute;
