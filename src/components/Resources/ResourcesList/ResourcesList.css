@@ -16,11 +16,11 @@
   align-items: center;
   overflow: hidden;
   margin-bottom: 1rem;
-  transform: translateX(-25rem);
+  transform: translateY(-7rem);
   opacity: 0;
 }
 .resource.visible{
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
   transition: all 0.5s ease;
 }
