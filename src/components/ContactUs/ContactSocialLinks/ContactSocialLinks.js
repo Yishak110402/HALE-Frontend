@@ -75,7 +75,7 @@ export default function ContactSocialLinks() {
           <h2>
             Send us an email and we'll get back to you as soon as possible
           </h2>
-          <a href="mailto:info@h-hrin.org">info@h-hrin.org</a>
+          <a href="mailto:info@humanrightsandinclusion.org">info@humanrightsandinclusion.org</a>
         </div>
       </div>
     </div>

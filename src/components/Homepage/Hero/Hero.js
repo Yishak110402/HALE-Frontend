@@ -24,7 +24,7 @@ export default function Hero() {
     heroObserver.observe(heroImg.current);
   }, []);
   return (
-    <div className="hero">
+    <div className="home-hero">
       <img
       ref={heroImg}
         src="https://i.postimg.cc/FzymWWXP/hero-bg.jpg"

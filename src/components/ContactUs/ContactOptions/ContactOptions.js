@@ -35,7 +35,7 @@ export default function ContactOptions() {
 
           <h3>Phone Number</h3>
         </div>
-        <h2>0911223344</h2>
+        <h2>+251924651105</h2>
       </div>
       <div ref={option3} className={`${visible ? "visible" : ""} option work-hours`}>
         <div>
