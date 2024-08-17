@@ -18,7 +18,7 @@ function Activities({
         setVisible(true)
       }
     }, {
-      threshold: [0.3, 1]
+      threshold: [0.1, 1]
     })
     observer.observe(activityRef.current)
   },[])

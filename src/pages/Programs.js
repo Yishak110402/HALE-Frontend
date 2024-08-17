@@ -91,34 +91,10 @@ const hero = [
 const activity = [
   {
     imageName: "./assets/activities/human-rights.jpg",
-    title: "Human Rights Advocacy",
+    title: "Human Rights Education",
     details: {
       d1: "Workshops and seminars to educate communities about their rights and how to advocate for them",
       d2: "",
-    },
-  },
-  {
-    imageName: "./assets/activities/child-rights.jpg",
-    title: "Child Rights",
-    details: {
-      d1: "Child Protection: Focusing on eliminating child labor, child trafficking, and violence against children, and ensuring access to quality education for all children",
-      d2: "Child Advocacy: Raising awareness about children's rights and advocating for policies that protect and promote the well-being of children",
-    },
-  },
-  {
-    imageName: "./assets/activities/cultural-rights.jpg",
-    title: "Cultural Rights",
-    details: {
-      d1: "Cultural Heritage Preservation: Protecting and promoting the rights of individuals to participate in their cultural life and preserving cultural heritage",
-      d2: "Cultural Awareness Programs: Conducting programs to celebrate and promote understanding of diverse cultural practices and traditions",
-    },
-  },
-  {
-    imageName: "./assets/activities/education-and-training.jpg",
-    title: "Research And Education",
-    details: {
-      d1: "Research Activities: Conducting research to identify human rights issues and inform our advocacy and legal strategies",
-      d2: "Educational Programs: Implementing educational initiatives to empower individuals with knowledge about their rights and how to assert them",
     },
   },
   {
@@ -138,6 +114,30 @@ const activity = [
     },
   },
   {
+    imageName: "./assets/activities/child-rights.jpg",
+    title: "Child Rights",
+    details: {
+      d1: "Child Protection: Focusing on eliminating child labor, child trafficking, and violence against children, and ensuring access to quality education for all children",
+      d2: "Child Advocacy: Raising awareness about children's rights and advocating for policies that protect and promote the well-being of children",
+    },
+  },
+  {
+    imageName: "./assets/activities/disability-inclusion.jpg",
+    title: "Disability Inclusion",
+    details: {
+      d1: "Inclusive Education: Advocating for and supporting inclusive education practices that ensure persons with disabilities have access to quality education.",
+      d2: "Disability Rights Awareness: Promoting awareness about the rights of persons with disabilities and working to eliminate barriers to their full participation in society.",
+    },
+  },
+  {
+    imageName: "./assets/activities/cultural-rights.jpg",
+    title: "Cultural Rights",
+    details: {
+      d1: "Cultural Heritage Preservation: Protecting and promoting the rights of individuals to participate in their cultural life and preserving cultural heritage",
+      d2: "Cultural Awareness Programs: Conducting programs to celebrate and promote understanding of diverse cultural practices and traditions",
+    },
+  },
+  {
     imageName: "./assets/activities/environmental-justice.jpg",
     title: "Environmental Justice",
     details: {
@@ -146,11 +146,11 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/good-governance.jpg",
-    title: "Democracy and Good Govenance",
+    imageName: "./assets/activities/labour-rights.jpg",
+    title: "Labour Rights",
     details: {
-      d1: "Democracy Promotion: Engaging in activities that promote democratic values, free and fair elections, and civic participation",
-      d2: "Good Governance Initiatives: Advocating for transparency, accountability, and good governance practices at all levels of government",
+      d1: "Workers' Rights Protection: Advocating for fair wages, safe working conditions, and the right to organize for workers in various sectors",
+      d2: "Labor Education: Educating workers about their rights and supporting efforts to improve labor standards",
     },
   },
   {
@@ -162,13 +162,22 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/labour-rights.jpg",
-    title: "Labour Rights",
+    imageName: "./assets/activities/good-governance.jpg",
+    title: "Democracy and Good Govenance",
     details: {
-      d1: "Workers' Rights Protection: Advocating for fair wages, safe working conditions, and the right to organize for workers in various sectors",
-      d2: "Labor Education: Educating workers about their rights and supporting efforts to improve labor standards",
+      d1: "Democracy Promotion: Engaging in activities that promote democratic values, free and fair elections, and civic participation",
+      d2: "Good Governance Initiatives: Advocating for transparency, accountability, and good governance practices at all levels of government",
     },
   },
+  {
+    imageName: "./assets/activities/education-and-training.jpg",
+    title: "Research And Education",
+    details: {
+      d1: "Research Activities: Conducting research to identify human rights issues and inform our advocacy and legal strategies",
+      d2: "Educational Programs: Implementing educational initiatives to empower individuals with knowledge about their rights and how to assert them",
+    },
+  },
+ 
   {
     imageName: "./assets/activities/civic-engagement.jpg",
     title: "Civic Engagement",
@@ -232,7 +241,7 @@ function Programs() {
   const descriptionP = useRef();
   const [pVisible, setPVisible] = useState(false);
   const [h2Visible, setH2Visible] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   useEffect(function () {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -262,12 +271,12 @@ function Programs() {
     observer.observe(descriptionP.current);
   }, []);
 
-  useEffect(function(){
+  useEffect(function () {
     window.scrollTo({
-      top:0,
-      behavior:"instant"    
-    })
-  },[])
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
 
   return (
     <div className="programs">
@@ -326,7 +335,7 @@ function Programs() {
           </div>
           <div className="more-events">
             <h1>Stay updated on all our events</h1>
-            <button onClick={()=>(navigate("/events"))}>See All Events</button>
+            <button onClick={() => navigate("/events")}>See All Events</button>
           </div>
         </main>
       </div>
