@@ -18,6 +18,13 @@
 
 .description .heading h2{
     width: 100%;
+    transform: translateX(-9rem);
+    opacity: 0;
+}
+.description .heading h2.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 
 .description .detail{
@@ -30,7 +37,15 @@
     width: 50%;
     line-height: 1.2rem;
 }
-
+.description .detail p{
+    transform: translateX(9rem);
+    opacity: 0;
+}
+.description .detail p.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
 
 @media (max-width:1500px) {
  .hero{

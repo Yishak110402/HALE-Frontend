@@ -4,7 +4,8 @@ import Hero from "./../components/Programs/Hero/Hero";
 import AboutUs from "./../components/Programs/About us/AboutUs";
 import Events from "./../components/Programs/Events/Events";
 // import Footer from "../Footer/Footer";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const hero = [
   {
@@ -227,6 +228,47 @@ function Programs() {
     }
   }
 
+  const descriptionH2 = useRef();
+  const descriptionP = useRef();
+  const [pVisible, setPVisible] = useState(false);
+  const [h2Visible, setH2Visible] = useState(false);
+  const navigate = useNavigate()
+  useEffect(function () {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setH2Visible(true);
+        }
+      },
+      {
+        threshold: [0.5, 1],
+      }
+    );
+    observer.observe(descriptionH2.current);
+  }, []);
+  useEffect(function () {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setPVisible(true);
+        }
+      },
+      {
+        threshold: [0.5, 1],
+      }
+    );
+    observer.observe(descriptionP.current);
+  }, []);
+
+  useEffect(function(){
+    window.scrollTo({
+      top:0,
+      behavior:"instant"    
+    })
+  },[])
+
   return (
     <div className="programs">
       <Hero
@@ -241,13 +283,13 @@ function Programs() {
       />
       <div className="description">
         <div className="heading">
-          <h2>
+          <h2 className={h2Visible ? "visible" : ""} ref={descriptionH2}>
             Advancing Human Rights Gender Equality, Children's Rights,
             Disability Inclusion, and Environmental Sustainability
           </h2>
         </div>
         <div className="detail">
-          <p>
+          <p className={pVisible ? "visible" : ""} ref={descriptionP}>
             At HALE, we are dedicated to promote human rights, gender equality,
             protecting childeren's rights, fostering disability inclusion, and
             supporting environmental sustainability. Through our research,
@@ -284,7 +326,7 @@ function Programs() {
           </div>
           <div className="more-events">
             <h1>Stay updated on all our events</h1>
-            <button>See All Events</button>
+            <button onClick={()=>(navigate("/events"))}>See All Events</button>
           </div>
         </main>
       </div>

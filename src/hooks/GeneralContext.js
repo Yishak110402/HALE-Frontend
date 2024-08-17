@@ -228,71 +228,24 @@ export default function GeneralProvider({ children }) {
 
   const teams = [
     {
-      name: "Tafesse Tekle Sokare",
-      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
-      image: "https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
-      description: [
-        "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
-        "Tafesse holds a Master of Laws (LLM) in Commercial Law from Hawassa University, where he specialized in the intricacies of commercial law and its impact on both local and global economies. He also earned a Degree of Laws (LLB) from the School of Law at Hawassa University, graduating with Distinction, a testament to his academic excellence and profound understanding of the legal field.",
-        "Currently, Tafesse serves as a Lawyer at the Commercial Bank of Ethiopia, where he applies his extensive legal knowledge to navigate the complex legal landscape of the banking sector. His role is pivotal in ensuring that the bank operates within the bounds of commercial law while upholding the highest standards of legal compliance and ethical practices.",
-        "Tafesse’s career is distinguished by a diverse range of legal experiences. He has served as a General Attorney for the Sidama Region Attorney, where he provided legal counsel on matters of regional and national significance. His role as a Customs and Tax Related Crime Investigator and Prosecutor at the Ethiopia Revenue and Customs Authority involved rigorous investigations and prosecutions aimed at maintaining the integrity of Ethiopia’s revenue collection system.",
-        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law.",
-      ],
-    },
-    {
-      name: "Fenot Mekonen Hailu",
+      name: "Woyesa Woka Worana",
+      image: "https://i.postimg.cc/k5SxcjDG/6U5A9080.jpg",
       position:
-        "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
-      image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
+        "Founder & Executive Director at HALE-Human Rights & Inclusion Network | Co-founder of TPCC | Human Rights, Gender Equality & Climate Justice Advocate | SDGs Enthusiast | Democracy Promoter | Social Inclusion Advocate | 2021 Gold Medalist",
       description: [
-        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
-
-        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University.",
-
-        "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
+        "Woyesa is a passionate human rights advocate and the visionary behind HALE: Human Rights and Inclusion Network (H-HRIN). As the Founder and Executive Director, Woyesa leads impactful initiatives to advance human rights, gender equality, social inclusion, and climate justice across Ethiopia and beyond.",
+        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations.",
+        "He is the co-founder of the Tomorrow People Charity Club (TPCC) and served in various leadership roles, including Regional Representative at Transparency International Ethiopia, where he earned the Best Leadership Award. His work as a Volunteer Climate Justice Coordinator at Hawassa University and as a Youth SRHR Advocacy Coordinator at Hawassa City Youth Association showcases his ability to drive transformative projects.",
+        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research, including studies on “The Responsibility of UN for Violation of International Human Rights Laws by Peacekeeping Forces” and “The Recognition of Substantive and Formal Gender Equality Under Ethiopia Labor Law,” highlights his expertise in critical human rights issues.",
+        "Woyesa’s academic achievements are equally impressive. He holds LLB in Law from the College of Law and Governance, Hawassa University, where he was awarded the prestigious 2021 Gold Medal for academic excellence.",
+        "Woyesa’s volunteerism is equally noteworthy. His roles as a Human Rights Advocate at the Ethiopian Human Rights Council (EHRCO) and as a Volunteer Human Rights Legal Aid Worker at Hawassa Area High Court earned him the 2024 Excellence Award. Additionally, his advocacy for women's rights through the Ethiopian Women Lawyers Association (EWLA) underscores his dedication to gender equality.",
       ],
     },
     {
-      name: "Essey Peteros Firiso",
-      position:
-        "Co-Founder of Hale: Human Rights and Inclusion Network (H-HRIN)",
-      image: "https://i.postimg.cc/s239Bt1m/essey.jpg",
-      description: [
-        "Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
-        "In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
-        "Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society.",
-      ],
-    },
-    {
-      name: "Basleal Mekonen Mengesha",
-      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
-      image: "https://i.postimg.cc/L4Cn4PFn/6U5A7482.jpg",
-      description: [
-        "Basleal Mekonen Mengesha is a dynamic and visionary leader with a passion for technology, youth empowerment, and community development. As a co-founder of HALE: Human Rights and Inclusion Network, Basleal brings a unique blend of expertise in information systems, youth engagement, and entrepreneurship to the organization's mission of promoting human rights and inclusion.",
-
-        "Basleal holds a Bachelor's Degree in Information Systems from Hawassa University, where he developed a strong foundation in technology and its applications in solving real-world problems. His academic background equips him with the skills to leverage digital tools and platforms in driving social change.",
-
-        "Basleal’s entrepreneurial spirit is evident in his role as the founder of Skill Connect Ethiopia, a gig website designed to connect skilled professionals with opportunities in various sectors. This platform not only bridges the gap between talent and opportunity but also empowers individuals to monetize their skills and contribute to the economy.",
-
-        "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
-        "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
-        "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
-      ],
-    },
-    {
-      name: "Ashenafi Argata Yona",
-      position:
-        "Board Member, HALE: Human Rights and Inclusion Network | Dean at Hawassa Tegbar-ID Polytechnic College | Leadership & Civil Engineering Expert",
-      image: "https://i.postimg.cc/nL1MScZb/6U5A8848.jpg",
-      description: [
-        "Ashenaf Argata Yona is a distinguished leader in the fields of education, management, and civil engineering. With an impressive academic background and extensive professional experience, Ashenaf has dedicated his career to advancing technical education and fostering leadership development in Ethiopia.",
-        "Ashenaf holds a Master of Arts in Leadership and Management from the FDRE TVET Institute, where he graduated with great distinction. His advanced studies in leadership and management have equipped him with the skills to effectively guide educational institutions and drive organizational success. Additionally, he earned a Bachelor’s Degree in Civil Engineering from Hawassa University, graduating with distinction. His strong technical foundation in civil engineering has been instrumental in his professional roles, where he has applied his expertise to urban development and educational infrastructure.",
-        "Currently, Ashenaf serves as the Dean of Hawassa Tegbar-ID Polytechnic College, a role he has held since Jan 2023. In this capacity, he oversees the college’s academic programs, faculty development, and institutional growth, ensuring that students receive a high-quality education that prepares them for the demands of the workforce. His leadership has been pivotal in positioning the college as a leading institution in technical and vocational education in the region.",
-        "Before his tenure as Dean, Ashenaf was the Vice Dean at Hawassa City Administration’s Hawela Tula TVET College, where he played a key role in academic administration and institutional management. His experience also includes serving as a Lecturer at Silte Zone Dalocha Construction and Industrial College, where he imparted his knowledge and skills to aspiring engineers and technical professionals.",
-        "In addition to his academic roles, Ashenaf has contributed to urban development as a Land Management and Preparation Expert at Bona Zurya Woreda Urban Development. His work in this area has involved planning and executing land development projects that support urban growth and infrastructure development.",
-        "As a Board Member of HALE: Human Rights and Inclusion Network, Ashenaf brings his leadership expertise and commitment to education and development to the organization. He is passionate about promoting human rights, inclusion, and sustainable development, and his insights are invaluable in guiding the organization’s strategic direction.",
-        "Ashenaf is committed to advancing technical education, fostering leadership, and contributing to Ethiopia's sustainable development. His work continues to inspire future generations of leaders, engineers, and professionals.",
-      ],
+      name: "Dansita",
+      position: "TBD",
+      image: "",
+      description: [],
     },
     {
       name: "Dr. Shiferaw Muleta Eyana (PhD)",
@@ -337,19 +290,6 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name: "Daniel Tamirat Maru",
-      position:
-        "Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
-      image: "https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
-      description: [
-        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
-        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
-        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
-        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
-        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
-      ],
-    },
-    {
       name: "Wondewosen Yohanis Jekamo",
       position:
         "Co-Founder & Board Member at HALE: Human Rights and Inclusion Network |Lecturer | Legal Expert & Advocate for Justice",
@@ -364,17 +304,101 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name: "Woyesa Woka Worana",
-      image: "https://i.postimg.cc/k5SxcjDG/6U5A9080.jpg",
+      name: "Ashenafi Argata Yona",
       position:
-        "Founder & Executive Director at HALE-Human Rights & Inclusion Network | Co-founder of TPCC | Human Rights, Gender Equality & Climate Justice Advocate | SDGs Enthusiast | Democracy Promoter | Social Inclusion Advocate | 2021 Gold Medalist",
+        "Board Member, HALE: Human Rights and Inclusion Network | Dean at Hawassa Tegbar-ID Polytechnic College | Leadership & Civil Engineering Expert",
+      image: "https://i.postimg.cc/nL1MScZb/6U5A8848.jpg",
       description: [
-        "Woyesa is the Founder and Executive Director of HALE: Human Rights and Inclusion Network (H-HRIN), where he leads efforts to promote human rights, gender equality, social inclusion, and climate justice. As a committed human rights advocate, Woyesa has a deep-rooted passion for advancing democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR).",
-        "Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations. He is the co-founder of the Tomorrow People Charity Club (TPCC) and has served as a Regional Representative at Transparency International Ethiopia, where he earned the Best Leadership Award for his outstanding contributions. His experience also includes roles such as Volunteer Climate Justice Coordinator at Hawassa University, Youth SRHR Advocacy Coordinator at Hawassa City Youth Association, and Regional Project Coordinator at ANDIMTA Ethiopia Civil Discourse Association, where he demonstrated his ability to lead impactful projects and initiatives.",
-        "Woyesa has also contributed to academia as a part-time lecturer at Zion College of Technology and Business and Africa Beza College. His research expertise is further highlighted by his role as a Research Assistant at Addis Ababa University Center for Human Rights, where he was involved in significant human rights research and advocacy efforts. Additionally, Woyesa volunteered as a Human Rights Advocate at the Ethiopian Human Rights Council (EHRCO) and provided legal aid as a Volunteer Human Rights Legal Aid Worker at Hawassa Area High Court, where he received the 2024 Excellence Award for his exemplary service.",
-        "His commitment to gender equality is evident through his work as a Volunteer Women's Rights Advocate at the Ethiopian Women Lawyers Association (EWLA), where he championed the rights of women and girls. He has also played a vital role as a Human Rights Volunteer at Addis Ababa University Center for Human Rights, contributing to the advancement of human rights education and advocacy.",
-        "Woyesa’s academic achievements are equally impressive. He holds LLB in Law from the College of Law and Governance, Hawassa University, where he was awarded the prestigious 2021 Gold Medal for academic excellence.",
-        "With a track record of leadership, advocacy, and academic excellence, Woyesa making significant strides in the promotion of human rights, social justice, and environmental sustainability, and continues to drive change in Ethiopia, Africa and beyond, where he strives to create a more just and inclusive society.",
+        "Ashenaf Argata Yona is a distinguished leader in the fields of education, management, and civil engineering. With an impressive academic background and extensive professional experience, Ashenaf has dedicated his career to advancing technical education and fostering leadership development in Ethiopia.",
+        "Ashenaf holds a Master of Arts in Leadership and Management from the FDRE TVET Institute, where he graduated with great distinction. His advanced studies in leadership and management have equipped him with the skills to effectively guide educational institutions and drive organizational success. Additionally, he earned a Bachelor’s Degree in Civil Engineering from Hawassa University, graduating with distinction. His strong technical foundation in civil engineering has been instrumental in his professional roles, where he has applied his expertise to urban development and educational infrastructure.",
+        "Currently, Ashenaf serves as the Dean of Hawassa Tegbar-ID Polytechnic College, a role he has held since Jan 2023. In this capacity, he oversees the college’s academic programs, faculty development, and institutional growth, ensuring that students receive a high-quality education that prepares them for the demands of the workforce. His leadership has been pivotal in positioning the college as a leading institution in technical and vocational education in the region.",
+        "Before his tenure as Dean, Ashenaf was the Vice Dean at Hawassa City Administration’s Hawela Tula TVET College, where he played a key role in academic administration and institutional management. His experience also includes serving as a Lecturer at Silte Zone Dalocha Construction and Industrial College, where he imparted his knowledge and skills to aspiring engineers and technical professionals.",
+        "In addition to his academic roles, Ashenaf has contributed to urban development as a Land Management and Preparation Expert at Bona Zurya Woreda Urban Development. His work in this area has involved planning and executing land development projects that support urban growth and infrastructure development.",
+        "As a Board Member of HALE: Human Rights and Inclusion Network, Ashenaf brings his leadership expertise and commitment to education and development to the organization. He is passionate about promoting human rights, inclusion, and sustainable development, and his insights are invaluable in guiding the organization’s strategic direction.",
+        "Ashenaf is committed to advancing technical education, fostering leadership, and contributing to Ethiopia's sustainable development. His work continues to inspire future generations of leaders, engineers, and professionals.",
+      ],
+    },
+    {
+      name: "Fenot Mekonen Hailu",
+      position:
+        "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
+      image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
+      description: [
+        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
+
+        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University.",
+
+        "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
+      ],
+    },
+    {
+      name: "Essey Peteros Firiso",
+      position:
+        "Co-Founder of Hale: Human Rights and Inclusion Network (H-HRIN)",
+      image: "https://i.postimg.cc/s239Bt1m/essey.jpg",
+      description: [
+        "Essey Peteros Firiso is currently an LLB candidate at Hawassa University, where he is deeply committed to human rights and social justice. He is the Founder of Tesfa Counseling Association, an initiative dedicated to providing support and guidance to individuals in need.",
+        "In addition to his advocacy work, Essey serves as the President of the Hawassa University Student Union, leading initiatives to empower students and enhance their educational experiences. He is also the Vice President of the Ethiopian Higher Education Institutions Student Union, where he represents the interests of students across the country at a national level.",
+        "Essey’s leadership, commitment to social causes, and dedication to advancing human rights make him an invaluable member of the HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, he plays a crucial role in driving the organization’s mission to create a just and inclusive society.",
+      ],
+    },
+    {
+      name: "Tafesse Tekle Sokare",
+      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
+      image: "https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
+      description: [
+        "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
+        "Tafesse holds a Master of Laws (LLM) in Commercial Law from Hawassa University, where he specialized in the intricacies of commercial law and its impact on both local and global economies. He also earned a Degree of Laws (LLB) from the School of Law at Hawassa University, graduating with Distinction, a testament to his academic excellence and profound understanding of the legal field.",
+        "Currently, Tafesse serves as a Lawyer at the Commercial Bank of Ethiopia, where he applies his extensive legal knowledge to navigate the complex legal landscape of the banking sector. His role is pivotal in ensuring that the bank operates within the bounds of commercial law while upholding the highest standards of legal compliance and ethical practices.",
+        "Tafesse’s career is distinguished by a diverse range of legal experiences. He has served as a General Attorney for the Sidama Region Attorney, where he provided legal counsel on matters of regional and national significance. His role as a Customs and Tax Related Crime Investigator and Prosecutor at the Ethiopia Revenue and Customs Authority involved rigorous investigations and prosecutions aimed at maintaining the integrity of Ethiopia’s revenue collection system.",
+        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law.",
+      ],
+    },
+    {
+      name:"Maregnesh",
+      image:"",
+      position:"TBD",
+      description:[]
+    },
+    {
+      name:"Nahom",
+      image:"",
+      position:"TBD",
+      description:[]
+    },
+    {
+      name:"Tsion Gamme Gatisso",
+      image:"",
+      position:"TBD",
+      description:[]
+    },
+    {
+      name: "Basleal Mekonen Mengesha",
+      position: "Co-Founder, HALE: Human Rights and Inclusion Network",
+      image: "https://i.postimg.cc/L4Cn4PFn/6U5A7482.jpg",
+      description: [
+        "Basleal Mekonen Mengesha is a dynamic and visionary leader with a passion for technology, youth empowerment, and community development. As a co-founder of HALE: Human Rights and Inclusion Network, Basleal brings a unique blend of expertise in information systems, youth engagement, and entrepreneurship to the organization's mission of promoting human rights and inclusion.",
+
+        "Basleal holds a Bachelor's Degree in Information Systems from Hawassa University, where he developed a strong foundation in technology and its applications in solving real-world problems. His academic background equips him with the skills to leverage digital tools and platforms in driving social change.",
+
+        "Basleal’s entrepreneurial spirit is evident in his role as the founder of Skill Connect Ethiopia, a gig website designed to connect skilled professionals with opportunities in various sectors. This platform not only bridges the gap between talent and opportunity but also empowers individuals to monetize their skills and contribute to the economy.",
+
+        "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
+        "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
+        "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
+      ],
+    },
+    {
+      name: "Daniel Tamirat Maru",
+      position:
+        "Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
+      image: "https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
+      description: [
+        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
+        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
+        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
+        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
+        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
       ],
     },
   ];

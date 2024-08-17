@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import "./AboutUs.css";
 export default function AboutUs() {
+  const navigate = useNavigate()
   return (
     <div className="about-us">
       <div className="about-us-img">
@@ -9,9 +11,9 @@ export default function AboutUs() {
       <div className="about-us-detail">
         <h1>Find out more</h1>
         <div className="link">
-          <p>Learn More About Our Mission and What We Do</p>
-          <p>To Learn More About Our Team</p>
-          <p>Contact Us</p>
+          <p onClick={()=>(navigate("/aboutus"))}>Learn More About Our Mission and What We Do</p>
+          <p onClick={()=>(navigate("/team"))} >To Learn More About Our Team</p>
+          <p onClick={()=>(navigate("/contact"))}>Contact Us</p>
         </div>
       </div>
     </div>
