@@ -1,5 +1,4 @@
 import "./hero.css"
-// import humanrights from "../../../assets/humanrights-img1.jpg"
 export default function Hero({title,description,imgName,titleWidth,pWidth,changeHeroInc,changeHeroDec}){
     
     return(

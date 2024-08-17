@@ -273,13 +273,13 @@ function Programs() {
           ))}
         </div>
       </div>
-      <div className="events">
+      <div className="program-events">
         <header>
           <h1>Events</h1>
           <hr />
         </header>
         <main>
-          <div className="events-container">
+          <div className="program-events-container">
             <Events title={Event[0].title} imgName={Event[0].imgName} />
           </div>
           <div className="more-events">

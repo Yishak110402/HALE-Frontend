@@ -1,7 +1,7 @@
 import "./Events.css"
 export default function Events({title,imgName}){
     return(  
-            <div className="event">
+            <div className="program-event">
                 <div className="eventImg">
                     <img src={imgName} alt="event" />
                 </div>
