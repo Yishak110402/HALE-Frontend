@@ -120,9 +120,6 @@
         width: 40%;
     } 
    
-    .description .detail{
-        font-size: 0.6rem;
-    }
 
     }
     @media (max-width:800px) {
@@ -163,9 +160,7 @@
             font-size: 0.75rem;
             padding-inline: 1.5rem;
         }
-        .description .detail{
-            line-height: 1rem;
-        }
+
         
        }
        @media (max-width:610px){
@@ -183,16 +178,14 @@
         }
         .description .heading{
             width: 100%;
-            padding-inline: 0;
-            align-items: flex-end;
-            padding-block: 0;
-            font-size: 0.6rem;
+            /* align-items: flex-end; */
+            padding: 0;
             line-height: 1.5rem;
         }
         .description .detail{
             padding-inline: 0;
             width: 100%;
-            font-size: 0.5rem;
+            /* font-size: 0.5rem; */
         }
         .hero-cover h1{
             font-size: 1.7rem;
@@ -232,6 +225,10 @@
         }
         .hero img{
             object-position: 0 -50px;
+        }
+        .description{
+            padding-inline: 1rem;
+            gap: 0rem;
         }
         
        }
