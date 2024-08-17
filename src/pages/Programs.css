@@ -227,8 +227,11 @@
             object-position: 0 -50px;
         }
         .description{
-            padding-inline: 1rem;
+            padding: 1rem;
             gap: 0rem;
+        }
+        .description .heading{
+            margin-top: 1rem;
         }
         
        }
