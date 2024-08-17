@@ -1,8 +1,3 @@
-.programs{
-    /* width: 100vw; */
-    /* height: 90vh; */
-}
-
 .description{
     background-color: #2d784e;
     color: white;
@@ -41,7 +36,6 @@
  .hero{
     height: 80vh;
  }   
-
 
 }
 @media (max-width:1400px) {
@@ -101,10 +95,7 @@
     }
    }
 
-   @media (max-width:1000px) {
-    .hero{
-
-    }   
+   @media (max-width:1000px) { 
     .hero-cover h1{
         font-size: 2.5rem;
     }
@@ -218,9 +209,6 @@
         } 
         .hero-cover h1{
             font-size: 1.2rem;
-        }
-        .hero .hero-cover{
-            /* padding-inline: 1rem; */
         }
         .hero img{
             object-position: 0 -50px;

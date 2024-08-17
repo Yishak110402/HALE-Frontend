@@ -171,9 +171,6 @@ main .more-events{
     .program-event .eventTitle{
         font-size: 1rem;
     }
-    .events header{
-        /* height: 18%; */
-    }
     main .more-events{
         gap: 0.9rem;
         width: 100%;
