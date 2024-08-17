@@ -106,7 +106,7 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/gender-equality.jpg",
+    imageName: "./assets/activities/gender-equality-2.jpg",
     title: "Gender Equality",
     details: {
       d1: "Gender-Based Violence Prevention: Implementing programs to combat violence against women and girls, and advocating for gender equality in all sectors. Gender equality campaigns to promote gender equality and combat violence against women",
@@ -130,7 +130,7 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/cultural-rights.jpg",
+    imageName: "./assets/activities/cultural-rights-2.jpg",
     title: "Cultural Rights",
     details: {
       d1: "Cultural Heritage Preservation: Protecting and promoting the rights of individuals to participate in their cultural life and preserving cultural heritage",
@@ -162,7 +162,7 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/good-governance.jpg",
+    imageName: "./assets/activities/good-governance-2.jpg",
     title: "Democracy and Good Govenance",
     details: {
       d1: "Democracy Promotion: Engaging in activities that promote democratic values, free and fair elections, and civic participation",
@@ -179,7 +179,7 @@ const activity = [
   },
  
   {
-    imageName: "./assets/activities/civic-engagement.jpg",
+    imageName: "./assets/activities/civic-engagement-2.jpg",
     title: "Civic Engagement",
     details: {
       d1: "Community Outreach: Facilitating civic engagement activities to encourage community participation in democratic processes and decision-making",
@@ -195,7 +195,7 @@ const activity = [
     },
   },
   {
-    imageName: "./assets/activities/peace-building.jpg",
+    imageName: "./assets/activities/peace-building-2.jpg",
     title: "Peace Building",
     details: {
       d1: "Promoting conflict resolution, reconciliation, and fostering harmonious coexistence",
