@@ -231,7 +231,7 @@ export default function GeneralProvider({ children }) {
       name: "Woyesa Woka Worana",
       image: "https://i.postimg.cc/k5SxcjDG/6U5A9080.jpg",
       position:
-        "Founder & Executive Director at HALE: Human Rights & Inclusion Network | Co-Founder of Tomorrow People Charity Club | Human Rights, Gender Equality & Social Inclusion Advocate | Climate Justice Activist | SDGs Enthusiast | 2021 Gold Medalist",
+        "Founder & Executive Director at HALE: Human Rights & Inclusion Network | Co-Founder of Tomorrow People Charity Club | Human Rights, Gender Equality & Social Inclusion Advocate | Climate Justice Activist | SDGs Advocate | 2021 Gold Medalist",
       description: [
         "Woyesa is a passionate human rights advocate and the visionary behind HALE: Human Rights and Inclusion Network (H-HRIN). As the Founder and Executive Director, Woyesa leads impactful initiatives to advance human rights, gender equality, social inclusion, and climate justice across Ethiopia and beyond.",
         "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations.",
