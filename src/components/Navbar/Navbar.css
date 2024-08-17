@@ -68,17 +68,8 @@
     }
 }
 @media(max-width:1000px){
-    .mobile-nav{
-        /* display: flex; */
-        justify-content: space-between;
-        align-items: center;
-        padding-inline: 4rem;
-    }
-    .mobile-nav .menu-btn svg{
-        fill: #2d784e;
-        font-size: 2rem;
-        width: 30px;
-        height: 30px;
+    .navbar{
+        padding-bottom: 2rem;
     }
     /* .navbar::before{
         position: absolute;
@@ -109,13 +100,13 @@
     .navbar .nav-links{
         position: absolute;
         flex-flow: column;
-        justify-content: center;
-        gap: 2rem;
+        align-items: center;
+        gap: 1rem;
         right: 0;
-        transform: translateY(25.5rem);
-        z-index: 50000;
+        transform: translateY(15rem);
+        z-index: 500;
         width: 100vw;
-        height: 90vh;
+        /* height: 70vh; */
         transition: all 0.4s ease;
         background-color: #312F44;
         color: #fff;

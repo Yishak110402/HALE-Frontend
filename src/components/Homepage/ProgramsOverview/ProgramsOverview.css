@@ -74,12 +74,13 @@
     width: 100%;
     height: 100%;
     transform: translateY(-150%);
-    background-color: #312F44;
+    background-color: #1d4930;
     transition: all 0.2s ease;
 }
 .programs-overview button:hover{
     background-color: transparent;
     color: #fff;
+    transition: all 0.2s ease;
 }
 .programs-overview button:hover:after{
     transform: translateY(0);

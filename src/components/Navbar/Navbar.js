@@ -23,7 +23,6 @@ export default function Navbar() {
         <img src={navLogo} alt="" />
       </div>
       <div className="nav-links">
-        {/* <button onClick={() => setNavOpen(false)}>X</button> */}
         <NavLink onClick={() => setNavOpen(false)} to="/">
           Home
         </NavLink>

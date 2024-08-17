@@ -355,22 +355,34 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name:"Maregnesh",
-      image:"",
-      position:"TBD",
-      description:[]
+      name: "Maregnesh Mengesha Worana",
+      image: "https://i.postimg.cc/rFbMFwj6/6U5A9360.jpg",
+      position:
+        "Co-Founder & Communications Officer at HALE: Human Rights and Inclusion Network | Journalism and Communication Graduate | Human Rights Advocate | Social Inclusion Enthusiast",
+      description: [
+        "Maregnesh is a dedicated advocate for human rights and social inclusion, currently serving as the Communications Officer at HALE: Human Rights and Inclusion Network. With a strong passion for using media to drive positive change, Maregnesh brings her expertise in journalism and communication to amplify the voices of marginalized and vulnerable communities.",
+        "Maregnesh graduated with distinction from Wollo University, earning a Bachelor of Arts degree in Journalism and Communication. Her academic journey was marked by her insightful research on 'The Impact of Facebook in the Case of Wollo University Students,' reflecting her keen interest in the intersection of social media and community engagement.",
+        "Prior to her role at HALE, Maregnesh served as a Volunteer Event Coordinator at Wollo University, where she honed her skills in organizing impactful events and fostering community collaboration. Her commitment to advancing human rights and her dedication to effective communication make her an invaluable asset to the HALE team.",
+      ],
     },
     {
-      name:"Nahom",
-      image:"",
-      position:"TBD",
-      description:[]
+      name: "Daniel Tamirat Maru",
+      position:
+        "Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
+      image: "https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
+      description: [
+        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
+        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
+        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
+        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
+        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
+      ],
     },
     {
-      name:"Tsion Gamme Gatisso",
-      image:"",
-      position:"TBD",
-      description:[]
+      name: "Tsion Gamme Gatisso",
+      image: "",
+      position: "TBD",
+      description: [],
     },
     {
       name: "Basleal Mekonen Mengesha",
@@ -386,19 +398,6 @@ export default function GeneralProvider({ children }) {
         "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
         "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
         "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
-      ],
-    },
-    {
-      name: "Daniel Tamirat Maru",
-      position:
-        "Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
-      image: "https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
-      description: [
-        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
-        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
-        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
-        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
-        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
       ],
     },
   ];
