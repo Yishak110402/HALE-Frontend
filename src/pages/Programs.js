@@ -29,7 +29,7 @@ const hero = [
     title: "Democracy Promotion",
     description:
       "Encouraging active participation in democratic processes and monitoring elections to ensure fairness and transparency. Supporting democratic processes and institutions to ensure accountable and inclusive governance",
-    imgName: "./assets/hero/democracy-promotion.jpg",
+    imgName: "./assets/hero/democracy-promotion.png",
   },
   {
     title: "Education And Training",
