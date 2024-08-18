@@ -71,12 +71,12 @@ export default function GeneralProvider({ children }) {
         "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
       image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
     },
-    // {
-    //   name: "Democracy Promotion",
-    //   description:
-    //     "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
-    //   image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
-    // },
+    {
+      name: "Democracy Promotion",
+      description:
+        "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
+      image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
+    },
 
   ];
 
