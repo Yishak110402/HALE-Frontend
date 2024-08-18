@@ -342,7 +342,7 @@ export default function GeneralProvider({ children }) {
     {
       name: "Essey Peteros Firiso",
       position:
-        "Co-Founder of Hale: Human Rights and Inclusion Network (H-HRIN)",
+        "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | President of Hawassa University Student Union | Vice President of Ethiopian Higher Education Institutions Student Union | Human Rights and Social Justice Advocate",
       image: "https://i.postimg.cc/s239Bt1m/essey.jpg",
       description: [
         "Essey is an LLB candidate at Hawassa University with a profound dedication to human rights and social justice. As the Founder of Tesfa Counseling Association, Essey has established a platform that provides essential support and guidance to individuals in need, reflecting his commitment to making a positive impact in his community.",
