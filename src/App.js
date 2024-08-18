@@ -12,6 +12,7 @@ import { GeneralContext } from "./hooks/GeneralContext";
 import OurTeam from "./pages/OurTeam";
 import OpenTeam from "./pages/OpenTeam";
 import Resources from "./pages/Resources";
+import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
@@ -29,6 +30,7 @@ export default function App() {
           <Route element={<OurTeam/>} path="/team" />
           <Route element={<OpenTeam/>} path="/team/:index" />
           <Route element={<Resources/>} path="/resources" />
+          <Route element={<PageNotFound/>} path="/*" />
         </Routes>
         <Footer />
       </BrowserRouter>
