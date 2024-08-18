@@ -74,7 +74,7 @@ export default function GeneralProvider({ children }) {
     {
       name: "Democracy Promotion",
       description:
-        "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
+        "Encouraging active participation in democratic processes and monitoring elections to ensure fairness and transparency. Supporting democratic processes and institutions to ensure accountable and inclusive governance.",
       image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
     },
 
