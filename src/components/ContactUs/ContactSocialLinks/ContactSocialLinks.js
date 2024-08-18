@@ -29,7 +29,7 @@ export default function ContactSocialLinks() {
         }
       },
       {
-        threshold: [0.9, 1],
+        threshold: [0.5, 1],
       }
     );
     observer.observe(email.current);

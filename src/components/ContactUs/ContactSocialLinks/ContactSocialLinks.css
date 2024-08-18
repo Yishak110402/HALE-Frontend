@@ -54,7 +54,7 @@
 .contact-social-links .email-container{
     z-index: 5;
     text-align: center;
-    transform: translateX(15rem);
+    transform: translateX(8rem);
     opacity: 0;
 }
 .contact-social-links .email-container.visible{
