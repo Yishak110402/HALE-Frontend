@@ -15,13 +15,13 @@ export default function GeneralProvider({ children }) {
       name: "Advocacy and Awareness",
       description:
         "Conduct advocacy campaigns to promote gender equality, child rights, labor rights, disability inclusion, and cultural rights. Raise awareness about sexual and reproductive health and rights (SRHR) and environmental justice. Promote democracy and good governance through education and civic engagement initiatives.",
-      image: "https://i.postimg.cc/Xvqjjk9J/advocacy.jpg",
+      image: "https://i.postimg.cc/CKZHM2rL/advocacy-2.jpg",
     },
     {
       name: "Education and Empowerment",
       description:
         "Implement educational programs to empower individuals with knowledge about their rights and how to assert them. Organize workshops, seminars, and community meetings to foster a culture of inclusion and respect for human rights.",
-      image: "https://i.postimg.cc/0js1wYK7/education.jpg",
+      image: "https://i.postimg.cc/m2Rw38k8/education-2.jpg",
     },
     {
       name: "Research and Analysis",
