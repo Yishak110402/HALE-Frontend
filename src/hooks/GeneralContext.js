@@ -264,7 +264,7 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Biniam Solomon Lale",
-      position: "Board Chairman, HALE: Human Rights and Inclusion Network",
+      position: "Board Chairman at HALE: Human Rights and Inclusion Network | President at Northern Sidaama Zone High Court | Former Judge | Legal Drafting Expert | LLM in International Law",
       image: "https://i.postimg.cc/XYRD14L8/6U5A8870.jpg",
       description: [
         "Biniam Solomon Lale is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Chairman of HALE: Human Rights and Inclusion Network (H-HRIN), Biniam plays a pivotal role in guiding the organization’s strategic vision and ensuring its mission to promote human rights and social inclusion is achieved.",
