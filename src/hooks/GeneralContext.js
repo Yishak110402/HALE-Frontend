@@ -65,12 +65,12 @@ export default function GeneralProvider({ children }) {
     //     "We provide comprehensive legal aid to individuals who lack access to justice. This includes legal representation, counseling, and support to ensure fair treatment and justice for all.",
     //   image: "https://i.postimg.cc/tC9HRzjj/legal-aid.jpg",
     // },
-    // {
-    //   name: "Public Interest Litigation",
-    //   description:
-    //     "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
-    //   image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
-    // },
+    {
+      name: "Public Interest Litigation",
+      description:
+        "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
+      image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
+    },
     // {
     //   name: "Democracy Promotion",
     //   description:
