@@ -366,11 +366,11 @@ export default function GeneralProvider({ children }) {
       name: "Maregnesh Mengesha Worana",
       image: "https://i.postimg.cc/rFbMFwj6/6U5A9360.jpg",
       position:
-        "Co-Founder & Communications Officer at HALE: Human Rights and Inclusion Network | Journalism and Communication Graduate | Human Rights Advocate | Social Inclusion Enthusiast",
+        "Co-Founder & Communications Officer at HALE: Human Rights and Inclusion Network | Journalism and Communication Graduate | Human Rights & Gender Equality Advocate ",
       description: [
         "Maregnesh is a dedicated advocate for human rights and social inclusion, currently serving as the Communications Officer at HALE: Human Rights and Inclusion Network. With a strong passion for using media to drive positive change, Maregnesh brings her expertise in journalism and communication to amplify the voices of marginalized and vulnerable communities.",
         "Maregnesh graduated with distinction from Wollo University, earning a Bachelor of Arts degree in Journalism and Communication. Her academic journey was marked by her insightful research on 'The Impact of Facebook in the Case of Wollo University Students,' reflecting her keen interest in the intersection of social media and community engagement.",
-        "Prior to her role at HALE, Maregnesh served as a Volunteer Event Coordinator at Wollo University, where she honed her skills in organizing impactful events and fostering community collaboration. Her commitment to advancing human rights and her dedication to effective communication make her an invaluable asset to the HALE team.",
+        "Prior to her role at HALE: Human Rights and Inclusion Network, Maregnesh served as a Volunteer Event Coordinator at Wollo University, where she honed her skills in organizing impactful events and fostering community collaboration. Her commitment to advancing human rights and her dedication to effective communication make her an invaluable asset to the HALE: Human Rights and Inclusion Network team.",
       ],
     },
     {
