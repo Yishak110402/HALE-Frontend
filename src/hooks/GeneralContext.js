@@ -18,22 +18,10 @@ export default function GeneralProvider({ children }) {
       image: "https://i.postimg.cc/Xvqjjk9J/advocacy.jpg",
     },
     {
-      name: "Legal Aid Services",
-      description:
-        "We provide comprehensive legal aid to individuals who lack access to justice. This includes legal representation, counseling, and support to ensure fair treatment and justice for all.",
-      image: "https://i.postimg.cc/tC9HRzjj/legal-aid.jpg",
-    },
-    {
       name: "Education and Empowerment",
       description:
         "Implement educational programs to empower individuals with knowledge about their rights and how to assert them. Organize workshops, seminars, and community meetings to foster a culture of inclusion and respect for human rights.",
       image: "https://i.postimg.cc/0js1wYK7/education.jpg",
-    },
-    {
-      name: "Community Support",
-      description:
-        "Provide support services to marginalized communities, including assistance with accessing education, healthcare, and other essential services. Collaborate with local organizations to develop and implement community-driven solutions.",
-      image: "https://i.postimg.cc/d0gYqPqH/community-support.jpg",
     },
     {
       name: "Research and Analysis",
@@ -42,22 +30,16 @@ export default function GeneralProvider({ children }) {
       image: "https://i.postimg.cc/LXjr2JQ5/research.jpg",
     },
     {
-      name: "Public Interest Litigation",
-      description:
-        "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
-      image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
-    },
-    {
-      name: "Democracy Promotion",
-      description:
-        "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
-      image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
-    },
-    {
       name: "Civic Engagement",
       description:
         "Facilitate civic engagement activities to encourage participation in democratic processes and community decision-making. Support initiatives that promote transparency, accountability, and good governance.",
       image: "https://i.postimg.cc/NMTwFJFg/civic-engagement.jpg",
+    },
+    {
+      name: "Community Support",
+      description:
+        "Provide support services to marginalized communities, including assistance with accessing education, healthcare, and other essential services. Collaborate with local organizations to develop and implement community-driven solutions.",
+      image: "https://i.postimg.cc/d0gYqPqH/community-support.jpg",
     },
     {
       name: "Environmental Sustainability",
@@ -77,6 +59,25 @@ export default function GeneralProvider({ children }) {
         "Promoting conflict resolution and fostering harmonious coexistence.",
       image: "https://i.postimg.cc/nLjySRvv/peace.jpg",
     },
+    // {
+    //   name: "Legal Aid Services",
+    //   description:
+    //     "We provide comprehensive legal aid to individuals who lack access to justice. This includes legal representation, counseling, and support to ensure fair treatment and justice for all.",
+    //   image: "https://i.postimg.cc/tC9HRzjj/legal-aid.jpg",
+    // },
+    // {
+    //   name: "Public Interest Litigation",
+    //   description:
+    //     "We engage in strategic litigation to challenge injustices and protect the rights of vulnerable groups, and to ensure environmental justice and protect environmental rights and fundamental freedoms in Ethiopia.",
+    //   image: "https://i.postimg.cc/7LFpF3Vj/public-interest.jpg",
+    // },
+    // {
+    //   name: "Democracy Promotion",
+    //   description:
+    //     "We encourage active participation in democratic processes, conduct election monitoring, and promote transparency and fairness in electoral systems. Our initiatives aim to strengthen democratic governance and ensure the representation of all voices.",
+    //   image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
+    // },
+
   ];
 
   const programs = [
@@ -234,9 +235,9 @@ export default function GeneralProvider({ children }) {
         "Founder & Executive Director at HALE: Human Rights & Inclusion Network | Co-Founder of Tomorrow People Charity Club | Human Rights, Gender Equality & Social Inclusion Advocate | Climate Justice Activist | SDGs Advocate | 2021 Gold Medalist",
       description: [
         "Woyesa is a passionate human rights advocate and the visionary behind HALE: Human Rights and Inclusion Network (H-HRIN). As the Founder and Executive Director, Woyesa leads impactful initiatives to advance human rights, gender equality, social inclusion, and climate justice across Ethiopia and beyond.",
-        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations.",
+        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations. ",
         "He is the co-founder of the Tomorrow People Charity Club (TPCC) and served in various leadership roles, including Regional Representative at Transparency International Ethiopia, where he earned the Best Leadership Award. His work as a Volunteer Climate Justice Coordinator at Hawassa University and as a Youth SRHR Advocacy Coordinator at Hawassa City Youth Association showcases his ability to drive transformative projects.",
-        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research, including studies on “The Responsibility of UN for Violation of International Human Rights Laws by Peacekeeping Forces” and “The Recognition of Substantive and Formal Gender Equality Under Ethiopia Labor Law,” highlights his expertise in critical human rights issues.",
+        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research has focused on critical issues such as the UN's responsibility for human rights violations, practical applicability of environmental laws in Ethiopia, and recognition of formal and substantive gender equality under Ethiopian labor law,  highlights his expertise in critical human rights issues.",
         "Woyesa’s volunteerism is equally noteworthy. His roles as a Human Rights Advocate at the Ethiopian Human Rights Council (EHRCO) and as a Volunteer Human Rights Legal Aid Worker at Hawassa Area High Court earned him the 2024 Excellence Award. Additionally, his advocacy for women's rights through the Ethiopian Women Lawyers Association (EWLA) underscores his dedication to gender equality.",
         "Academically, Woyesa holds an LLB in Law from Hawassa University, where he received the prestigious 2021 Gold Medal for academic excellence. His unwavering commitment to justice, social equity, and environmental sustainability continues to inspire change, making a significant impact on society.",
       ],
