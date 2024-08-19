@@ -9,7 +9,7 @@ export default function CompanyToPrograms() {
           <li>Gender Equality Programs</li>
           <li>Children Rights Initiatives</li>
         </ul>
-        <Link to={"/programs"}>Learn More About Our Programs</Link>
+        <Link to={"/programs"}>Read More About Our Programs</Link>
       </div>
       <img src="https://i.postimg.cc/5NpWXF4F/man-helping.jpg" alt="" />
     </div>
