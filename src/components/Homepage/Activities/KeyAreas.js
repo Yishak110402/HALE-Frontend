@@ -26,7 +26,7 @@ export default function KeyAreas() {
   return (
     <div className="key-areas">
       <h1 className={visible ? "visible" : ""} ref={keyH1}>
-        Our Key Focus Areas
+        Areas We Work In
       </h1>
       <hr />
       <div
@@ -91,6 +91,10 @@ export default function KeyAreas() {
             <path d="M224 445.3V323.5l-94.3 77.1c26.1 22.8 58.5 38.7 94.3 44.7zM89.2 351.1L224 240.8V66.7C133.2 81.9 64 160.9 64 256c0 34.6 9.2 67.1 25.2 95.1zm293.1 49.5L288 323.5V445.3c35.7-6 68.1-21.9 94.3-44.7zm40.6-49.5c16-28 25.2-60.5 25.2-95.1c0-95.1-69.2-174.1-160-189.3V240.8L422.8 351.1zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
           </svg>
           <h2>Fostering Peace Building</h2>
+        </div>
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+        <h2>Advocating For Sexual and Reproductive Rights</h2>
         </div>
       </div>
     </div>

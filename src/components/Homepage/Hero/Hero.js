@@ -44,7 +44,7 @@ export default function Hero() {
         <div
           className={`hero-cta-btns ${visible ? "visible" : ""}`}
           ref={heroBtns}>
-          <button onClick={() => navigate("/aboutus")}>Learn More</button>
+          <button onClick={() => navigate("/aboutus")}>Read More</button>
           <button onClick={() => navigate("/contact")}>Contact Us</button>
         </div>
       </div>

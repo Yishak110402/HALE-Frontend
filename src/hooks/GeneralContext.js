@@ -246,7 +246,7 @@ export default function GeneralProvider({ children }) {
       position:
         "Co-Founder at HALE: Human Rights and Inclusion Network| Gender Equality & Human Rights Advocate | Researcher |SDGs | Social Impact Leader",
       image:
-        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAowMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcDBAUCAf/EADUQAAICAQIEAgcGBwEAAAAAAAABAgMEBREGITFBUWESE3GBkaGxQlJywdHhFCMlMjNigiL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALSABpkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmZev6XiScbMqEprrGtOe3wCumDi1cUaTZL0XfOHnOtpfE61F9ORWrMe2FkH0lCW6AyAAIAAAAAAAAAAAAAAAAAAAeLroUUzuumoVwW8pPsj2Q7jbUXO2Gn1SfoQ2nZt3fZP3cwOfrnEORqU5VUt1YvRQT2cvN/ocUAuIGxg52TgXeuxLHCffwftXc1wCLI0LWa9Wx29lC+H+Svw815HTKv0zNs07Nryat24f3RXdd0WbVZC6qFtb3hOKkn5PmRXsAAAAAAAAAAAAAAAAAAF1Ks1G+WTn5F8m252Sfu35fItPbfdeKKmtW1s14SYHkAGkAAKQLB4Qvd2hVRk93VKUF7N918mV8TvgmLWjzf3rn9EZVIAAAAAAAAAAAAAAAAAAARWWuY7xdXy6duXrHKPsfNfUs0jHGWlSvqjnY8d7Kl6NiXVw8fd9AIWBsDSAAIoWPwzjvG0PFjJbSnF2P/AKe/0aIXoGlz1PPhBx/kQfpWy7beHtZY6SSSSSS6eRB9AAAAAAAAAAAAAAAAAAAAARzVuFMfKsd2DNUWSe7ra3g3+RH7uGNWqk0sdWLxrmn8nzLCbSi5S5JeL5GpZqmn1P0bc7HT8PWICCQ4d1eT2/gpr8Uor8zp4HB983GWffGqHeNf/p/HoiTQ1jS5PZZ+On+M26bqr1vTbCxeNck/oBjw8OjBojRi1qFa8O/m/EzgAAAAAAAAAAAAAAAAAADm65rFOk0KU16d09/V177b+b8gNrNzMfBpduVaq4efV+xET1Hi++1uGn1qmHayxbyfu6I4Gdm5Gfe78qxzm+i7R8kuxrgZsrLycuXpZN1lr/3luYenToAXED7FuElKDcZL7S5M+AYOzgcS6jiNKdvr619m3m/j1RK9I4gxNTagm6b+9U319j7ldhPZprk1z3XZhYtsET4c4lcpQw9Rnu21Gu5/SX6ksIAAAAAAAAAAAAADV1LOq07DsybuaguUfvPsitc7MuzsqeRfLec348kuyXkdrjPUHkZ6xK5fysfrt9qfd+7l8yPAAAVKAAoAAAAABNuEdZeXV/BZMt7q1vCT6zj4e1EJMuLkW4uTXkUy2srkmmRVrAw4eTDLxasir+yyKkl4GYgAAAAAAAAGHLvjjYt2RPpVBzfnstzMcfiy11aFkbcvWOMPc3+zAr6yc7Zysse85tyb82eQCxKAAoAAAAAAAAAAiprwPlOzCuxZvd0z9KP4ZfuvmSYgvBFrhq1lfayl7+5p/qTogAAAAAAAAHA41f8ARkvG6H5n0AQIAFjIACqAAAAAAAAAADtcIPbXavOE/oWC+oBFgACAAAP/2Q==",
+        "https://i.postimg.cc/pVSwf5Mr/6U5A0123.jpg",
       description: [
         "Dansita is a distinguished researcher and advocate with extensive experience in the fields of human rights, gender equality, and sustainable development. As the Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN), Dansita plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia.",
         "Dansita holds a Master of Arts in International Relations and Foreign Diplomacy from the College of Law and Governance at Hawassa University, where she also earned her Bachelor of Laws (LLB) degree. Her academic background provides a strong foundation for her work in advocating for legal reforms, human rights education, and social justice.",
@@ -269,6 +269,24 @@ export default function GeneralProvider({ children }) {
         "Dr. Shiferaw's previous roles include PhD Researcher at the Center for Entrepreneurship, Vrije Universiteit Amsterdam, and Lecturer at the Institute of Development Studies, Addis Ababa University. He has also served as a Lecturer at the Department of Geography and Environmental Education, AAU, and Dilla University, as well as a Teacher Educator at Arbaminch Teacher Training College.",
         "Beyond his academic pursuits, Dr. Shiferaw has played a crucial role in Ethiopia's democratic processes, serving as a Moderator of Inter-party Dialogue (IPD) under the National Election Board of Ethiopia (NEBE). His commitment to impartiality and fairness led to his unanimous selection by the Joint Council of Political Parties of Ethiopia in 2019. Additionally, he has contributed as an Environmentalist for the UN-Habitat's Regional Development and Spatial Planning project, focusing on regions such as Sidama and Southwest Ethiopia.",
         "As a co-founder and board member of the HALE: Human Rights and Inclusion Network, Dr. Shiferaw leverages his extensive experience in education, research, and public service to drive the organization's mission of promoting human rights, inclusion, and sustainable development. His work continues to inspire and influence both his students and colleagues, as well as the broader community.",
+      ],
+    },
+    {
+      name: "Tsion Gamme Gatisso",
+
+      image: "https://i.ibb.co/gVzdr8K/tsion.jpg",
+      position:
+        "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | Human Rights, Gender Equality, & SDGs Advocate | International Law graduate at University of New Haven",
+      description: [
+        "Tsion Gamme Gatisso is a dedicated advocate for human rights, gender equality, and the United Nations Sustainable Development Goals (SDGs). With an academic background in international law, she brings a global perspective to her work at HALE: Human Rights and Inclusion Network (H-HRIN), where she co-founded the organization to promote justice, inclusion, and human rights across Ethiopia and beyond.",
+
+        "Currently, Tsion is an International Law graduate from the University of New Haven in East Haven, United States. She also holds an LLB in Law from the Ternopil Academy of National Economy at West Ukrainian National University, where she laid the foundation for her deep commitment to legal advocacy and social justice.",
+
+        "Her professional journey includes participation in the Africa Sustainable Development Goals Mentorship Programme, where she gained a profound understanding of promoting inclusive societies, ensuring access to justice, and building accountable institutions. Tsion’s dedication to these causes was recognized with a Certificate of Excellence, highlighting her commitment to advancing the SDGs.",
+
+        "In addition to her professional achievements, Tsion has volunteered at the YWCA in Addis Ababa, where she collaborated with individuals from diverse backgrounds. During her tenure, she played a pivotal role in fostering confidence and developing new skills among the participants, reflecting her passion for empowerment and social change.",
+
+        "Tsion’s leadership, advocacy, and unwavering commitment to human rights and gender equality make her an invaluable asset to HALE: Human Rights and Inclusion Network. Her work continues to inspire and drive meaningful impact in the pursuit of a more just and inclusive world.",
       ],
     },
     {
@@ -331,14 +349,16 @@ export default function GeneralProvider({ children }) {
     {
       name: "Fenot Mekonen Hailu",
       position:
-        "Co-founder of H-HRIN and Gender Issues and Human Rights Advocate",
+        "Co-Founder, HALE: Human Rights and Inclusion Network (H-HRIN) | Gender Issues and Human Rights Advocate | SDGs Enthusiast | LLM in Human Rights and Democratization in Africa Candidate at the University of Pretoria",
       image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
       description: [
-        "Fenot Mekonen earned her LL.B. with distinction from Haramaya University College of Law on August 30, 2022. During her studies, she provided free legal aid and held leadership roles, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
+        "Fenot Mekonen Hailu is a dedicated human rights advocate and a co-founder of HALE: Human Rights and Inclusion Network (H-HRIN). With a deep commitment to gender equality, social justice, and the United Nations Sustainable Development Goals (SDGs), Fenot's work is centered on creating an inclusive society where everyone can thrive.",
 
-        "After graduation, she interned at the Ethiopian Human Rights Commission under the socio-economic department and served as a paralegal for the AAU-UNHRC free legal aid project. She is an alumna of the Aspire Institute and the Online Professional English Network at George Mason University.",
+        "She earned her LL.B. with distinction from Haramaya University College of Law in August 2022. During her academic journey, Fenot demonstrated exceptional leadership and advocacy, providing free legal aid to underserved communities and holding key leadership positions such as Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
 
-        "Currently, she is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Fenot interned with the Freedom of Expression, Information, and Digital Rights Unit at the Centre for Human Rights and is now interning with the Disability Unit at the same center. Additionally, she is an intern for the Network of Public Interest Lawyers, based in Kampala, Uganda.",
+        "After graduation, Fenot continued her commitment to human rights by interning at the Ethiopian Human Rights Commission under the socio-economic department and serving as a paralegal for the AAU-UNHRC free legal aid project. Her dedication to social impact is further exemplified by her involvement with the Aspire Institute and the Online Professional English Network at George Mason University.",
+
+        "Currently, Fenot is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Her ongoing internships with the Freedom of Expression, Information, and Digital Rights Unit, the Disability Unit at the Centre for Human Rights, and the Network of Public Interest Lawyers in Kampala, Uganda, reflect her unwavering commitment to advancing human rights on a global scale."
       ],
     },
     {
@@ -389,24 +409,7 @@ export default function GeneralProvider({ children }) {
         "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
       ],
     },
-    {
-      name: "Tsion Gamme Gatisso",
-
-      image: "https://i.ibb.co/gVzdr8K/tsion.jpg",
-      position:
-        "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | Human Rights, Gender Equality, & SDGs Advocate | International Law graduate at University of New Haven",
-      description: [
-        "Tsion Gamme Gatisso is a dedicated advocate for human rights, gender equality, and the United Nations Sustainable Development Goals (SDGs). With an academic background in international law, she brings a global perspective to her work at HALE: Human Rights and Inclusion Network (H-HRIN), where she co-founded the organization to promote justice, inclusion, and human rights across Ethiopia and beyond.",
-
-        "Currently, Tsion is an International Law graduate from the University of New Haven in East Haven, United States. She also holds an LLB in Law from the Ternopil Academy of National Economy at West Ukrainian National University, where she laid the foundation for her deep commitment to legal advocacy and social justice.",
-
-        "Her professional journey includes participation in the Africa Sustainable Development Goals Mentorship Programme, where she gained a profound understanding of promoting inclusive societies, ensuring access to justice, and building accountable institutions. Tsion’s dedication to these causes was recognized with a Certificate of Excellence, highlighting her commitment to advancing the SDGs.",
-
-        "In addition to her professional achievements, Tsion has volunteered at the YWCA in Addis Ababa, where she collaborated with individuals from diverse backgrounds. During her tenure, she played a pivotal role in fostering confidence and developing new skills among the participants, reflecting her passion for empowerment and social change.",
-
-        "Tsion’s leadership, advocacy, and unwavering commitment to human rights and gender equality make her an invaluable asset to HALE: Human Rights and Inclusion Network. Her work continues to inspire and drive meaningful impact in the pursuit of a more just and inclusive world.",
-      ],
-    },
+   
     {
       name: "Basleal Mekonen Mengesha",
       position:

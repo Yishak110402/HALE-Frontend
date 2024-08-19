@@ -33,7 +33,7 @@ export default function AboutUsOverview() {
           governance, and fostering a culture of inclusion through research,
           public interest litigation, civic engagement, and advocacy.
         </p>
-        <p onClick={()=>(navigate("/aboutus"))} className="learn-more">Learn More</p>
+        <p onClick={()=>(navigate("/aboutus"))} className="learn-more">Read More</p>
       </div>
       <img className={visible ? "visible" : ""} ref={imgRef} src="https://i.postimg.cc/G2sbY37n/about-overview-pic.jpg" alt="" />
     </div>
