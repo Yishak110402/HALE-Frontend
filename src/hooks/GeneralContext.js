@@ -77,7 +77,6 @@ export default function GeneralProvider({ children }) {
         "Encouraging active participation in democratic processes and monitoring elections to ensure fairness and transparency. Supporting democratic processes and institutions to ensure accountable and inclusive governance.",
       image: "https://i.postimg.cc/4xSC5khf/democracy.jpg",
     },
-
   ];
 
   const programs = [
@@ -244,16 +243,18 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Dansita Asefa Adela",
-      position: "Co-Founder at HALE: Human Rights and Inclusion Network| Gender Equality & Human Rights Advocate | Researcher |SDGs | Social Impact Leader",
-      image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAowMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcDBAUCAf/EADUQAAICAQIEAgcGBwEAAAAAAAABAgMEBREGITFBUWESE3GBkaGxQlJywdHhFCMlMjNigiL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALSABpkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmZev6XiScbMqEprrGtOe3wCumDi1cUaTZL0XfOHnOtpfE61F9ORWrMe2FkH0lCW6AyAAIAAAAAAAAAAAAAAAAAAAeLroUUzuumoVwW8pPsj2Q7jbUXO2Gn1SfoQ2nZt3fZP3cwOfrnEORqU5VUt1YvRQT2cvN/ocUAuIGxg52TgXeuxLHCffwftXc1wCLI0LWa9Wx29lC+H+Svw815HTKv0zNs07Nryat24f3RXdd0WbVZC6qFtb3hOKkn5PmRXsAAAAAAAAAAAAAAAAAAF1Ks1G+WTn5F8m252Sfu35fItPbfdeKKmtW1s14SYHkAGkAAKQLB4Qvd2hVRk93VKUF7N918mV8TvgmLWjzf3rn9EZVIAAAAAAAAAAAAAAAAAAARWWuY7xdXy6duXrHKPsfNfUs0jHGWlSvqjnY8d7Kl6NiXVw8fd9AIWBsDSAAIoWPwzjvG0PFjJbSnF2P/AKe/0aIXoGlz1PPhBx/kQfpWy7beHtZY6SSSSSS6eRB9AAAAAAAAAAAAAAAAAAAAARzVuFMfKsd2DNUWSe7ra3g3+RH7uGNWqk0sdWLxrmn8nzLCbSi5S5JeL5GpZqmn1P0bc7HT8PWICCQ4d1eT2/gpr8Uor8zp4HB983GWffGqHeNf/p/HoiTQ1jS5PZZ+On+M26bqr1vTbCxeNck/oBjw8OjBojRi1qFa8O/m/EzgAAAAAAAAAAAAAAAAAADm65rFOk0KU16d09/V177b+b8gNrNzMfBpduVaq4efV+xET1Hi++1uGn1qmHayxbyfu6I4Gdm5Gfe78qxzm+i7R8kuxrgZsrLycuXpZN1lr/3luYenToAXED7FuElKDcZL7S5M+AYOzgcS6jiNKdvr619m3m/j1RK9I4gxNTagm6b+9U319j7ldhPZprk1z3XZhYtsET4c4lcpQw9Rnu21Gu5/SX6ksIAAAAAAAAAAAAADV1LOq07DsybuaguUfvPsitc7MuzsqeRfLec348kuyXkdrjPUHkZ6xK5fysfrt9qfd+7l8yPAAAVKAAoAAAAABNuEdZeXV/BZMt7q1vCT6zj4e1EJMuLkW4uTXkUy2srkmmRVrAw4eTDLxasir+yyKkl4GYgAAAAAAAAGHLvjjYt2RPpVBzfnstzMcfiy11aFkbcvWOMPc3+zAr6yc7Zysse85tyb82eQCxKAAoAAAAAAAAAAiprwPlOzCuxZvd0z9KP4ZfuvmSYgvBFrhq1lfayl7+5p/qTogAAAAAAAAHA41f8ARkvG6H5n0AQIAFjIACqAAAAAAAAAADtcIPbXavOE/oWC+oBFgACAAAP/2Q==",
+      position:
+        "Co-Founder at HALE: Human Rights and Inclusion Network| Gender Equality & Human Rights Advocate | Researcher |SDGs | Social Impact Leader",
+      image:
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAowMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcDBAUCAf/EADUQAAICAQIEAgcGBwEAAAAAAAABAgMEBREGITFBUWESE3GBkaGxQlJywdHhFCMlMjNigiL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALSABpkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmZev6XiScbMqEprrGtOe3wCumDi1cUaTZL0XfOHnOtpfE61F9ORWrMe2FkH0lCW6AyAAIAAAAAAAAAAAAAAAAAAAeLroUUzuumoVwW8pPsj2Q7jbUXO2Gn1SfoQ2nZt3fZP3cwOfrnEORqU5VUt1YvRQT2cvN/ocUAuIGxg52TgXeuxLHCffwftXc1wCLI0LWa9Wx29lC+H+Svw815HTKv0zNs07Nryat24f3RXdd0WbVZC6qFtb3hOKkn5PmRXsAAAAAAAAAAAAAAAAAAF1Ks1G+WTn5F8m252Sfu35fItPbfdeKKmtW1s14SYHkAGkAAKQLB4Qvd2hVRk93VKUF7N918mV8TvgmLWjzf3rn9EZVIAAAAAAAAAAAAAAAAAAARWWuY7xdXy6duXrHKPsfNfUs0jHGWlSvqjnY8d7Kl6NiXVw8fd9AIWBsDSAAIoWPwzjvG0PFjJbSnF2P/AKe/0aIXoGlz1PPhBx/kQfpWy7beHtZY6SSSSSS6eRB9AAAAAAAAAAAAAAAAAAAAARzVuFMfKsd2DNUWSe7ra3g3+RH7uGNWqk0sdWLxrmn8nzLCbSi5S5JeL5GpZqmn1P0bc7HT8PWICCQ4d1eT2/gpr8Uor8zp4HB983GWffGqHeNf/p/HoiTQ1jS5PZZ+On+M26bqr1vTbCxeNck/oBjw8OjBojRi1qFa8O/m/EzgAAAAAAAAAAAAAAAAAADm65rFOk0KU16d09/V177b+b8gNrNzMfBpduVaq4efV+xET1Hi++1uGn1qmHayxbyfu6I4Gdm5Gfe78qxzm+i7R8kuxrgZsrLycuXpZN1lr/3luYenToAXED7FuElKDcZL7S5M+AYOzgcS6jiNKdvr619m3m/j1RK9I4gxNTagm6b+9U319j7ldhPZprk1z3XZhYtsET4c4lcpQw9Rnu21Gu5/SX6ksIAAAAAAAAAAAAADV1LOq07DsybuaguUfvPsitc7MuzsqeRfLec348kuyXkdrjPUHkZ6xK5fysfrt9qfd+7l8yPAAAVKAAoAAAAABNuEdZeXV/BZMt7q1vCT6zj4e1EJMuLkW4uTXkUy2srkmmRVrAw4eTDLxasir+yyKkl4GYgAAAAAAAAGHLvjjYt2RPpVBzfnstzMcfiy11aFkbcvWOMPc3+zAr6yc7Zysse85tyb82eQCxKAAoAAAAAAAAAAiprwPlOzCuxZvd0z9KP4ZfuvmSYgvBFrhq1lfayl7+5p/qTogAAAAAAAAHA41f8ARkvG6H5n0AQIAFjIACqAAAAAAAAAADtcIPbXavOE/oWC+oBFgACAAAP/2Q==",
       description: [
         "Dansita is a distinguished researcher and advocate with extensive experience in the fields of human rights, gender equality, and sustainable development. As the Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN), Dansita plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia.",
         "Dansita holds a Master of Arts in International Relations and Foreign Diplomacy from the College of Law and Governance at Hawassa University, where she also earned her Bachelor of Laws (LLB) degree. Her academic background provides a strong foundation for her work in advocating for legal reforms, human rights education, and social justice.",
         "In her professional career, Dansita has served as the Regional Director at the Ethiopian Women Lawyers Association (EWLA), where she led initiatives aimed at empowering women and advancing their legal rights. Her leadership in this role has been instrumental in driving gender-sensitive legal practices and supporting vulnerable women through legal aid and advocacy.",
         "Dansita’s previous roles further highlight her commitment to social change and legal empowerment. As a Project Officer at the Resource Centre for Sustainable Change (RCSC), she coordinated projects focused on sustainable development and community empowerment. Additionally, she served as the Focal Person for Gender Mainstreaming at the Sidama Industrial Parks Development Corporation, where she worked to integrate gender perspectives into development projects and policies.",
         "Her experience as a Lecturer at Hawassa University, School of Law, and as a Human Rights Volunteer at the Hawassa University Legal Aid Center, reflects her dedication to education and capacity building in the legal field. Dansita’s work in academia and her volunteer efforts have contributed to the development of future legal professionals and the provision of essential legal services to marginalized communities.",
-        "Dansita’s unwavering commitment to human rights, gender equality, and sustainable development continues to inspire her work at HALE: Human Rights and Inclusion Network, where she strives to create a more just and inclusive society."
-      ]
+        "Dansita’s unwavering commitment to human rights, gender equality, and sustainable development continues to inspire her work at HALE: Human Rights and Inclusion Network, where she strives to create a more just and inclusive society.",
+      ],
     },
     {
       name: "Dr. Shiferaw Muleta Eyana (PhD)",
@@ -353,7 +354,8 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Tafesse Tekle Sokare",
-      position: "Co-Founder at HALE: Human Rights and Inclusion Network | Lawyer at Commercial Bank of Ethiopia | Human Rights Advocate | Former Judge | LLM in Commercial Law",
+      position:
+        "Co-Founder at HALE: Human Rights and Inclusion Network | Lawyer at Commercial Bank of Ethiopia | Human Rights Advocate | Former Judge | LLM in Commercial Law",
       image: "https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
       description: [
         "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
@@ -389,13 +391,26 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Tsion Gamme Gatisso",
-      image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAowMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcDBAUCAf/EADUQAAICAQIEAgcGBwEAAAAAAAABAgMEBREGITFBUWESE3GBkaGxQlJywdHhFCMlMjNigiL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ALSABpkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmZev6XiScbMqEprrGtOe3wCumDi1cUaTZL0XfOHnOtpfE61F9ORWrMe2FkH0lCW6AyAAIAAAAAAAAAAAAAAAAAAAeLroUUzuumoVwW8pPsj2Q7jbUXO2Gn1SfoQ2nZt3fZP3cwOfrnEORqU5VUt1YvRQT2cvN/ocUAuIGxg52TgXeuxLHCffwftXc1wCLI0LWa9Wx29lC+H+Svw815HTKv0zNs07Nryat24f3RXdd0WbVZC6qFtb3hOKkn5PmRXsAAAAAAAAAAAAAAAAAAF1Ks1G+WTn5F8m252Sfu35fItPbfdeKKmtW1s14SYHkAGkAAKQLB4Qvd2hVRk93VKUF7N918mV8TvgmLWjzf3rn9EZVIAAAAAAAAAAAAAAAAAAARWWuY7xdXy6duXrHKPsfNfUs0jHGWlSvqjnY8d7Kl6NiXVw8fd9AIWBsDSAAIoWPwzjvG0PFjJbSnF2P/AKe/0aIXoGlz1PPhBx/kQfpWy7beHtZY6SSSSSS6eRB9AAAAAAAAAAAAAAAAAAAAARzVuFMfKsd2DNUWSe7ra3g3+RH7uGNWqk0sdWLxrmn8nzLCbSi5S5JeL5GpZqmn1P0bc7HT8PWICCQ4d1eT2/gpr8Uor8zp4HB983GWffGqHeNf/p/HoiTQ1jS5PZZ+On+M26bqr1vTbCxeNck/oBjw8OjBojRi1qFa8O/m/EzgAAAAAAAAAAAAAAAAAADm65rFOk0KU16d09/V177b+b8gNrNzMfBpduVaq4efV+xET1Hi++1uGn1qmHayxbyfu6I4Gdm5Gfe78qxzm+i7R8kuxrgZsrLycuXpZN1lr/3luYenToAXED7FuElKDcZL7S5M+AYOzgcS6jiNKdvr619m3m/j1RK9I4gxNTagm6b+9U319j7ldhPZprk1z3XZhYtsET4c4lcpQw9Rnu21Gu5/SX6ksIAAAAAAAAAAAAADV1LOq07DsybuaguUfvPsitc7MuzsqeRfLec348kuyXkdrjPUHkZ6xK5fysfrt9qfd+7l8yPAAAVKAAoAAAAABNuEdZeXV/BZMt7q1vCT6zj4e1EJMuLkW4uTXkUy2srkmmRVrAw4eTDLxasir+yyKkl4GYgAAAAAAAAGHLvjjYt2RPpVBzfnstzMcfiy11aFkbcvWOMPc3+zAr6yc7Zysse85tyb82eQCxKAAoAAAAAAAAAAiprwPlOzCuxZvd0z9KP4ZfuvmSYgvBFrhq1lfayl7+5p/qTogAAAAAAAAHA41f8ARkvG6H5n0AQIAFjIACqAAAAAAAAAADtcIPbXavOE/oWC+oBFgACAAAP/2Q==",
-      position: "TBD",
-      description: [],
+
+      image: "https://i.ibb.co/gVzdr8K/tsion.jpg",
+      position:
+        "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | Human Rights, Gender Equality, & SDGs Advocate | International Law graduate at University of New Haven",
+      description: [
+        "Tsion Gamme Gatisso is a dedicated advocate for human rights, gender equality, and the United Nations Sustainable Development Goals (SDGs). With an academic background in international law, she brings a global perspective to her work at HALE: Human Rights and Inclusion Network (H-HRIN), where she co-founded the organization to promote justice, inclusion, and human rights across Ethiopia and beyond.",
+
+        "Currently, Tsion is an International Law graduate from the University of New Haven in East Haven, United States. She also holds an LLB in Law from the Ternopil Academy of National Economy at West Ukrainian National University, where she laid the foundation for her deep commitment to legal advocacy and social justice.",
+
+        "Her professional journey includes participation in the Africa Sustainable Development Goals Mentorship Programme, where she gained a profound understanding of promoting inclusive societies, ensuring access to justice, and building accountable institutions. Tsion’s dedication to these causes was recognized with a Certificate of Excellence, highlighting her commitment to advancing the SDGs.",
+
+        "In addition to her professional achievements, Tsion has volunteered at the YWCA in Addis Ababa, where she collaborated with individuals from diverse backgrounds. During her tenure, she played a pivotal role in fostering confidence and developing new skills among the participants, reflecting her passion for empowerment and social change.",
+
+        "Tsion’s leadership, advocacy, and unwavering commitment to human rights and gender equality make her an invaluable asset to HALE: Human Rights and Inclusion Network. Her work continues to inspire and drive meaningful impact in the pursuit of a more just and inclusive world.",
+      ],
     },
     {
       name: "Basleal Mekonen Mengesha",
-      position: "Co-Founder & Technology and Innovation Lead Officer at HALE: Human Rights and Inclusion Network | Technology Enthusiast",
+      position:
+        "Co-Founder & Technology and Innovation Lead Officer at HALE: Human Rights and Inclusion Network | Technology Enthusiast",
       image: "https://i.postimg.cc/L4Cn4PFn/6U5A7482.jpg",
       description: [
         "Basleal Mekonen Mengesha is a dynamic and visionary leader with a passion for technology, youth empowerment, and community development. As a co-founder of HALE: Human Rights and Inclusion Network, Basleal brings a unique blend of expertise in information systems, youth engagement, and entrepreneurship to the organization's mission of promoting human rights and inclusion.",
@@ -410,14 +425,15 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name:"Nahom Worku Hanka",
-      position:"Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network (H:HRIN) |Software Developer",
-      image:"https://i.postimg.cc/HWcnXw1r/nahom.jpg",
-      description:[
+      name: "Nahom Worku Hanka",
+      position:
+        "Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network (H:HRIN) |Software Developer",
+      image: "https://i.postimg.cc/HWcnXw1r/nahom.jpg",
+      description: [
         "Nahom Worku Hanka is a recent Computer Science graduate with a deep commitment to leveraging technology to advance human rights, social inclusion, and justice. As Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network, Nahom applies his technical expertise to develop innovative digital solutions that support H:HRIN’s mission of promoting human rights and social equity.",
-        "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society."
-      ]
-    }
+        "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society.",
+      ],
+    },
   ];
 
   const resources = [
