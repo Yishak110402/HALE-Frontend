@@ -552,11 +552,6 @@ export default function GeneralProvider({ children }) {
       path:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.pdf",
       imgPath:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.png"
     },
-    {
-      name:"",
-      path:"",
-      imgPath:""
-    }
   ];
 
   return (
