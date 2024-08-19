@@ -527,6 +527,36 @@ export default function GeneralProvider({ children }) {
       path: "./assets/resources/youth-participation-in-ethiopia.pdf",
       imgPath: "./assets/resources/youth-participation-in-ethiopia.png",
     },
+    {
+      name:"Global Strategy for Social Inclusion and Protection",
+      path:"./assets/resources/global-strategy-for-inclusion-and-protection.pdf",
+      imgPath:"./assets/resources/global-strategy-for-inclusion-and-protection.png"
+    },
+    {
+      name:"Social Inclusion and Human Rights",
+      path:"./assets/resources/social-inclusion-and-human-rights.pdf",
+      imgPath:"./assets/resources/social-inclusion-and-human-rights.png",
+    },
+    {
+      name:"Inclusive Sustainable Development: a human's right perspective",
+      path:"./assets/resources/COSUST_final_published.pdf",
+      imgPath:"./assets/resources/COSUST_final_published.png"
+    },
+    {
+      name:"Guidance Note on Integrating Health Equity, Gender Equality, Disability Inclusion, and Human Rights in WHO Evaluations",
+      path:"./assets/resources/guidance-note-on-integrating.pdf",
+      imgPath:"./assets/resources/guidance-note-on-integrating.png"
+    },
+    {
+      name:"Human Rights, Equity and Inclusion Policy",
+      path:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.pdf",
+      imgPath:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.png"
+    },
+    {
+      name:"",
+      path:"",
+      imgPath:""
+    }
   ];
 
   return (
