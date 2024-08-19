@@ -358,7 +358,9 @@ export default function GeneralProvider({ children }) {
 
         "After graduation, Fenot continued her commitment to human rights by interning at the Ethiopian Human Rights Commission under the socio-economic department and serving as a paralegal for the AAU-UNHRC free legal aid project. Her dedication to social impact is further exemplified by her involvement with the Aspire Institute and the Online Professional English Network at George Mason University.",
 
-        "Currently, Fenot is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Her ongoing internships with the Freedom of Expression, Information, and Digital Rights Unit, the Disability Unit at the Centre for Human Rights, and the Network of Public Interest Lawyers in Kampala, Uganda, reflect her unwavering commitment to advancing human rights on a global scale."
+        "Currently, Fenot is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Her ongoing internships with the Freedom of Expression, Information, and Digital Rights Unit, the Disability Unit at the Centre for Human Rights, and the Network of Public Interest Lawyers in Kampala, Uganda, reflect her unwavering commitment to advancing human rights on a global scale.",
+
+        "Fenot's passion for gender issues, human rights, and sustainable development drives her work at H-HRIN, where she plays a crucial role in shaping initiatives that promote justice, equality, and inclusion for all."
       ],
     },
     {

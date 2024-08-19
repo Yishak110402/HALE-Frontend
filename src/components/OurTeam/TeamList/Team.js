@@ -15,7 +15,7 @@ export default function Team({team, index}){
         observer.observe(teamRef.current)
     },[])
     return(
-        <div ref={teamRef} className={`team ${visible ? "visible" : ""}`}>
+        <div ref={teamRef} className={`team ${visible ? "visible" : ""} ${team.name === "Dansita Asefa Adela" ? "dansita" : ""}`}>
             <img src={team.image} alt=""/>
             <h2>{team.name}</h2>
             <h4>{team.position}</h4>

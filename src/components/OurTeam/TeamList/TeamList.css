@@ -27,6 +27,9 @@
     object-fit: cover;
     margin-bottom: 1rem;
 }
+.team.dansita img{
+    /* object-position: left 10px top 45%; */
+}
 .team h2{
     font-size: 1.3rem;
     margin-bottom: 1rem;
