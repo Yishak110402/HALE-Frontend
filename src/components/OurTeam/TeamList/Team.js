@@ -19,7 +19,7 @@ export default function Team({team, index}){
             <img src={team.image} alt=""/>
             <h2>{team.name}</h2>
             <h4>{team.position}</h4>
-            <button onClick={()=>(navigate(`/team/${index}`))}>Learn More</button>
+            <button onClick={()=>(navigate(`/team/${index}`))}>Read More</button>
         </div>
     )
 }
