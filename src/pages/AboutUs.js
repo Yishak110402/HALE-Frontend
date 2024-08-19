@@ -4,6 +4,7 @@ import CompanyEthics from "../components/AboutUs/CompanyEthics/CompanyEthics";
 import CompanyToPrograms from "../components/AboutUs/CompanyToPrograms/CompanyToPrograms";
 import CompanyValues from "../components/AboutUs/CompanyValues/CompanyValues";
 import CompanyWhatWeDo from "../components/AboutUs/CompanyWhatWeDo/CompanyWhatWeDo";
+import CompanyLogo from "../components/AboutUs/CompanyLogo/CompanyLogo";
 
 export default function AboutUs() {
   useEffect(function(){
@@ -15,6 +16,7 @@ export default function AboutUs() {
   return (
     <>
       <CompanyDescription />
+      <CompanyLogo />
       <CompanyEthics />
       <CompanyValues/>
       <CompanyWhatWeDo/>
