@@ -118,9 +118,6 @@
     .logo-description .logo{
         padding: 1rem;
     }
-    .logo-description .description-txt p{
-        /* font-size: 0.85rem; */
-    }
 }
 @media(max-width:410px){
     .logo-description .parts-container img{
