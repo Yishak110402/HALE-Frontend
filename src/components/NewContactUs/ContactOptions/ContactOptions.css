@@ -12,3 +12,9 @@
     border: none;
     background-color: #2d784e;
 }
+.contact-container{
+    display: flex;
+}
+.contact-container > div{
+    width: 50%;
+}

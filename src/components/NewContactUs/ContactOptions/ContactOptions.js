@@ -1,4 +1,5 @@
 import ContactsList from "../ContactsList/ContactsList"
+import MapContainer from "../MapContainer/MapContainer"
 import "./ContactOptions.css"
 export default function ContactOptions(){
     return(
@@ -7,6 +8,7 @@ export default function ContactOptions(){
             <hr />
             <div className="contact-container">
                 <ContactsList />
+                <MapContainer />
             </div>
         </div>
     )
