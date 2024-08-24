@@ -9,15 +9,15 @@ export default function CompanyLogo(){
 
 
     const [partsVisible, setPartsVisible ] = useState(false)
-    const [equalsVisible, setEqualsVisible ] = useState(false)
-    const [logoVisible, setLogoVisible ] = useState(false)
+    // const [equalsVisible, setEqualsVisible ] = useState(false)
+    // const [logoVisible, setLogoVisible ] = useState(false)
 
     useEffect(function(){
 
     },[])
 
     return(
-        <div className="logo-description">
+        <div onClick={setPartsVisible(false)} className="logo-description">
             <div ref={parts} className={`description-txt ${partsVisible ? "visible" : ""}`}>
                 <p>Our Logo Embodies Our Mission Through Three Key Symbols: </p>
                 <div className="parts-container">
