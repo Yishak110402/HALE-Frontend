@@ -1,0 +1,14 @@
+.contact-options{
+    padding: 2rem 6rem;
+}
+.contact-options h1{
+    font-size: 3rem;
+    color: #312F44;
+    margin-bottom: 1rem;
+}
+.contact-options hr{
+    width: 10%;
+    height: 0.5rem;
+    border: none;
+    background-color: #2d784e;
+}
