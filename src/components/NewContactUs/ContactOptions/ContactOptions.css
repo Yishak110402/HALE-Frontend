@@ -19,3 +19,32 @@
 .contact-container > div{
     width: 50%;
 }
+@media(max-width:850px){
+    .contact-options{
+        padding-inline: 2rem;
+    }
+    .contact-options h1{
+        font-size: 2.3rem;
+        margin-bottom: 0.7rem;
+    }
+}
+@media(max-width:600px){
+    .contact-container{
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .contact-container > div{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .contact-options{
+        padding-inline: 1rem;
+    }
+    .contact-options h1{
+        font-size: 1.6rem;
+    }
+    .contact-options hr{
+        width: 15%;
+    }
+}

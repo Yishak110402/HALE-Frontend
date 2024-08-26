@@ -1,9 +1,64 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const GeneralContext = createContext();
 
 export default function GeneralProvider({ children }) {
   const [navOpen, setNavOpen] = useState(false);
+  const [messageData, setMessageData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [success, setSuccess] = useState(false)
+  const [sending, setSending] = useState(false)
+  useEffect(function () {
+    async function activateApi() {
+      const res = await fetch("https://hale-backend.onrender.com/test");
+      const data = await res.json();
+      console.log(data);
+    }
+    activateApi();
+  });
+
+  async function sendMessageFromContact(e) {
+    e.preventDefault();
+    if (
+      messageData.name === "" ||
+      messageData.email === "" ||
+      messageData.message === ""
+    ) {
+      alert("Fill All Required Data");
+      return;
+    }
+    try {
+      setSending(true)
+      const res = await fetch("https://hale-backend.onrender.com/message", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({
+          name: messageData.name,
+          email: messageData.email,
+          message: messageData.message,
+        }),
+      });
+      const data = await res.json();
+      if(data.status === "fail"){
+        alert("Failed to send. Try again later")
+        setSending(false)
+        return
+      }
+      setSending(false)
+      setSuccess(true)
+      setTimeout(()=>{
+        setSuccess(false)
+      }, 5000)
+    } catch (err) {
+      alert(err.message);
+    }
+  }
+
   const jobs = [
     {
       name: "Access to Justice",
@@ -245,8 +300,7 @@ export default function GeneralProvider({ children }) {
       name: "Dansita Asefa Adela",
       position:
         "Co-Founder at HALE: Human Rights and Inclusion Network| Gender Equality & Human Rights Advocate | Researcher |SDGs | Social Impact Leader",
-      image:
-        "https://i.postimg.cc/tJ1g4s8f/6-U5-A0123edited.jpg",
+      image: "https://i.postimg.cc/tJ1g4s8f/6-U5-A0123edited.jpg",
       description: [
         "Dansita is a distinguished researcher and advocate with extensive experience in the fields of human rights, gender equality, and sustainable development. As the Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN), Dansita plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia.",
         "Dansita holds a Master of Arts in International Relations and Foreign Diplomacy from the College of Law and Governance at Hawassa University, where she also earned her Bachelor of Laws (LLB) degree. Her academic background provides a strong foundation for her work in advocating for legal reforms, human rights education, and social justice.",
@@ -360,7 +414,7 @@ export default function GeneralProvider({ children }) {
 
         "Currently, Fenot is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Her ongoing internships with the Freedom of Expression, Information, and Digital Rights Unit, the Disability Unit at the Centre for Human Rights, and the Network of Public Interest Lawyers in Kampala, Uganda, reflect her unwavering commitment to advancing human rights on a global scale.",
 
-        "Fenot's passion for gender issues, human rights, and sustainable development drives her work at H-HRIN, where she plays a crucial role in shaping initiatives that promote justice, equality, and inclusion for all."
+        "Fenot's passion for gender issues, human rights, and sustainable development drives her work at H-HRIN, where she plays a crucial role in shaping initiatives that promote justice, equality, and inclusion for all.",
       ],
     },
     {
@@ -411,7 +465,7 @@ export default function GeneralProvider({ children }) {
         "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
       ],
     },
-   
+
     {
       name: "Basleal Mekonen Mengesha",
       position:
@@ -530,35 +584,48 @@ export default function GeneralProvider({ children }) {
       imgPath: "./assets/resources/youth-participation-in-ethiopia.png",
     },
     {
-      name:"Global Strategy for Social Inclusion and Protection",
-      path:"./assets/resources/global-strategy-for-inclusion-and-protection.pdf",
-      imgPath:"./assets/resources/global-strategy-for-inclusion-and-protection.png"
+      name: "Global Strategy for Social Inclusion and Protection",
+      path: "./assets/resources/global-strategy-for-inclusion-and-protection.pdf",
+      imgPath:
+        "./assets/resources/global-strategy-for-inclusion-and-protection.png",
     },
     {
-      name:"Social Inclusion and Human Rights",
-      path:"./assets/resources/social-inclusion-and-human-rights.pdf",
-      imgPath:"./assets/resources/social-inclusion-and-human-rights.png",
+      name: "Social Inclusion and Human Rights",
+      path: "./assets/resources/social-inclusion-and-human-rights.pdf",
+      imgPath: "./assets/resources/social-inclusion-and-human-rights.png",
     },
     {
-      name:"Inclusive Sustainable Development: a human's right perspective",
-      path:"./assets/resources/COSUST_final_published.pdf",
-      imgPath:"./assets/resources/COSUST_final_published.png"
+      name: "Inclusive Sustainable Development: a human's right perspective",
+      path: "./assets/resources/COSUST_final_published.pdf",
+      imgPath: "./assets/resources/COSUST_final_published.png",
     },
     {
-      name:"Guidance Note on Integrating Health Equity, Gender Equality, Disability Inclusion, and Human Rights in WHO Evaluations",
-      path:"./assets/resources/guidance-note-on-integrating.pdf",
-      imgPath:"./assets/resources/guidance-note-on-integrating.png"
+      name: "Guidance Note on Integrating Health Equity, Gender Equality, Disability Inclusion, and Human Rights in WHO Evaluations",
+      path: "./assets/resources/guidance-note-on-integrating.pdf",
+      imgPath: "./assets/resources/guidance-note-on-integrating.png",
     },
     {
-      name:"Human Rights, Equity and Inclusion Policy",
-      path:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.pdf",
-      imgPath:"./assets/resources/Human_Rights_Equity_Inclusion_Policy.png"
+      name: "Human Rights, Equity and Inclusion Policy",
+      path: "./assets/resources/Human_Rights_Equity_Inclusion_Policy.pdf",
+      imgPath: "./assets/resources/Human_Rights_Equity_Inclusion_Policy.png",
     },
   ];
 
   return (
     <GeneralContext.Provider
-      value={{ jobs, programs, events, teams, resources, navOpen, setNavOpen }}>
+      value={{
+        jobs,
+        programs,
+        events,
+        teams,
+        resources,
+        navOpen,
+        setNavOpen,
+        setMessageData,
+        sendMessageFromContact,
+        sending,
+        success
+      }}>
       {children}
     </GeneralContext.Provider>
   );

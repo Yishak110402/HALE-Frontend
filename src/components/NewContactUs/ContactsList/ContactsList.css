@@ -18,3 +18,14 @@
     margin-top: 1rem;
     color: #1c452d;
 }
+
+@media(max-width:600px){
+    .contacts-list{
+        flex-flow: row;
+        align-items: flex-start;
+    }
+    .contacts-list svg{
+        width: 50px;
+        height: 50px;
+    }
+}
