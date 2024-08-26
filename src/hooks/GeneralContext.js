@@ -9,8 +9,8 @@ export default function GeneralProvider({ children }) {
     email: "",
     message: "",
   });
-  const [success, setSuccess] = useState(false)
-  const [sending, setSending] = useState(false)
+  const [success, setSuccess] = useState(false);
+  const [sending, setSending] = useState(false);
   useEffect(function () {
     async function activateApi() {
       const res = await fetch("https://hale-backend.onrender.com/test");
@@ -31,7 +31,7 @@ export default function GeneralProvider({ children }) {
       return;
     }
     try {
-      setSending(true)
+      setSending(true);
       const res = await fetch("https://hale-backend.onrender.com/message", {
         method: "POST",
         headers: {
@@ -44,16 +44,21 @@ export default function GeneralProvider({ children }) {
         }),
       });
       const data = await res.json();
-      if(data.status === "fail"){
-        alert("Failed to send. Try again later")
-        setSending(false)
-        return
+      if (data.status === "fail") {
+        alert("Failed to send. Try again later");
+        setSending(false);
+        return;
       }
-      setSending(false)
-      setSuccess(true)
-      setTimeout(()=>{
-        setSuccess(false)
-      }, 5000)
+      setMessageData({
+        name: "",
+        email: "",
+        message: "",
+      });
+      setSending(false);
+      setSuccess(true);
+      setTimeout(() => {
+        setSuccess(false);
+      }, 5000);
     } catch (err) {
       alert(err.message);
     }
@@ -621,10 +626,11 @@ export default function GeneralProvider({ children }) {
         resources,
         navOpen,
         setNavOpen,
+        messageData,
         setMessageData,
         sendMessageFromContact,
         sending,
-        success
+        success,
       }}>
       {children}
     </GeneralContext.Provider>

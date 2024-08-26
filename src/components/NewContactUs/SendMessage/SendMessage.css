@@ -100,6 +100,9 @@
     .send-message h1{
         font-size: 2rem;
     }
+    .success-msg h2{
+        font-size: 1.1rem;
+    }
 }
 @media(max-width:650px){
     .send-message form{
@@ -121,6 +124,10 @@
     .send-message hr{
         margin-bottom: 1rem;
     }
+    .success-msg{
+        width: 50%;
+        left: 25%;
+    }
 }
 @media(max-width:500px){
     .send-message{
@@ -131,5 +138,8 @@
     }
     .send-message form div label{
         font-size: 1.1rem;
+    }
+    .success-msg h2{
+        font-size: 0.9rem;
     }
 }

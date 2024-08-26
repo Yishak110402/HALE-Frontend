@@ -1,24 +1,8 @@
-import { useRef } from "react"
 import "./CompanyLogo.css"
-import { useEffect } from "react"
-import { useState } from "react"
 export default function CompanyLogo(){
-    const parts = useRef()
-    const equals = useRef()
-    const logo = useRef()
-
-
-    const [partsVisible, setPartsVisible ] = useState(false)
-    // const [equalsVisible, setEqualsVisible ] = useState(false)
-    // const [logoVisible, setLogoVisible ] = useState(false)
-
-    useEffect(function(){
-
-    },[])
-
     return(
-        <div onClick={setPartsVisible(false)} className="logo-description">
-            <div ref={parts} className={`description-txt ${partsVisible ? "visible" : ""}`}>
+        <div className="logo-description">
+            <div className={`description-txt`}>
                 <p>Our Logo Embodies Our Mission Through Three Key Symbols: </p>
                 <div className="parts-container">
                     <div>
@@ -35,10 +19,10 @@ export default function CompanyLogo(){
                     </div>
                 </div>
             </div>
-            <div ref={equals} className="equals">
+            <div className="equals">
                 =
             </div>
-            <div ref={logo} className="logo">
+            <div className="logo">
             <img src="https://i.postimg.cc/s25BSHfc/banner-02.jpg" alt="" />
             </div>
         </div>

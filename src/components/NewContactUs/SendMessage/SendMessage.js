@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./SendMessage.css";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function SendMessage() {
-  const { sendMessageFromContact, setMessageData, sending, success } =
+  const { sendMessageFromContact, messageData, setMessageData, sending, success } =
     useContext(GeneralContext);
   return (
     <div className="send-message">
@@ -17,6 +17,7 @@ export default function SendMessage() {
             <input
               type="text"
               placeholder="John Doe"
+              value={messageData.name}
               onChange={(e) =>
                 setMessageData((data) => ({ ...data, name: e.target.value }))
               }
@@ -27,6 +28,7 @@ export default function SendMessage() {
             <input
               type="email"
               placeholder="email@example.com"
+              value={messageData.email}
               onChange={(e) =>
                 setMessageData((data) => ({ ...data, email: e.target.value }))
               }
@@ -37,6 +39,7 @@ export default function SendMessage() {
           <label>Message</label>
           <textarea
             placeholder="Your Message Here"
+            value={messageData.message}
             onChange={(e) =>
               setMessageData((data) => ({ ...data, message: e.target.value }))
             }
