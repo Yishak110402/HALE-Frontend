@@ -6,11 +6,25 @@
 .send-message h1{
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    transform: translateX(-10rem);
+    opacity: 0;
+}
+.send-message h1.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 .send-message form{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transform: translateY(5rem);
+    opacity: 0;
+}
+.send-message form.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 .send-message form div{
     display: flex;

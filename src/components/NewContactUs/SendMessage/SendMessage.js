@@ -1,16 +1,48 @@
-import { useContext } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import "./SendMessage.css";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function SendMessage() {
-  const { sendMessageFromContact, messageData, setMessageData, sending, success } =
-    useContext(GeneralContext);
+  const {
+    sendMessageFromContact,
+    messageData,
+    setMessageData,
+    sending,
+    success,
+  } = useContext(GeneralContext);
+  const headerRef = useRef();
+  const formRef = useRef();
+  const [headerVisible, setheaderVisible] = useState(false);
+  const [formVisible, setFormVisible] = useState(false);
+  useEffect(function () {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        setheaderVisible(true);
+      }
+    });
+    observer.observe(headerRef.current);
+  }, []);
+  useEffect(function () {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        setFormVisible(true);
+      }
+    },{
+      threshold:[0.7, 1]
+    });
+    observer.observe(formRef.current);
+  }, []);
   return (
     <div className="send-message">
-      <h1>
+      <h1 ref={headerRef} className={headerVisible ? "visible" : ""}>
         Would you like to know more or work with us? Get in touch with our team.
       </h1>
       <hr />
-      <form onSubmit={(e) => sendMessageFromContact(e)}>
+      <form
+        ref={formRef}
+        className={formVisible ? "visible" : ""}
+        onSubmit={(e) => sendMessageFromContact(e)}>
         <div className="inputs">
           <div>
             <label>Name</label>

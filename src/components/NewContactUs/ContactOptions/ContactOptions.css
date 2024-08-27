@@ -6,6 +6,13 @@
     font-size: 3rem;
     color: #312F44;
     margin-bottom: 1rem;
+    transform: translateX(-8rem);
+    opacity: 0;
+}
+.contact-options h1.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
 }
 .contact-options hr{
     width: 10%;
