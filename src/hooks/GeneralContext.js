@@ -319,7 +319,7 @@ export default function GeneralProvider({ children }) {
       name: "Dr. Shiferaw Muleta Eyana (PhD)",
       position:
         "Associate Professor | Tourism Entrepreneurship Development Expert | Co-founder & Board Member, HALE: Human Rights and Inclusion Network |SDGs & Human Rights Rights Advocate",
-      image: "https://i.postimg.cc/qvT31FnK/Shif-photo-no-eye-glass.jpg",
+      image: "https://i.postimg.cc/WzKKSxmc/shif-new-photo.jpg",
       description: [
         "Dr. Shiferaw Muleta Eyana is a distinguished academic and expert in Tourism Entrepreneurship Development, currently serving as an Associate Professor at the College of Development Studies, Addis Ababa University (AAU). With a rich academic background in geography and environmental studies, Dr. Shiferaw has devoted over eighteen years to teaching and research across various higher education institutions in Ethiopia.",
         "Recently, Dr. Shiferaw was elected as an Executive Member of AAU's Teacher Association, further demonstrating his leadership and dedication to advancing education and academic governance in Ethiopia.",
