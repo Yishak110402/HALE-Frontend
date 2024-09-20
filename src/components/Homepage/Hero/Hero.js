@@ -36,7 +36,7 @@ export default function Hero() {
           HALE
         </h1>
         <h3 className={`${visible ? "visible" : ""}`} ref={heroh3}>
-          Human Right and Inclusion Network
+          Human Rights and Inclusion Network
         </h3>
         <p className={`${visible ? "visible" : ""}`} ref={herop}>
           "Championing Human Rights, Building Inclusive Futures."
