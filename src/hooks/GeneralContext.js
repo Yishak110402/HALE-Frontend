@@ -294,10 +294,13 @@ export default function GeneralProvider({ children }) {
         "Founder & Executive Director at HALE: Human Rights & Inclusion Network | Co-Founder of Tomorrow People Charity Club | Human Rights, Gender Equality & Social Inclusion Advocate | Climate Justice Activist | SDGs Advocate | 2021 Gold Medalist",
       description: [
         "Woyesa is a passionate human rights advocate and the visionary behind HALE: Human Rights and Inclusion Network (H-HRIN). As the Founder and Executive Director, Woyesa leads impactful initiatives to advance human rights, gender equality, social inclusion, and climate justice across Ethiopia and beyond.",
-        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations. ",
+        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations.",
         "He is the co-founder of the Tomorrow People Charity Club (TPCC) and served in various leadership roles, including Regional Representative at Transparency International Ethiopia, where he earned the Best Leadership Award. His work as a Volunteer Climate Justice Coordinator at Hawassa University and as a Youth SRHR Advocacy Coordinator at Hawassa City Youth Association showcases his ability to drive transformative projects.",
-        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research has focused on critical issues such as the UN's responsibility for human rights violations, practical applicability of environmental laws in Ethiopia, and recognition of formal and substantive gender equality under Ethiopian labor law,  highlights his expertise in critical human rights issues.",
+
+        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research has focused on critical issues such as human rights , environmental , and gender equality issues.",
+
         "Woyesa’s volunteerism is equally noteworthy. His roles as a Human Rights Advocate at the Ethiopian Human Rights Council (EHRCO) and as a Volunteer Human Rights Legal Aid Worker at Hawassa Area High Court earned him the 2024 Excellence Award. Additionally, his advocacy for women's rights through the Ethiopian Women Lawyers Association (EWLA) underscores his dedication to gender equality.",
+
         "Academically, Woyesa holds an LLB in Law from Hawassa University, where he received the prestigious 2021 Gold Medal for academic excellence. His unwavering commitment to justice, social equity, and environmental sustainability continues to inspire change, making a significant impact on society.",
       ],
     },
