@@ -501,6 +501,16 @@ export default function GeneralProvider({ children }) {
         "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society.",
       ],
     },
+    {
+      name: "Fekadu Paulos Gujo",
+      position:"Co-founder, HALE: Human Rights and Inclusion Network | Assistant Professor of Law | PhD Candidate",
+      image:"https://i.postimg.cc/0yxxpmpr/photo-2024-10-12-06-43-10.jpg",
+      description: [
+        "Fekadu Paulos Gujo is an accomplished legal professional and academic with a deep commitment to human rights and social justice. He holds an LL.B and LL.M and is currently an Assistant Professor of Law at Hawassa University, where he also pursues his PhD. His academic career has been marked by a passion for teaching and mentoring the next generation of legal experts, alongside his active work as an Attorney and Consultant at Law.",
+        "Fekadu brings a wealth of experience to HALE: Human Rights and Inclusion Network, having held significant leadership roles in public service. He previously served as the Head of both the Trade and Industry Bureau and the Public Service and Human Resource Development Bureau of Sidama Region, where he played a key role in shaping policies that promote good governance and economic development. His judicial experience as a former judge at Hawassa City High Court adds further depth to his legal expertise, especially in matters of justice and governance.",
+        "As a co-founder of H-HRIN, Fekadu is dedicated to advancing the organization's mission of fostering inclusion, equality, and human rights. His extensive experience in law, governance, and public service uniquely positions him to contribute to H-HRIN’s goal of creating a more just and equitable society, especially for marginalized and vulnerable communities."
+      ]
+    }
   ];
 
   const resources = [
