@@ -27,7 +27,7 @@ export default function Hero() {
     <div className="home-hero">
       <img
       ref={heroImg}
-        src="https://i.postimg.cc/FzymWWXP/hero-bg.jpg"
+        src="https://i.postimg.cc/mkxt6LyR/new-hale-hero-2.jpg"
         alt=""
         className={`${visible ? "visible" : ""} hero-image`}
       />
