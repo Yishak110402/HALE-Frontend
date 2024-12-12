@@ -20,7 +20,7 @@ export default function EventsList() {
   return (
     <div ref={eventList}  className={`events-list ${visible ? "visible" : ""}`}>
       {events.map((event, i) => (
-        <Event name={event.name} i={i} />
+        <Event event = {event} name={event.name} i={i} />
       ))}
     </div>
   );

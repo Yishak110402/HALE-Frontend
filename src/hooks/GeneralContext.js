@@ -240,6 +240,18 @@ export default function GeneralProvider({ children }) {
 
   const events = [
     {
+      images:[],
+      name:"🌍 Empowering Change: Human Rights Advocacy Training for Young Leaders at Hawassa University 🌍",
+      description:{
+        p1:{
+          content:"At HALE-Human Rights and Inclusion Network, we’re excited to partner with the College of Law and Governance at Hawassa University and HUGADSSA to launch a transformative human rights advocacy training for young leaders. Through this initiative, we aim to equip university students with the knowledge and skills to champion human rights and foster a culture of inclusion and justice."
+        },
+        p2:{
+          content:"Stay tuned to hear inspiring messages from key speakers and see highlights from this impactful event!"
+        }
+      }
+    },
+    {
       numOfImages: 4,
       images: [
         "https://i.postimg.cc/TYP6cSb7/img1.jpg",
