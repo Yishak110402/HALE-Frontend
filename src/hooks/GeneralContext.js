@@ -240,15 +240,80 @@ export default function GeneralProvider({ children }) {
 
   const events = [
     {
-      images:[],
+      images:[
+        "https://i.postimg.cc/wTr8BFcV/event3-img1.jpg",
+        "https://i.postimg.cc/PqYk9ZDM/event3-img2.jpg",
+        "https://i.postimg.cc/26xN8D2b/event3-img3.jpg",
+        "https://i.postimg.cc/V6KZVLKR/event3-img4.jpg"
+      ],
+      name:"🗣️ Youth Advocacy for a Just Future 🗣️",
+      description:{
+        p1:{
+          heading:"",
+          content:"We believe in the power of youth to drive real change. Through this training, young leaders gain tools to take on the challenges of human rights and social justice. Youth voices are crucial in the fight for equality and human dignity—they have the passion, vision, and determination to make a difference."
+        },
+        p2:{
+          heading:"",
+          content:"Together, let’s empower a generation to stand up for justice and inclusion."
+        },
+        p3:{
+          heading:"",
+          content:""
+        },
+        p4:{
+          heading:"",
+          content:""
+        },
+        p5:{
+          heading:"",
+          content:""
+        },
+        p6:{
+          heading:"",
+          content:""
+        },
+        p7:{
+          heading:"",
+          content:""
+        },
+      }
+    },
+    {
+      images:[
+        "https://i.postimg.cc/1tPRmMct/event2-img3.jpg",
+        "https://i.postimg.cc/bJMtsxZt/event2-img1.jpg",
+        "https://i.postimg.cc/KjMgL1Ts/event2-img3.jpg"
+      ],
       name:"🌍 Empowering Change: Human Rights Advocacy Training for Young Leaders at Hawassa University 🌍",
       description:{
         p1:{
+          heading:"",
           content:"At HALE-Human Rights and Inclusion Network, we’re excited to partner with the College of Law and Governance at Hawassa University and HUGADSSA to launch a transformative human rights advocacy training for young leaders. Through this initiative, we aim to equip university students with the knowledge and skills to champion human rights and foster a culture of inclusion and justice."
         },
         p2:{
+          heading:"",
           content:"Stay tuned to hear inspiring messages from key speakers and see highlights from this impactful event!"
-        }
+        },
+        p3:{
+          heading:"",
+          content:""
+        },
+        p4:{
+          heading:"",
+          content:""
+        },
+        p5:{
+          heading:"",
+          content:""
+        },
+        p6:{
+          heading:"",
+          content:""
+        },
+        p7:{
+          heading:"",
+          content:""
+        },
       }
     },
     {
