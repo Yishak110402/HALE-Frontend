@@ -240,81 +240,325 @@ export default function GeneralProvider({ children }) {
 
   const events = [
     {
-      images:[
-        "https://i.postimg.cc/wTr8BFcV/event3-img1.jpg",
-        "https://i.postimg.cc/PqYk9ZDM/event3-img2.jpg",
-        "https://i.postimg.cc/26xN8D2b/event3-img3.jpg",
-        "https://i.postimg.cc/V6KZVLKR/event3-img4.jpg"
+      images: [
+        "https://i.postimg.cc/XvZmwC1M/event9-img1.jpg",
+        "https://i.postimg.cc/cJVjTLPv/event9-img2.jpg",
       ],
-      name:"🗣️ Youth Advocacy for a Just Future 🗣️",
+      name:"🚀 Youth as Catalysts for Change 🚀",
       description:{
-        p1:{
-          heading:"",
-          content:"We believe in the power of youth to drive real change. Through this training, young leaders gain tools to take on the challenges of human rights and social justice. Youth voices are crucial in the fight for equality and human dignity—they have the passion, vision, and determination to make a difference."
+        p1: {
+          heading: "",
+          content:
+            "Our Executive Director, Mr. Woyesa Woka, led an energizing session on youth as the 'catalysts for change'. He inspired participants to embrace their roles as community change-makers and challenged them to take active steps toward building a just and inclusive society",
         },
-        p2:{
-          heading:"",
-          content:"Together, let’s empower a generation to stand up for justice and inclusion."
+        p2: {
+          heading: "",
+          content:
+            "It’s inspiring to see our young leaders driven by a shared vision of impact!",
         },
-        p3:{
-          heading:"",
-          content:""
+        p3: {
+          heading: "",
+          content: "",
         },
-        p4:{
-          heading:"",
-          content:""
+        p4: {
+          heading: "",
+          content: "",
         },
-        p5:{
-          heading:"",
-          content:""
+        p5: {
+          heading: "",
+          content: "",
         },
-        p6:{
-          heading:"",
-          content:""
+        p6: {
+          heading: "",
+          content: "",
         },
-        p7:{
-          heading:"",
-          content:""
+        p7: {
+          heading: "",
+          content: "",
         },
       }
     },
     {
-      images:[
+      images: [
+        "https://i.postimg.cc/wMhdDmvx/event8-img1.jpg",
+        "https://i.postimg.cc/15QSsJC8/event8-img2.jpg",
+        "https://i.postimg.cc/fWXsG6K4/event8-img3.jpg",
+      ],
+      name: "💬 Inspiring Words from University Leaders 💬",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "Our Human Rights Advocacy Training was launched with powerful messages from Dr. Debrework Debebe(PhD), Dean of the College of Law and Governance,Hawassa University and Mr. Dagne, Head of the Governance and Development Studies Department,Hawassa University.",
+        },
+        p2: {
+          heading: "",
+          content:
+            "Dr. Debrework highlighted the role of universities in preparing students for social justice, while Mr. Dagne emphasized the importance of youth-led change. Their commitment inspires us and our young leaders to take bold steps in human rights advocacy.",
+        },
+        p3: {
+          heading: "",
+          content: "",
+        },
+        p4: {
+          heading: "",
+          content: "",
+        },
+        p5: {
+          heading: "",
+          content: "",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      images: ["https://i.postimg.cc/QC5jSz63/event7-img1.jpg"],
+      name: "💙 Reflecting and Grateful",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "As we look back at our International Human Rights Day Celebration on December 10, 2024, we at HALE – Human Rights and Inclusion Network (H-HRIN) feel immense gratitude for the partnerships, energy, and inspiration that made the day truly unforgettable.",
+        },
+        p2: {
+          heading: "",
+          content: "✨ A huge thank you to:",
+        },
+        p3: {
+          heading: "",
+          content:
+            "HUGASA and Interact Club for their unwavering support. The passionate youth who joined us to make their voices heard. Everyone who contributed to advancing the message of human rights. Even today, the conversations and actions sparked during the event are driving us forward. Together, let’s keep championing inclusion, justice, and equality.",
+        },
+        p4: {
+          heading: "",
+          content: "",
+        },
+        p5: {
+          heading: "",
+          content: "",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      images: [
+        "https://i.postimg.cc/gc4XZXCk/event6-img1.jpg",
+        "https://i.postimg.cc/02Q6d5vG/event6-img2.jpg",
+        "https://i.postimg.cc/RVDWPrCk/event6-img3.jpg",
+      ],
+      name: "Human Rights Advocacy on the Ground 🌟 Spreading the Message – One Step at a Time! 🌟",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "On December 10, 2024, as part of our International Human Rights Day Celebration, we took advocacy to the streets of Hawassa City in a bold and creative way.",
+        },
+        p2: {
+          heading: "",
+          content:
+            "📍 With vibrant posters displayed on the asphalt, human rights advocates and youth delivered powerful messages about justice, equality, and inclusion for all.",
+        },
+        p3: {
+          heading: "",
+          content:
+            "🗣 These impactful statements sparked conversations, raised awareness, and reminded everyone that human rights belong in every corner of our lives—not just in formal venues.",
+        },
+        p4: {
+          heading: "",
+          content:
+            "This grassroots initiative highlighted the creativity, commitment, and passion of young advocates determined to champion human rights wherever they are. Together, we showed that advocacy lives in the hearts and streets of our communities.",
+        },
+        p5: {
+          heading: "",
+          content:
+            "✨ Let’s keep walking this path—how will you advocate for a more just and equitable society today?",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      name: "🎙 A Powerful Start to International Human Rights Day!",
+      images: [
+        "https://i.postimg.cc/jddfgQH7/event5-img1.jpg",
+        "https://i.postimg.cc/8cw6kjSc/event5-img2.jpg",
+        "https://i.postimg.cc/fWvXfg9s/event5-img3.jpg",
+      ],
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "On December 10, 2024, our International Human Rights Day Celebration kicked off with inspiring speeches and meaningful activities, emphasizing the vital role of youth as agents of change in their communities.",
+        },
+        p2: {
+          heading: "",
+          content:
+            "💡 Key takeaway: Empowering youth is the pathway to a more inclusive and equitable future.",
+        },
+        p3: {
+          heading: "",
+          content:
+            "While the event may have been a week ago, the passion and ideas it ignited continue to inspire us. Let’s carry this momentum forward!",
+        },
+        p4: {
+          heading: "",
+          content: "",
+        },
+        p5: {
+          heading: "",
+          content: "",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      images: [
+        "https://i.postimg.cc/QC7yRZGf/event4-img1.jpg",
+        "https://i.postimg.cc/ZYv29pB6/event4-img2.jpg",
+      ],
+      name: "🌟 Reflecting on an Amazing Day! 🌟",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "On December 10, 2024, we at HALE-Human Rights and Inclusion Network(H-HRIN) proudly hosted a remarkable International Human Rights Day Celebration in collaboration with Hawassa University Governance and Development Studies Students Association (HUGASA) and the Interact Club of St. Daniel Comboni Catholic Secondary and Preparatory School.",
+        },
+        p2: {
+          heading: "",
+          content:
+            "Under the theme 'Empowering Youth for Human Rights,' the event united high school students, university students, and youth leaders to inspire meaningful discussions and actions toward justice, inclusion, and equality.",
+        },
+        p3: {
+          heading: "",
+          content:
+            "Though a few days have passed, the impact of this event continues to resonate. Stay tuned as we share inspiring highlights and memorable moments from this impactful day!",
+        },
+        p4: {
+          heading: "",
+          content:
+            "📍 Venue: St. Daniel Comboni Catholic Secondary and Preparatory School, Hawassa, Ethiopia, Africa",
+        },
+        p5: {
+          heading: "",
+          content: "",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      images: [
+        "https://i.postimg.cc/wTr8BFcV/event3-img1.jpg",
+        "https://i.postimg.cc/PqYk9ZDM/event3-img2.jpg",
+        "https://i.postimg.cc/26xN8D2b/event3-img3.jpg",
+        "https://i.postimg.cc/V6KZVLKR/event3-img4.jpg",
+      ],
+      name: "🗣️ Youth Advocacy for a Just Future 🗣️",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "We believe in the power of youth to drive real change. Through this training, young leaders gain tools to take on the challenges of human rights and social justice. Youth voices are crucial in the fight for equality and human dignity—they have the passion, vision, and determination to make a difference.",
+        },
+        p2: {
+          heading: "",
+          content:
+            "Together, let’s empower a generation to stand up for justice and inclusion.",
+        },
+        p3: {
+          heading: "",
+          content: "",
+        },
+        p4: {
+          heading: "",
+          content: "",
+        },
+        p5: {
+          heading: "",
+          content: "",
+        },
+        p6: {
+          heading: "",
+          content: "",
+        },
+        p7: {
+          heading: "",
+          content: "",
+        },
+      },
+    },
+    {
+      images: [
         "https://i.postimg.cc/1tPRmMct/event2-img3.jpg",
         "https://i.postimg.cc/bJMtsxZt/event2-img1.jpg",
-        "https://i.postimg.cc/KjMgL1Ts/event2-img3.jpg"
+        "https://i.postimg.cc/KjMgL1Ts/event2-img3.jpg",
       ],
-      name:"🌍 Empowering Change: Human Rights Advocacy Training for Young Leaders at Hawassa University 🌍",
-      description:{
-        p1:{
-          heading:"",
-          content:"At HALE-Human Rights and Inclusion Network, we’re excited to partner with the College of Law and Governance at Hawassa University and HUGADSSA to launch a transformative human rights advocacy training for young leaders. Through this initiative, we aim to equip university students with the knowledge and skills to champion human rights and foster a culture of inclusion and justice."
+      name: "🌍 Empowering Change: Human Rights Advocacy Training for Young Leaders at Hawassa University 🌍",
+      description: {
+        p1: {
+          heading: "",
+          content:
+            "At HALE-Human Rights and Inclusion Network, we’re excited to partner with the College of Law and Governance at Hawassa University and HUGADSSA to launch a transformative human rights advocacy training for young leaders. Through this initiative, we aim to equip university students with the knowledge and skills to champion human rights and foster a culture of inclusion and justice.",
         },
-        p2:{
-          heading:"",
-          content:"Stay tuned to hear inspiring messages from key speakers and see highlights from this impactful event!"
+        p2: {
+          heading: "",
+          content:
+            "Stay tuned to hear inspiring messages from key speakers and see highlights from this impactful event!",
         },
-        p3:{
-          heading:"",
-          content:""
+        p3: {
+          heading: "",
+          content: "",
         },
-        p4:{
-          heading:"",
-          content:""
+        p4: {
+          heading: "",
+          content: "",
         },
-        p5:{
-          heading:"",
-          content:""
+        p5: {
+          heading: "",
+          content: "",
         },
-        p6:{
-          heading:"",
-          content:""
+        p6: {
+          heading: "",
+          content: "",
         },
-        p7:{
-          heading:"",
-          content:""
+        p7: {
+          heading: "",
+          content: "",
         },
-      }
+      },
     },
     {
       numOfImages: 4,
@@ -580,14 +824,15 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Fekadu Paulos Gujo",
-      position:"Co-founder, HALE: Human Rights and Inclusion Network | Assistant Professor of Law | PhD Candidate",
-      image:"https://i.postimg.cc/0yxxpmpr/photo-2024-10-12-06-43-10.jpg",
+      position:
+        "Co-founder, HALE: Human Rights and Inclusion Network | Assistant Professor of Law | PhD Candidate",
+      image: "https://i.postimg.cc/0yxxpmpr/photo-2024-10-12-06-43-10.jpg",
       description: [
         "Fekadu Paulos Gujo is an accomplished legal professional and academic with a deep commitment to human rights and social justice. He holds an LL.B and LL.M and is currently an Assistant Professor of Law at Hawassa University, where he also pursues his PhD. His academic career has been marked by a passion for teaching and mentoring the next generation of legal experts, alongside his active work as an Attorney and Consultant at Law.",
         "Fekadu brings a wealth of experience to HALE: Human Rights and Inclusion Network, having held significant leadership roles in public service. He previously served as the Head of both the Trade and Industry Bureau and the Public Service and Human Resource Development Bureau of Sidama Region, where he played a key role in shaping policies that promote good governance and economic development. His judicial experience as a former judge at Hawassa City High Court adds further depth to his legal expertise, especially in matters of justice and governance.",
-        "As a co-founder of H-HRIN, Fekadu is dedicated to advancing the organization's mission of fostering inclusion, equality, and human rights. His extensive experience in law, governance, and public service uniquely positions him to contribute to H-HRIN’s goal of creating a more just and equitable society, especially for marginalized and vulnerable communities."
-      ]
-    }
+        "As a co-founder of H-HRIN, Fekadu is dedicated to advancing the organization's mission of fostering inclusion, equality, and human rights. His extensive experience in law, governance, and public service uniquely positions him to contribute to H-HRIN’s goal of creating a more just and equitable society, especially for marginalized and vulnerable communities.",
+      ],
+    },
   ];
 
   const resources = [
