@@ -3,11 +3,12 @@ import AboutUsOverview from "../components/Homepage/AboutUsOverview/AboutUsOverv
 import Activities from "../components/Homepage/Activities/KeyAreas";
 import Hero from "../components/Homepage/Hero/Hero";
 import ProgramsOverview from "../components/Homepage/ProgramsOverview/ProgramsOverview";
+import OurPartners from "../components/Homepage/OurPartners/OurPartners";
 
 export default function Homepage(){
     useEffect(function(){
         window.scrollTo({
-          top:0,
+          // top:0,
           behavior:"instant"    
         })
       },[])
@@ -16,6 +17,7 @@ export default function Homepage(){
             <Hero/>
             <Activities/>
             <AboutUsOverview/>
+            <OurPartners />
             <ProgramsOverview/>
         </div>
     )
