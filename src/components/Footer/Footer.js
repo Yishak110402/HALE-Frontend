@@ -8,7 +8,10 @@ export default function Footer() {
         <div className="logo">
           <img src={footerImg} alt="" />
           <p>
-          Founded in 2023 and registered in Ethiopia, HALE: Human Rights and Inclusion Network (H-HRIN) is a non-governmental, non-partisan organization dedicated to advancing human rights and fostering inclusion. We work to ensure that marginalized and vulnerable communities have access to justice, equal rights, and opportunities. Our focus areas include gender equality, child rights, disability inclusion, environmental sustainability, and sexual and reproductive health and rights. Through collaboration, advocacy, and education, H-HRIN is committed to empowering communities and promoting a future where human rights are universally respected.
+          Founded in 2023 and registered in Ethiopia, HALE-Human Rights and Inclusion Network (H-HRIN) is a youth-led, non-governmental organization dedicated to advancing human rights and fostering inclusion. We advocate for policy reforms and inclusive policies that empower marginalized communities and promote justice, equality, and opportunities for all.
+          </p>
+          <p>
+          Our focus areas include gender equality, child rights, disability inclusion, environmental sustainability, and sexual and reproductive health rights (SRHR). Through advocacy, education, and collaboration, we strive to build a future where human rights are universally respected and upheld
           </p>
         </div>
         <div className="footer-links">
