@@ -612,17 +612,13 @@ export default function GeneralProvider({ children }) {
       name: "Woyesa Woka Worana",
       image: "https://i.postimg.cc/k5SxcjDG/6U5A9080.jpg",
       position:
-        "Founder & Executive Director at HALE: Human Rights & Inclusion Network | Co-Founder of Tomorrow People Charity Club | Human Rights, Gender Equality & Social Inclusion Advocate | Climate Justice Activist | SDGs Advocate | 2021 Gold Medalist",
+        "Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | Human Rights Lawyer | Policy Leader & Advocate | Climate Justice Activist | Social Impact Leader | Inclusion Champion | SDG Advocate | Gold Medalist",
       description: [
-        "Woyesa is a passionate human rights advocate and the visionary behind HALE: Human Rights and Inclusion Network (H-HRIN). As the Founder and Executive Director, Woyesa leads impactful initiatives to advance human rights, gender equality, social inclusion, and climate justice across Ethiopia and beyond.",
-        "Woyesa's journey is marked by a deep commitment to democracy, environmental sustainability, the Sustainable Development Goals (SDGs), and sexual and reproductive health and rights (SRHR). Woyesa's dedication to these causes is reflected in his extensive experience and leadership across various organizations.",
-        "He is the co-founder of the Tomorrow People Charity Club (TPCC) and served in various leadership roles, including Regional Representative at Transparency International Ethiopia, where he earned the Best Leadership Award. His work as a Volunteer Climate Justice Coordinator at Hawassa University and as a Youth SRHR Advocacy Coordinator at Hawassa City Youth Association showcases his ability to drive transformative projects.",
+        "Woyesa is the founder of HALE: Human Rights and Inclusion Network (H-HRIN), a youth-led civil society organization dedicated to advancing human rights, fostering inclusion, and empowering marginalized communities. As a Human Rights Lawyer and Policy Advocate, Woyesa commited to advancing human rights, develops and promotes inclusive policies that protect vulnerable populations, advance gender equality, and strengthen democratic governance.",
+        "With a passion for social impact, Woyesa also founded KEAB Africa Community Development and Human Rights Promotion Organization (KACDHRPO), leading efforts in community-centered justice, environmental protection, and civic engagement. Believing in the power of policy reform and grassroots advocacy, they are committed to driving meaningful, sustainable change.",
+        "A distinguished academic, Woyesa graduated with honors from Hawassa University, earning an LLB and the prestigious Gold Medal Award for Academic Excellence. Their thesis, 'Recognition of Formal and Substantive Gender Equality and Policies under Ethiopian Labor Law,' explored gaps in labor law implementation and proposed strategies for gender-inclusive reforms. Woyesa has also contributed to research on women’s land rights within Ethiopia’s plural justice system, highlighting critical intersections of gender equality and legal frameworks.",
 
-        "In academia, Woyesa has served as a part-time lecturer at Hawassa University and Africa Beza College. His research has focused on critical issues such as human rights , environmental , and gender equality issues.",
-
-        "Woyesa’s volunteerism is equally noteworthy. His roles as a Human Rights Advocate at the Ethiopian Human Rights Council (EHRCO) and as a Volunteer Human Rights Legal Aid Worker at Hawassa Area High Court earned him the 2024 Excellence Award. Additionally, his advocacy for women's rights through the Ethiopian Women Lawyers Association (EWLA) underscores his dedication to gender equality.",
-
-        "Academically, Woyesa holds an LLB in Law from Hawassa University, where he received the prestigious 2021 Gold Medal for academic excellence. His unwavering commitment to justice, social equity, and environmental sustainability continues to inspire change, making a significant impact on society.",
+        "Beyond professional achievements, Woyesa is dedicated to community service, offering pro bono legal aid to underserved populations and mentoring young professionals. Through their work at H-HRIN and beyond, Woyesa strives to advance the Sustainable Development Goals (SDGs) and foster a future of inclusion, justice, and sustainability."
       ],
     },
     {
